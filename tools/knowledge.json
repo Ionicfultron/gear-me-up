@@ -1,0 +1,102 @@
+{
+ "_readme": "Gear Me Up data. Item names match case- and space-insensitively by 'contains'. Lists are best first. bosses.json is generated from this file plus the wiki research files by tools/convert.py.",
+ "attributeItems": {
+  "demon": {
+   "melee": {"weapon": ["Emberlight", "Arclight", "Darklight", "Silverlight", "Burning claws"]},
+   "ranged": {"weapon": ["Scorching bow"]},
+   "magic": {"weapon": ["Purging staff"]}
+  },
+  "dragon": {
+   "melee": {"weapon": ["Dragon hunter lance"]},
+   "ranged": {"weapon": ["Dragon hunter crossbow"]},
+   "magic": {"weapon": ["Dragon hunter wand"]}
+  },
+  "undead": {
+   "melee": {"amulet": ["Salve amulet(ei)", "Salve amulet(e)", "Salve amulet(i)", "Salve amulet"]},
+   "ranged": {"amulet": ["Salve amulet(ei)", "Salve amulet(i)"]},
+   "magic": {"amulet": ["Salve amulet(ei)", "Salve amulet(i)"]}
+  },
+  "kalphite": {
+   "melee": {"weapon": ["Keris partisan of breaching", "Keris partisan of corruption", "Keris partisan of the sun", "Keris partisan", "Keris"]}
+  },
+  "vampyre": {
+   "melee": {"weapon": ["Sunspear", "Hallowed flail", "Blisterwood flail", "Ivandis flail", "Blisterwood sickle"]},
+   "ranged": {"weapon": ["Blisterwood stake"]},
+   "any": {"ring": ["Efaritay's aid"]}
+  },
+  "golem": {"melee": {"weapon": ["Granite hammer", "Barronite mace"]}},
+  "leafy": {"melee": {"weapon": ["Leaf-bladed battleaxe", "Leaf-bladed sword", "Leaf-bladed spear"]}},
+  "shade": {"melee": {"weapon": ["Gadderhammer"]}},
+  "rat": {
+   "melee": {"weapon": ["Bone mace"]},
+   "ranged": {"weapon": ["Bone shortbow"]},
+   "magic": {"weapon": ["Bone staff"]}
+  },
+  "fiery": {"ranged": {"ammo": ["Pearl dragon bolts (e)", "Pearl bolts (e)"]}}
+ },
+ "elementItems": {
+  "fire": {"shield": ["Tome of fire"]},
+  "water": {"shield": ["Tome of water"]},
+  "earth": {"shield": ["Tome of earth"]}
+ },
+ "slayerHelm": {
+  "melee": ["Slayer helmet (i)", "Slayer helmet", "Black mask (i)", "Black mask"],
+  "ranged": ["Slayer helmet (i)", "Black mask (i)"],
+  "magic": ["Slayer helmet (i)", "Black mask (i)"]
+ },
+ "styleWeapons": {
+  "STAB": ["Osmumten's fang", "Ghrazi rapier", "Noxious halberd", "Belle's folly", "Inquisitor's mace", "Zamorakian hasta", "Abyssal dagger"],
+  "SLASH": ["Scythe of vitur", "Soulreaper axe", "Blade of saeldor", "Noxious halberd", "Voidwaker", "Hallowfell", "Abyssal tentacle", "Zombie axe", "Saradomin's blessed sword", "Arkan blade", "Abyssal whip"],
+  "CRUSH": ["Obligator", "Inquisitor's mace", "Soulreaper axe", "Dual macuahuitl", "Abyssal bludgeon", "Torag's hammers", "Glacial temotli"],
+  "RANGED": ["Twisted bow", "Ascension crossbow", "Bow of faerdhinen", "Zaryte crossbow", "Venator bow", "Tonalztics of ralos", "Toxic blowpipe", "Armadyl crossbow", "Heavy ballista", "Hunters' sunlight crossbow", "Dragon crossbow", "Magic shortbow (i)", "Rune crossbow"],
+  "MAGIC": ["Tumeken's shadow", "Eye of ayak", "Zorya's tome", "Sanguinesti staff", "Trident of the swamp", "Trident of the seas", "Kodai wand", "Harmonised nightmare staff", "Eldritch nightmare staff", "Volatile nightmare staff", "Warped sceptre", "Nightmare staff", "Ancient sceptre", "Toxic staff of the dead", "Staff of the dead", "Master wand", "Ahrim's staff", "Iban's staff"]
+ },
+ "styleGear": {
+  "melee": {
+   "head": ["Torva full helm", "Oathplate helm", "Neitiznot faceguard", "Serpentine helm", "Justiciar faceguard", "Blood moon helm", "Inquisitor's great helm", "Helm of neitiznot"],
+   "cape": ["Infernal max cape", "Infernal cape", "Fire max cape", "Fire cape", "Mythical cape"],
+   "amulet": ["Amulet of rancour", "Amulet of torture", "Amulet of blood fury", "Amulet of fury"],
+   "body": ["Torva platebody", "Oathplate chest", "Bandos chestplate", "Blood moon chestplate", "Inquisitor's hauberk", "Fighter torso", "Justiciar chestguard"],
+   "legs": ["Torva platelegs", "Oathplate legs", "Bandos tassets", "Blood moon tassets", "Inquisitor's plateskirt", "Justiciar legguards"],
+   "shield": ["Avernic defender", "Rondache", "Dragon defender"],
+   "gloves": ["Ferocious gloves", "Barrows gloves"],
+   "boots": ["Avernic treads", "Primordial boots", "Echo boots", "Dragon boots"],
+   "ring": ["Ultor ring", "Bellator ring", "Berserker ring (i)", "Berserker ring"],
+   "ammo": ["Rada's blessing 4", "Rada's blessing 3", "blessing"]
+  },
+  "ranged": {
+   "head": ["Masori mask (f)", "Masori mask", "Armadyl helmet", "Karil's coif"],
+   "cape": ["Blessed dizana's quiver", "Dizana's quiver", "Dizana's max cape", "Ava's assembler", "Assembler max cape", "Ava's accumulator"],
+   "amulet": ["Necklace of rupture", "Necklace of anguish", "Necklace of fangs", "Amulet of fury"],
+   "body": ["Masori body (f)", "Masori body", "Armadyl chestplate", "Karil's leathertop"],
+   "legs": ["Masori chaps (f)", "Masori chaps", "Armadyl chainskirt", "Karil's leatherskirt"],
+   "shield": ["Twisted buckler", "Dragonfire ward"],
+   "gloves": ["Zaryte vambraces", "Barrows gloves"],
+   "boots": ["Avernic treads", "Pegasian boots"],
+   "ring": ["Venator ring", "Archers ring (i)", "Archers ring"]
+  },
+  "magic": {
+   "head": ["Ancestral hat", "Virtus mask", "Ahrim's hood", "Blue moon helm", "Bloodbark helm"],
+   "cape": ["Imbued", "God cape"],
+   "amulet": ["Occult necklace"],
+   "body": ["Ancestral robe top", "Virtus robe top", "Ahrim's robetop", "Blue moon chestplate", "Bloodbark body"],
+   "legs": ["Ancestral robe bottom", "Virtus robe bottom", "Ahrim's robeskirt", "Blue moon tassets", "Bloodbark legs"],
+   "shield": ["Elidinis' ward (f)", "Elidinis' ward", "Arcane spirit shield", "Malediction ward", "Mage's book"],
+   "gloves": ["Confliction gauntlets", "Tormented bracelet"],
+   "boots": ["Avernic treads", "Eternal boots", "Infinity boots"],
+   "ring": ["Magus ring", "Seers ring (i)"],
+   "ammo": ["Rada's blessing 4", "Rada's blessing 3", "blessing"]
+  }
+ },
+ "bossesBefore": [
+  {"name": "Any monster (generic)", "category": "General",
+   "info": "Best-in-slot by style from what you own. Pick the style your target is weakest to",
+   "setups": [
+    {"label": "Melee (stab)", "style": "STAB"},
+    {"label": "Melee (slash)", "style": "SLASH"},
+    {"label": "Melee (crush)", "style": "CRUSH"},
+    {"label": "Ranged", "style": "RANGED"},
+    {"label": "Magic", "style": "MAGIC"}
+   ]}
+ ]
+}

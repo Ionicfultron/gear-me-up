@@ -1,0 +1,1075 @@
+{
+ "source": "oldschool.runescape.wiki via MediaWiki API, fetched 2026-11-26",
+ "spells": [
+  {
+   "name": "Wind Strike",
+   "book": "standard",
+   "level": 1,
+   "element": "air",
+   "maxHit": 8,
+   "runes": {
+    "Air rune": 1,
+    "Mind rune": 1
+   },
+   "notes": "Base max hit 2 at unlock; rises 1 per further strike spell unlocked, to 8 at Magic 13 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Water Strike",
+   "book": "standard",
+   "level": 5,
+   "element": "water",
+   "maxHit": 8,
+   "runes": {
+    "Water rune": 1,
+    "Air rune": 1,
+    "Mind rune": 1
+   },
+   "notes": "Base max hit 4 at unlock; rises 1 per further strike spell unlocked, to 8 at Magic 13 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Earth Strike",
+   "book": "standard",
+   "level": 9,
+   "element": "earth",
+   "maxHit": 8,
+   "runes": {
+    "Earth rune": 2,
+    "Air rune": 1,
+    "Mind rune": 1
+   },
+   "notes": "Base max hit 6 at unlock; rises 1 per further strike spell unlocked, to 8 at Magic 13 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Fire Strike",
+   "book": "standard",
+   "level": 13,
+   "element": "fire",
+   "maxHit": 8,
+   "runes": {
+    "Fire rune": 3,
+    "Air rune": 2,
+    "Mind rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Wind Bolt",
+   "book": "standard",
+   "level": 17,
+   "element": "air",
+   "maxHit": 12,
+   "runes": {
+    "Air rune": 2,
+    "Chaos rune": 1
+   },
+   "notes": "Base max hit 9 at unlock; rises 1 per further bolt spell unlocked, to 12 at Magic 35 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Water Bolt",
+   "book": "standard",
+   "level": 23,
+   "element": "water",
+   "maxHit": 12,
+   "runes": {
+    "Water rune": 2,
+    "Air rune": 2,
+    "Chaos rune": 1
+   },
+   "notes": "Base max hit 10 at unlock; rises 1 per further bolt spell unlocked, to 12 at Magic 35 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Earth Bolt",
+   "book": "standard",
+   "level": 29,
+   "element": "earth",
+   "maxHit": 12,
+   "runes": {
+    "Earth rune": 3,
+    "Air rune": 2,
+    "Chaos rune": 1
+   },
+   "notes": "Base max hit 11 at unlock; rises 1 per further bolt spell unlocked, to 12 at Magic 35 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Fire Bolt",
+   "book": "standard",
+   "level": 35,
+   "element": "fire",
+   "maxHit": 12,
+   "runes": {
+    "Fire rune": 4,
+    "Air rune": 3,
+    "Chaos rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Wind Blast",
+   "book": "standard",
+   "level": 41,
+   "element": "air",
+   "maxHit": 16,
+   "runes": {
+    "Air rune": 3,
+    "Death rune": 1
+   },
+   "notes": "Base max hit 13 at unlock; rises 1 per further blast spell unlocked, to 16 at Magic 59 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Water Blast",
+   "book": "standard",
+   "level": 47,
+   "element": "water",
+   "maxHit": 16,
+   "runes": {
+    "Water rune": 3,
+    "Air rune": 3,
+    "Death rune": 1
+   },
+   "notes": "Base max hit 14 at unlock; rises 1 per further blast spell unlocked, to 16 at Magic 59 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Earth Blast",
+   "book": "standard",
+   "level": 53,
+   "element": "earth",
+   "maxHit": 16,
+   "runes": {
+    "Earth rune": 4,
+    "Air rune": 3,
+    "Death rune": 1
+   },
+   "notes": "Base max hit 15 at unlock; rises 1 per further blast spell unlocked, to 16 at Magic 59 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Fire Blast",
+   "book": "standard",
+   "level": 59,
+   "element": "fire",
+   "maxHit": 16,
+   "runes": {
+    "Fire rune": 5,
+    "Air rune": 4,
+    "Death rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Wind Wave",
+   "book": "standard",
+   "level": 62,
+   "element": "air",
+   "maxHit": 20,
+   "runes": {
+    "Air rune": 5,
+    "Blood rune": 1
+   },
+   "notes": "Base max hit 17 at unlock; rises 1 per further wave spell unlocked, to 20 at Magic 75 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Water Wave",
+   "book": "standard",
+   "level": 65,
+   "element": "water",
+   "maxHit": 20,
+   "runes": {
+    "Water rune": 7,
+    "Air rune": 5,
+    "Blood rune": 1
+   },
+   "notes": "Base max hit 18 at unlock; rises 1 per further wave spell unlocked, to 20 at Magic 75 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Earth Wave",
+   "book": "standard",
+   "level": 70,
+   "element": "earth",
+   "maxHit": 20,
+   "runes": {
+    "Earth rune": 7,
+    "Air rune": 5,
+    "Blood rune": 1
+   },
+   "notes": "Base max hit 19 at unlock; rises 1 per further wave spell unlocked, to 20 at Magic 75 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Fire Wave",
+   "book": "standard",
+   "level": 75,
+   "element": "fire",
+   "maxHit": 20,
+   "runes": {
+    "Fire rune": 7,
+    "Air rune": 5,
+    "Blood rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Wind Surge",
+   "book": "standard",
+   "level": 81,
+   "element": "air",
+   "maxHit": 24,
+   "runes": {
+    "Air rune": 7,
+    "Wrath rune": 1
+   },
+   "notes": "Base max hit 21 at unlock; rises 1 per further surge spell unlocked, to 24 at Magic 95 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Water Surge",
+   "book": "standard",
+   "level": 85,
+   "element": "water",
+   "maxHit": 24,
+   "runes": {
+    "Water rune": 10,
+    "Air rune": 7,
+    "Wrath rune": 1
+   },
+   "notes": "Base max hit 22 at unlock; rises 1 per further surge spell unlocked, to 24 at Magic 95 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Earth Surge",
+   "book": "standard",
+   "level": 90,
+   "element": "earth",
+   "maxHit": 24,
+   "runes": {
+    "Earth rune": 10,
+    "Air rune": 7,
+    "Wrath rune": 1
+   },
+   "notes": "Base max hit 23 at unlock; rises 1 per further surge spell unlocked, to 24 at Magic 95 (Project Rebalance, May 2024)."
+  },
+  {
+   "name": "Fire Surge",
+   "book": "standard",
+   "level": 95,
+   "element": "fire",
+   "maxHit": 24,
+   "runes": {
+    "Fire rune": 10,
+    "Air rune": 7,
+    "Wrath rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Iban Blast",
+   "book": "standard",
+   "level": 50,
+   "element": null,
+   "maxHit": 25,
+   "runes": {
+    "Fire rune": 5,
+    "Death rune": 1
+   },
+   "notes": "Requires Iban's staff (also uses 1 staff charge vs NPCs, 2 vs players). Elemental staves cannot supply the fire runes; a charged Tome of fire can."
+  },
+  {
+   "name": "Saradomin Strike",
+   "book": "standard",
+   "level": 60,
+   "element": null,
+   "maxHit": 20,
+   "runes": {
+    "Air rune": 4,
+    "Fire rune": 2,
+    "Blood rune": 2
+   },
+   "notes": "30 with Charge active and Saradomin cape worn. Requires Saradomin staff or Staff of light."
+  },
+  {
+   "name": "Claws of Guthix",
+   "book": "standard",
+   "level": 60,
+   "element": null,
+   "maxHit": 20,
+   "runes": {
+    "Air rune": 4,
+    "Fire rune": 1,
+    "Blood rune": 2
+   },
+   "notes": "30 with Charge active and Guthix cape worn. Requires Guthix staff, Void knight mace or Staff of balance."
+  },
+  {
+   "name": "Flames of Zamorak",
+   "book": "standard",
+   "level": 60,
+   "element": null,
+   "maxHit": 20,
+   "runes": {
+    "Air rune": 1,
+    "Fire rune": 4,
+    "Blood rune": 2
+   },
+   "notes": "30 with Charge active and Zamorak cape worn. Requires a Zamorak-aligned staff."
+  },
+  {
+   "name": "Crumble Undead",
+   "book": "standard",
+   "level": 39,
+   "element": null,
+   "maxHit": 15,
+   "runes": {
+    "Earth rune": 2,
+    "Air rune": 2,
+    "Chaos rune": 1
+   },
+   "notes": "Undead targets only. Wiki infobox lists no element."
+  },
+  {
+   "name": "Smoke Rush",
+   "book": "ancient",
+   "level": 50,
+   "element": null,
+   "maxHit": 13,
+   "runes": {
+    "Air rune": 1,
+    "Fire rune": 1,
+    "Chaos rune": 2,
+    "Death rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Smoke Burst",
+   "book": "ancient",
+   "level": 62,
+   "element": null,
+   "maxHit": 17,
+   "runes": {
+    "Air rune": 2,
+    "Fire rune": 2,
+    "Chaos rune": 4,
+    "Death rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Smoke Blitz",
+   "book": "ancient",
+   "level": 74,
+   "element": null,
+   "maxHit": 23,
+   "runes": {
+    "Air rune": 2,
+    "Fire rune": 2,
+    "Blood rune": 2,
+    "Death rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Smoke Barrage",
+   "book": "ancient",
+   "level": 86,
+   "element": null,
+   "maxHit": 27,
+   "runes": {
+    "Air rune": 4,
+    "Fire rune": 4,
+    "Blood rune": 2,
+    "Death rune": 4
+   },
+   "notes": ""
+  },
+  {
+   "name": "Shadow Rush",
+   "book": "ancient",
+   "level": 52,
+   "element": null,
+   "maxHit": 14,
+   "runes": {
+    "Air rune": 1,
+    "Chaos rune": 2,
+    "Death rune": 2,
+    "Soul rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Shadow Burst",
+   "book": "ancient",
+   "level": 64,
+   "element": null,
+   "maxHit": 18,
+   "runes": {
+    "Air rune": 1,
+    "Chaos rune": 4,
+    "Death rune": 2,
+    "Soul rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Shadow Blitz",
+   "book": "ancient",
+   "level": 76,
+   "element": null,
+   "maxHit": 24,
+   "runes": {
+    "Air rune": 2,
+    "Blood rune": 2,
+    "Death rune": 2,
+    "Soul rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Shadow Barrage",
+   "book": "ancient",
+   "level": 88,
+   "element": null,
+   "maxHit": 28,
+   "runes": {
+    "Air rune": 4,
+    "Blood rune": 2,
+    "Death rune": 4,
+    "Soul rune": 3
+   },
+   "notes": ""
+  },
+  {
+   "name": "Blood Rush",
+   "book": "ancient",
+   "level": 56,
+   "element": null,
+   "maxHit": 15,
+   "runes": {
+    "Chaos rune": 2,
+    "Death rune": 2,
+    "Blood rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Blood Burst",
+   "book": "ancient",
+   "level": 68,
+   "element": null,
+   "maxHit": 21,
+   "runes": {
+    "Chaos rune": 4,
+    "Death rune": 2,
+    "Blood rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Blood Blitz",
+   "book": "ancient",
+   "level": 80,
+   "element": null,
+   "maxHit": 25,
+   "runes": {
+    "Death rune": 2,
+    "Blood rune": 4
+   },
+   "notes": ""
+  },
+  {
+   "name": "Blood Barrage",
+   "book": "ancient",
+   "level": 92,
+   "element": null,
+   "maxHit": 29,
+   "runes": {
+    "Death rune": 4,
+    "Blood rune": 4,
+    "Soul rune": 1
+   },
+   "notes": ""
+  },
+  {
+   "name": "Ice Rush",
+   "book": "ancient",
+   "level": 58,
+   "element": null,
+   "maxHit": 16,
+   "runes": {
+    "Water rune": 2,
+    "Chaos rune": 2,
+    "Death rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Ice Burst",
+   "book": "ancient",
+   "level": 70,
+   "element": null,
+   "maxHit": 22,
+   "runes": {
+    "Water rune": 4,
+    "Chaos rune": 4,
+    "Death rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Ice Blitz",
+   "book": "ancient",
+   "level": 82,
+   "element": null,
+   "maxHit": 26,
+   "runes": {
+    "Water rune": 3,
+    "Blood rune": 2,
+    "Death rune": 2
+   },
+   "notes": ""
+  },
+  {
+   "name": "Ice Barrage",
+   "book": "ancient",
+   "level": 94,
+   "element": null,
+   "maxHit": 30,
+   "runes": {
+    "Water rune": 6,
+    "Blood rune": 2,
+    "Death rune": 4
+   },
+   "notes": ""
+  },
+  {
+   "name": "Inferior Demonbane",
+   "book": "arceuus",
+   "level": 44,
+   "element": null,
+   "maxHit": 16,
+   "runes": {
+    "Fire rune": 3,
+    "Chaos rune": 1
+   },
+   "notes": "Demons only. No quest requirement."
+  },
+  {
+   "name": "Superior Demonbane",
+   "book": "arceuus",
+   "level": 62,
+   "element": null,
+   "maxHit": 23,
+   "runes": {
+    "Fire rune": 5,
+    "Soul rune": 1
+   },
+   "notes": "Demons only. Requires A Kingdom Divided."
+  },
+  {
+   "name": "Dark Demonbane",
+   "book": "arceuus",
+   "level": 82,
+   "element": null,
+   "maxHit": 30,
+   "runes": {
+    "Fire rune": 7,
+    "Soul rune": 2
+   },
+   "notes": "Demons only. Requires A Kingdom Divided."
+  },
+  {
+   "name": "Ghostly Grasp",
+   "book": "arceuus",
+   "level": 35,
+   "element": null,
+   "maxHit": 12,
+   "runes": {
+    "Air rune": 4,
+    "Chaos rune": 1
+   },
+   "notes": "10% bind chance (1.2s). No quest requirement."
+  },
+  {
+   "name": "Skeletal Grasp",
+   "book": "arceuus",
+   "level": 56,
+   "element": null,
+   "maxHit": 17,
+   "runes": {
+    "Earth rune": 8,
+    "Death rune": 1
+   },
+   "notes": "25% bind chance (1.8s). Requires A Kingdom Divided."
+  },
+  {
+   "name": "Undead Grasp",
+   "book": "arceuus",
+   "level": 79,
+   "element": null,
+   "maxHit": 24,
+   "runes": {
+    "Fire rune": 12,
+    "Blood rune": 1
+   },
+   "notes": "50% bind chance. Requires A Kingdom Divided."
+  }
+ ],
+ "chargedWeapons": [
+  {
+   "name": "Trident of the seas",
+   "perCharge": {
+    "Death rune": 1,
+    "Chaos rune": 1,
+    "Fire rune": 5,
+    "Coins": 10
+   },
+   "notes": "Up to 2,500 charges; 1 charge per cast."
+  },
+  {
+   "name": "Trident of the swamp",
+   "perCharge": {
+    "Death rune": 1,
+    "Chaos rune": 1,
+    "Fire rune": 5,
+    "Zulrah's scales": 1
+   },
+   "notes": "No coins; 1 Zulrah's scale instead. Up to 2,500 charges."
+  },
+  {
+   "name": "Sanguinesti staff",
+   "perCharge": {
+    "Blood rune": 2
+   },
+   "notes": "Up to 20,000 charges."
+  },
+  {
+   "name": "Tumeken's shadow",
+   "perCharge": {
+    "Soul rune": 2,
+    "Chaos rune": 5
+   },
+   "notes": "Up to 20,000 charges."
+  },
+  {
+   "name": "Eye of Ayak",
+   "perCharge": {
+    "Demon tear": 1
+   },
+   "altPerCharge": {
+    "Death rune": 2,
+    "Chaos rune": 1
+   },
+   "notes": "Charged with EITHER demon tears (1 per charge) OR runes (2 death + 1 chaos per charge); cannot hold both. Up to 50,000 charges."
+  },
+  {
+   "name": "Zorya's tome",
+   "perCharge": {
+    "Astral rune": 3,
+    "Nature rune": 2
+   },
+   "notes": "Up to 20,000 charges."
+  },
+  {
+   "name": "Warped sceptre",
+   "perCharge": {
+    "Chaos rune": 2,
+    "Earth rune": 5
+   },
+   "notes": "Up to 20,000 charges. Can be charged with combination runes."
+  },
+  {
+   "name": "Thammaron's sceptre",
+   "perCharge": {
+    "Revenant ether": 1
+   },
+   "notes": "Needs a 1,000-ether activation deposit (refunded on uncharge), then 1 ether per attack. The 'Swap' option turns it into Thammaron's sceptre (a), which autocasts standard spells and Ancients instead of using a built-in spell."
+  },
+  {
+   "name": "Accursed sceptre",
+   "perCharge": {
+    "Revenant ether": 1
+   },
+   "notes": "Same ether model as Thammaron's sceptre. Swap to Accursed sceptre (a) to autocast."
+  },
+  {
+   "name": "Bone staff",
+   "perCharge": {
+    "Chaos rune": 1
+   },
+   "notes": "Up to 20,000 charges."
+  },
+  {
+   "name": "Iban's staff",
+   "perCharge": {
+    "Fire rune": 5,
+    "Death rune": 1
+   },
+   "notes": "Not a powered staff. Iban Blast costs its normal runes (5 fire + 1 death) PLUS 1 staff charge (2 vs players). Staff charges refill free at the well in the Underground Pass; 120 charges, or 2,500 for Iban's staff (u). Elemental staves cannot supply the fire runes; a charged tome of fire can."
+  },
+  {
+   "name": "Dawnbringer",
+   "perCharge": {},
+   "notes": "Theatre of Blood only (Verzik phase 1). Uses no runes or charges and crumbles once the shield breaks."
+  },
+  {
+   "name": "Twinflame staff",
+   "perCharge": {},
+   "notes": "Not a powered staff. It autocasts standard spells and pays normal spell runes, but is an infinite source of fire AND water runes."
+  }
+ ],
+ "runeSources": [
+  {
+   "item": "Staff of air",
+   "provides": [
+    "Air rune"
+   ]
+  },
+  {
+   "item": "Air battlestaff",
+   "provides": [
+    "Air rune"
+   ]
+  },
+  {
+   "item": "Mystic air staff",
+   "provides": [
+    "Air rune"
+   ]
+  },
+  {
+   "item": "Staff of water",
+   "provides": [
+    "Water rune"
+   ]
+  },
+  {
+   "item": "Water battlestaff",
+   "provides": [
+    "Water rune"
+   ]
+  },
+  {
+   "item": "Mystic water staff",
+   "provides": [
+    "Water rune"
+   ]
+  },
+  {
+   "item": "Staff of earth",
+   "provides": [
+    "Earth rune"
+   ]
+  },
+  {
+   "item": "Earth battlestaff",
+   "provides": [
+    "Earth rune"
+   ]
+  },
+  {
+   "item": "Mystic earth staff",
+   "provides": [
+    "Earth rune"
+   ]
+  },
+  {
+   "item": "Staff of fire",
+   "provides": [
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Fire battlestaff",
+   "provides": [
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Mystic fire staff",
+   "provides": [
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Dust battlestaff",
+   "provides": [
+    "Air rune",
+    "Earth rune"
+   ]
+  },
+  {
+   "item": "Mystic dust staff",
+   "provides": [
+    "Air rune",
+    "Earth rune"
+   ]
+  },
+  {
+   "item": "Lava battlestaff",
+   "provides": [
+    "Earth rune",
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Mystic lava staff",
+   "provides": [
+    "Earth rune",
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Mist battlestaff",
+   "provides": [
+    "Air rune",
+    "Water rune"
+   ]
+  },
+  {
+   "item": "Mystic mist staff",
+   "provides": [
+    "Air rune",
+    "Water rune"
+   ]
+  },
+  {
+   "item": "Mud battlestaff",
+   "provides": [
+    "Water rune",
+    "Earth rune"
+   ]
+  },
+  {
+   "item": "Mystic mud staff",
+   "provides": [
+    "Water rune",
+    "Earth rune"
+   ]
+  },
+  {
+   "item": "Smoke battlestaff",
+   "provides": [
+    "Air rune",
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Mystic smoke staff",
+   "provides": [
+    "Air rune",
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Steam battlestaff",
+   "provides": [
+    "Water rune",
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Mystic steam staff",
+   "provides": [
+    "Water rune",
+    "Fire rune"
+   ]
+  },
+  {
+   "item": "Steam battlestaff (or)",
+   "provides": [
+    "Water rune",
+    "Fire rune"
+   ],
+   "notes": "Ornamented variant."
+  },
+  {
+   "item": "Mystic steam staff (or)",
+   "provides": [
+    "Water rune",
+    "Fire rune"
+   ],
+   "notes": "Ornamented variant."
+  },
+  {
+   "item": "Lava battlestaff (or)",
+   "provides": [
+    "Earth rune",
+    "Fire rune"
+   ],
+   "notes": "Ornamented variant."
+  },
+  {
+   "item": "Mystic lava staff (or)",
+   "provides": [
+    "Earth rune",
+    "Fire rune"
+   ],
+   "notes": "Ornamented variant."
+  },
+  {
+   "item": "Twinflame staff",
+   "provides": [
+    "Fire rune",
+    "Water rune"
+   ]
+  },
+  {
+   "item": "Kodai wand",
+   "provides": [
+    "Water rune"
+   ]
+  },
+  {
+   "item": "Tome of fire",
+   "provides": [
+    "Fire rune"
+   ],
+   "notes": "Only while it has at least 1 charge (burnt or searing pages). Non-combat casts use no charges; standard-spellbook fire combat spells use 1 charge each."
+  },
+  {
+   "item": "Tome of water",
+   "provides": [
+    "Water rune"
+   ],
+   "notes": "Only while charged with at least 1 soaked-page charge. Only standard-spellbook water combat spells use charges; Ice spells do not."
+  },
+  {
+   "item": "Tome of earth",
+   "provides": [
+    "Earth rune"
+   ],
+   "notes": "Only while charged with soiled pages. Only standard-spellbook earth combat spells use charges."
+  },
+  {
+   "item": "Bryophyta's staff",
+   "provides": [],
+   "notes": "Not an infinite source. It stores up to 1,000 nature runes that count as carried, with a 1/15 chance to save one nature rune per cast. Provides no elemental runes."
+  }
+ ],
+ "comboRunes": {
+  "Mist rune": [
+   "Air rune",
+   "Water rune"
+  ],
+  "Dust rune": [
+   "Air rune",
+   "Earth rune"
+  ],
+  "Mud rune": [
+   "Water rune",
+   "Earth rune"
+  ],
+  "Smoke rune": [
+   "Air rune",
+   "Fire rune"
+  ],
+  "Steam rune": [
+   "Water rune",
+   "Fire rune"
+  ],
+  "Lava rune": [
+   "Earth rune",
+   "Fire rune"
+  ],
+  "Aether rune": [
+   "Cosmic rune",
+   "Soul rune"
+  ]
+ },
+ "runeSubstitutes": {
+  "Sunfire rune": {
+   "countsAs": "Fire rune",
+   "notes": "Can replace fire runes in any spell. Fire spells gain a minimum hit of 10% of max hit. Still consumed even when an infinite fire source is equipped."
+  }
+ },
+ "runeNames": [
+  "Air rune",
+  "Water rune",
+  "Earth rune",
+  "Fire rune",
+  "Sunfire rune",
+  "Mind rune",
+  "Body rune",
+  "Cosmic rune",
+  "Chaos rune",
+  "Nature rune",
+  "Law rune",
+  "Death rune",
+  "Astral rune",
+  "Blood rune",
+  "Soul rune",
+  "Wrath rune",
+  "Mist rune",
+  "Dust rune",
+  "Mud rune",
+  "Smoke rune",
+  "Steam rune",
+  "Lava rune",
+  "Aether rune"
+ ],
+ "autocastAncients": [
+  "Ancient staff",
+  "Ancient sceptre",
+  "Smoke ancient sceptre",
+  "Shadow ancient sceptre",
+  "Blood ancient sceptre",
+  "Ice ancient sceptre",
+  "Thammaron's sceptre (a)",
+  "Accursed sceptre (a)",
+  "Ahrim's staff",
+  "Blue moon spear",
+  "Master wand",
+  "Dragon hunter wand",
+  "Kodai wand",
+  "Nightmare staff",
+  "Eldritch nightmare staff",
+  "Volatile nightmare staff",
+  "Zuriel's staff (bh)"
+ ],
+ "autocastAncientsNotes": "Ahrim's staff autocasts Ancients only with the full Ahrim's set and Amulet of the damned. Zuriel's staff (bh) has ancient=yes on its own page but is missing from the Autocast page table. Harmonised nightmare staff, Twinflame staff and elemental/combination staves are standard only.",
+ "autocastArceuus": [
+  "Skull sceptre",
+  "Skull sceptre (i)",
+  "Slayer's staff",
+  "Slayer's staff (e)",
+  "Ahrim's staff",
+  "Blue moon spear",
+  "Staff of the dead",
+  "Toxic staff of the dead",
+  "Purging staff",
+  "Master wand",
+  "Kodai wand"
+ ],
+ "autocastArceuusNotes": "These cannot autocast Arceuus: Staff of light, Staff of balance, Ancient staff and sceptres, Nightmare staves, Dragon hunter wand, and Thammaron's/Accursed sceptre (a). Autocastable Arceuus spells are the 3 Demonbane and 3 Grasp spells.",
+ "autocastSpecialStandard": {
+  "Iban Blast": [
+   "Iban's staff",
+   "Iban's staff (u)"
+  ],
+  "Crumble Undead": [
+   "Skull sceptre (i)",
+   "Void knight mace",
+   "Slayer's staff",
+   "Slayer's staff (e)",
+   "Staff of the dead",
+   "Toxic staff of the dead",
+   "Staff of light",
+   "Staff of balance"
+  ],
+  "Magic Dart": [
+   "Slayer's staff",
+   "Slayer's staff (e)",
+   "Staff of the dead",
+   "Toxic staff of the dead",
+   "Staff of light",
+   "Staff of balance"
+  ],
+  "Saradomin Strike": [
+   "Staff of light"
+  ],
+  "Claws of Guthix": [
+   "Void knight mace",
+   "Staff of balance"
+  ],
+  "Flames of Zamorak": [
+   "Thammaron's sceptre (a)",
+   "Accursed sceptre (a)",
+   "Staff of the dead",
+   "Toxic staff of the dead"
+  ]
+ }
+}

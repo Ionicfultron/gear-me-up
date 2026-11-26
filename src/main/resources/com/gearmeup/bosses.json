@@ -1,0 +1,8519 @@
+{
+ "_readme": "Gear Me Up data. Item names match case- and space-insensitively by 'contains'. Lists are best first. bosses.json is generated from this file plus the wiki research files by tools/convert.py.",
+ "attributeItems": {
+  "demon": {
+   "melee": {
+    "weapon": [
+     "Emberlight",
+     "Arclight",
+     "Darklight",
+     "Silverlight",
+     "Burning claws"
+    ]
+   },
+   "ranged": {
+    "weapon": [
+     "Scorching bow"
+    ]
+   },
+   "magic": {
+    "weapon": [
+     "Purging staff"
+    ]
+   }
+  },
+  "dragon": {
+   "melee": {
+    "weapon": [
+     "Dragon hunter lance"
+    ]
+   },
+   "ranged": {
+    "weapon": [
+     "Dragon hunter crossbow"
+    ]
+   },
+   "magic": {
+    "weapon": [
+     "Dragon hunter wand"
+    ]
+   }
+  },
+  "undead": {
+   "melee": {
+    "amulet": [
+     "Salve amulet(ei)",
+     "Salve amulet(e)",
+     "Salve amulet(i)",
+     "Salve amulet"
+    ]
+   },
+   "ranged": {
+    "amulet": [
+     "Salve amulet(ei)",
+     "Salve amulet(i)"
+    ]
+   },
+   "magic": {
+    "amulet": [
+     "Salve amulet(ei)",
+     "Salve amulet(i)"
+    ]
+   }
+  },
+  "kalphite": {
+   "melee": {
+    "weapon": [
+     "Keris partisan of breaching",
+     "Keris partisan of corruption",
+     "Keris partisan of the sun",
+     "Keris partisan",
+     "Keris"
+    ]
+   }
+  },
+  "vampyre": {
+   "melee": {
+    "weapon": [
+     "Sunspear",
+     "Hallowed flail",
+     "Blisterwood flail",
+     "Ivandis flail",
+     "Blisterwood sickle"
+    ]
+   },
+   "ranged": {
+    "weapon": [
+     "Blisterwood stake"
+    ]
+   },
+   "any": {
+    "ring": [
+     "Efaritay's aid"
+    ]
+   }
+  },
+  "golem": {
+   "melee": {
+    "weapon": [
+     "Granite hammer",
+     "Barronite mace"
+    ]
+   }
+  },
+  "leafy": {
+   "melee": {
+    "weapon": [
+     "Leaf-bladed battleaxe",
+     "Leaf-bladed sword",
+     "Leaf-bladed spear"
+    ]
+   }
+  },
+  "shade": {
+   "melee": {
+    "weapon": [
+     "Gadderhammer"
+    ]
+   }
+  },
+  "rat": {
+   "melee": {
+    "weapon": [
+     "Bone mace"
+    ]
+   },
+   "ranged": {
+    "weapon": [
+     "Bone shortbow"
+    ]
+   },
+   "magic": {
+    "weapon": [
+     "Bone staff"
+    ]
+   }
+  },
+  "fiery": {
+   "ranged": {
+    "ammo": [
+     "Pearl dragon bolts (e)",
+     "Pearl bolts (e)"
+    ]
+   }
+  }
+ },
+ "elementItems": {
+  "fire": {
+   "shield": [
+    "Tome of fire"
+   ]
+  },
+  "water": {
+   "shield": [
+    "Tome of water"
+   ]
+  },
+  "earth": {
+   "shield": [
+    "Tome of earth"
+   ]
+  }
+ },
+ "slayerHelm": {
+  "melee": [
+   "Slayer helmet (i)",
+   "Slayer helmet",
+   "Black mask (i)",
+   "Black mask"
+  ],
+  "ranged": [
+   "Slayer helmet (i)",
+   "Black mask (i)"
+  ],
+  "magic": [
+   "Slayer helmet (i)",
+   "Black mask (i)"
+  ]
+ },
+ "styleWeapons": {
+  "STAB": [
+   "Osmumten's fang",
+   "Ghrazi rapier",
+   "Noxious halberd",
+   "Belle's folly",
+   "Inquisitor's mace",
+   "Zamorakian hasta",
+   "Abyssal dagger"
+  ],
+  "SLASH": [
+   "Scythe of vitur",
+   "Soulreaper axe",
+   "Blade of saeldor",
+   "Noxious halberd",
+   "Voidwaker",
+   "Hallowfell",
+   "Abyssal tentacle",
+   "Zombie axe",
+   "Saradomin's blessed sword",
+   "Arkan blade",
+   "Abyssal whip"
+  ],
+  "CRUSH": [
+   "Obligator",
+   "Inquisitor's mace",
+   "Soulreaper axe",
+   "Dual macuahuitl",
+   "Abyssal bludgeon",
+   "Torag's hammers",
+   "Glacial temotli"
+  ],
+  "RANGED": [
+   "Twisted bow",
+   "Ascension crossbow",
+   "Bow of faerdhinen",
+   "Zaryte crossbow",
+   "Venator bow",
+   "Tonalztics of ralos",
+   "Toxic blowpipe",
+   "Armadyl crossbow",
+   "Heavy ballista",
+   "Hunters' sunlight crossbow",
+   "Dragon crossbow",
+   "Magic shortbow (i)",
+   "Rune crossbow"
+  ],
+  "MAGIC": [
+   "Tumeken's shadow",
+   "Eye of ayak",
+   "Zorya's tome",
+   "Sanguinesti staff",
+   "Trident of the swamp",
+   "Trident of the seas",
+   "Kodai wand",
+   "Harmonised nightmare staff",
+   "Eldritch nightmare staff",
+   "Volatile nightmare staff",
+   "Warped sceptre",
+   "Nightmare staff",
+   "Ancient sceptre",
+   "Toxic staff of the dead",
+   "Staff of the dead",
+   "Master wand",
+   "Ahrim's staff",
+   "Iban's staff"
+  ]
+ },
+ "styleGear": {
+  "melee": {
+   "head": [
+    "Torva full helm",
+    "Oathplate helm",
+    "Neitiznot faceguard",
+    "Serpentine helm",
+    "Justiciar faceguard",
+    "Blood moon helm",
+    "Inquisitor's great helm",
+    "Helm of neitiznot"
+   ],
+   "cape": [
+    "Infernal max cape",
+    "Infernal cape",
+    "Fire max cape",
+    "Fire cape",
+    "Mythical cape"
+   ],
+   "amulet": [
+    "Amulet of rancour",
+    "Amulet of torture",
+    "Amulet of blood fury",
+    "Amulet of fury"
+   ],
+   "body": [
+    "Torva platebody",
+    "Oathplate chest",
+    "Bandos chestplate",
+    "Blood moon chestplate",
+    "Inquisitor's hauberk",
+    "Fighter torso",
+    "Justiciar chestguard"
+   ],
+   "legs": [
+    "Torva platelegs",
+    "Oathplate legs",
+    "Bandos tassets",
+    "Blood moon tassets",
+    "Inquisitor's plateskirt",
+    "Justiciar legguards"
+   ],
+   "shield": [
+    "Avernic defender",
+    "Rondache",
+    "Dragon defender"
+   ],
+   "gloves": [
+    "Ferocious gloves",
+    "Barrows gloves"
+   ],
+   "boots": [
+    "Avernic treads",
+    "Primordial boots",
+    "Echo boots",
+    "Dragon boots"
+   ],
+   "ring": [
+    "Ultor ring",
+    "Bellator ring",
+    "Berserker ring (i)",
+    "Berserker ring"
+   ],
+   "ammo": [
+    "Rada's blessing 4",
+    "Rada's blessing 3",
+    "blessing"
+   ]
+  },
+  "ranged": {
+   "head": [
+    "Masori mask (f)",
+    "Masori mask",
+    "Armadyl helmet",
+    "Karil's coif"
+   ],
+   "cape": [
+    "Blessed dizana's quiver",
+    "Dizana's quiver",
+    "Dizana's max cape",
+    "Ava's assembler",
+    "Assembler max cape",
+    "Ava's accumulator"
+   ],
+   "amulet": [
+    "Necklace of rupture",
+    "Necklace of anguish",
+    "Necklace of fangs",
+    "Amulet of fury"
+   ],
+   "body": [
+    "Masori body (f)",
+    "Masori body",
+    "Armadyl chestplate",
+    "Karil's leathertop"
+   ],
+   "legs": [
+    "Masori chaps (f)",
+    "Masori chaps",
+    "Armadyl chainskirt",
+    "Karil's leatherskirt"
+   ],
+   "shield": [
+    "Twisted buckler",
+    "Dragonfire ward"
+   ],
+   "gloves": [
+    "Zaryte vambraces",
+    "Barrows gloves"
+   ],
+   "boots": [
+    "Avernic treads",
+    "Pegasian boots"
+   ],
+   "ring": [
+    "Venator ring",
+    "Archers ring (i)",
+    "Archers ring"
+   ]
+  },
+  "magic": {
+   "head": [
+    "Ancestral hat",
+    "Virtus mask",
+    "Ahrim's hood",
+    "Blue moon helm",
+    "Bloodbark helm"
+   ],
+   "cape": [
+    "Imbued",
+    "God cape"
+   ],
+   "amulet": [
+    "Occult necklace"
+   ],
+   "body": [
+    "Ancestral robe top",
+    "Virtus robe top",
+    "Ahrim's robetop",
+    "Blue moon chestplate",
+    "Bloodbark body"
+   ],
+   "legs": [
+    "Ancestral robe bottom",
+    "Virtus robe bottom",
+    "Ahrim's robeskirt",
+    "Blue moon tassets",
+    "Bloodbark legs"
+   ],
+   "shield": [
+    "Elidinis' ward (f)",
+    "Elidinis' ward",
+    "Arcane spirit shield",
+    "Malediction ward",
+    "Mage's book"
+   ],
+   "gloves": [
+    "Confliction gauntlets",
+    "Tormented bracelet"
+   ],
+   "boots": [
+    "Avernic treads",
+    "Eternal boots",
+    "Infinity boots"
+   ],
+   "ring": [
+    "Magus ring",
+    "Seers ring (i)"
+   ],
+   "ammo": [
+    "Rada's blessing 4",
+    "Rada's blessing 3",
+    "blessing"
+   ]
+  }
+ },
+ "bosses": [
+  {
+   "name": "Any monster (generic)",
+   "category": "General",
+   "info": "Best-in-slot by style from what you own. Pick the style your target is weakest to",
+   "setups": [
+    {
+     "label": "Melee (stab)",
+     "style": "STAB"
+    },
+    {
+     "label": "Melee (slash)",
+     "style": "SLASH"
+    },
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH"
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED"
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC"
+    }
+   ]
+  },
+  {
+   "name": "Blue Moon",
+   "category": "Varlamore",
+   "aliases": [
+    "moons",
+    "perilous moons"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 15,
+   "defence": {
+    "stab": 100,
+    "slash": 100,
+    "crush": 0,
+    "magic": 500,
+    "rangedLight": 500,
+    "rangedStandard": 500,
+    "rangedHeavy": 500
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Obligator",
+      "Dual macuahuitl",
+      "Glacial temotli",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Ursine chainmace (u)",
+      "Abyssal bludgeon"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Justiciar faceguard",
+       "Serpentine helm",
+       "Neitiznot faceguard",
+       "Blood Moon helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of fury"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape",
+       "Mythical cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Justiciar chestguard",
+       "Bandos chestplate",
+       "Dharok's platebody",
+       "Guthan's platebody",
+       "Torag's platebody"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Justiciar legguards",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Rondache",
+       "Avernic defender",
+       "Dragonfire shield",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (pr)",
+       "Primordial boots",
+       "Echo boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of suffering (ri)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Weak to crush with -5 flat armour, so multi-hit weapons (scythe, dual macuahuitl, glacial temotli, Torag's hammers) shine. Weapon Freeze knocks your weapon into ice blocks you punch out (Soulreaper axe loses stacks). Requires Perilous Moons. No gear is provided: bring your own melee gear; the dungeon supplies food (cooked bream/moss lizard) and moonlight potions via supply crates. Wiki stresses tanky (Barrows/Torva/Justiciar) armour over strength-only armour; defence-reducing specs and Death Charge do nothing."
+    }
+   ]
+  },
+  {
+   "name": "Eclipse Moon",
+   "category": "Varlamore",
+   "aliases": [
+    "moons",
+    "perilous moons"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 15,
+   "defence": {
+    "stab": 0,
+    "slash": 100,
+    "crush": 100,
+    "magic": 500,
+    "rangedLight": 500,
+    "rangedStandard": 500,
+    "rangedHeavy": 500
+   },
+   "setups": [
+    {
+     "label": "Melee (stab)",
+     "style": "STAB",
+     "weapons": [
+      "Soulreaper axe",
+      "Obligator",
+      "Ghrazi rapier",
+      "Scythe of Vitur",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Voidwaker",
+      "Osmumten's fang"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Justiciar faceguard",
+       "Serpentine helm",
+       "Neitiznot faceguard",
+       "Blood Moon helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of fury"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape",
+       "Mythical cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Justiciar chestguard",
+       "Bandos chestplate",
+       "Dharok's platebody",
+       "Guthan's platebody",
+       "Torag's platebody"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Justiciar legguards",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Rondache",
+       "Avernic defender",
+       "Dragonfire shield",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (pr)",
+       "Primordial boots",
+       "Echo boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of suffering (ri)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Weak to stab with +6 flat armour (rapier beats scythe). During the Clone phase parries have 100% accuracy, so swap to a slow heavy hitter (Dharok's greataxe, Soulreaper axe, Elder maul). Requires Perilous Moons. No gear is provided: bring your own melee gear; the dungeon supplies food (cooked bream/moss lizard) and moonlight potions via supply crates. Wiki stresses tanky (Barrows/Torva/Justiciar) armour over strength-only armour; defence-reducing specs and Death Charge do nothing."
+    }
+   ]
+  },
+  {
+   "name": "Blood Moon",
+   "category": "Varlamore",
+   "aliases": [
+    "moons",
+    "perilous moons"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 15,
+   "defence": {
+    "stab": 100,
+    "slash": 0,
+    "crush": 100,
+    "magic": 500,
+    "rangedLight": 500,
+    "rangedStandard": 500,
+    "rangedHeavy": 500
+   },
+   "setups": [
+    {
+     "label": "Melee (slash)",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Ghrazi rapier",
+      "Abyssal tentacle",
+      "Saradomin's blessed sword",
+      "Abyssal whip"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Justiciar faceguard",
+       "Serpentine helm",
+       "Neitiznot faceguard",
+       "Blood Moon helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of fury"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape",
+       "Mythical cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Justiciar chestguard",
+       "Bandos chestplate",
+       "Dharok's platebody",
+       "Guthan's platebody",
+       "Torag's platebody"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Justiciar legguards",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Rondache",
+       "Avernic defender",
+       "Dragonfire shield",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (pr)",
+       "Primordial boots",
+       "Echo boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of suffering (ri)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Weak to slash, -2 flat armour. Heals whenever it damages you, so favour defence over pure strength. Kill blood jaguars to heal back. Requires Perilous Moons. No gear is provided: bring your own melee gear; the dungeon supplies food (cooked bream/moss lizard) and moonlight potions via supply crates. Wiki stresses tanky (Barrows/Torva/Justiciar) armour over strength-only armour; defence-reducing specs and Death Charge do nothing."
+    }
+   ]
+  },
+  {
+   "name": "Sol Heredit",
+   "category": "Varlamore",
+   "aliases": [
+    "colosseum",
+    "fortis",
+    "sol"
+   ],
+   "defence": {
+    "stab": 65,
+    "slash": 5,
+    "crush": 30,
+    "magic": 750,
+    "rangedLight": 825,
+    "rangedStandard": 825,
+    "rangedHeavy": 825
+   },
+   "setups": [
+    {
+     "label": "Sol (melee slash)",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Abyssal tentacle"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Oathplate chest",
+       "Torva platebody"
+      ],
+      "legs": [
+       "Oathplate legs",
+       "Torva platelegs"
+      ],
+      "shield": [
+       "Elysian spirit shield",
+       "Avernic defender",
+       "Crystal shield",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Final wave (12) of the Fortis Colosseum, solo. No gear restrictions, but one inventory must cover all 12 waves. Don't mage or range Sol; dump Dragon claws/Burning claws below 10% HP; Saradomin godsword for healing."
+    },
+    {
+     "label": "Waves (ranged)",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Venator bow",
+      "Bow of Faerdhinen",
+      "Toxic blowpipe",
+      "Eclipse atlatl"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Crystal helm"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Crystal body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Crystal legs"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Dragon arrow"
+      ]
+     },
+     "notes": "The wiki's strongest first-quiver option is a Twisted bow setup; Bow of Faerdhinen + crystal armour is the budget route. Venator bow + dragon arrows for multi-target waves."
+    },
+    {
+     "label": "Waves (magic)",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Eye of Ayak"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom"
+      ],
+      "gloves": [
+       "Confliction gauntlets"
+      ],
+      "ring": [
+       "Magus ring"
+      ]
+     },
+     "notes": "A Shadow setup one-shots the melee Fremennik but has weak defence; a single trident/sang/Eye switch is enough to two-shot it."
+    }
+   ]
+  },
+  {
+   "name": "The Hueycoatl",
+   "category": "Varlamore",
+   "aliases": [
+    "huey"
+   ],
+   "attributes": [
+    "dragon"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 60,
+   "defence": {
+    "stab": 100,
+    "slash": 100,
+    "crush": 0,
+    "magic": 200,
+    "rangedLight": 350,
+    "rangedStandard": 350,
+    "rangedHeavy": 350
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Dragon hunter lance",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Dual macuahuitl",
+      "Abyssal bludgeon",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm",
+       "Torva full helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk",
+       "Torva platebody"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt",
+       "Torva platelegs"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Dragonbane works (lance) and it is weakest to crush; Inquisitor's armour recommended. Defence drain is capped at 5 levels, so bring damage specs (Crimson kisten, Dragon claws). Multi-player world boss in Darkfrost."
+    },
+    {
+     "label": "Tail phase",
+     "style": "CRUSH",
+     "weapons": [
+      "Dual macuahuitl",
+      "Glacial temotli",
+      "Torag's hammers",
+      "Ursine chainmace"
+     ],
+     "notes": "The tail has a per-hit damage cap, so multi-hit crush weapons speed it up a lot."
+    }
+   ]
+  },
+  {
+   "name": "Amoxliatl",
+   "category": "Varlamore",
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 30,
+   "defence": {
+    "stab": 100,
+    "slash": 100,
+    "crush": 40,
+    "magic": 100,
+    "rangedLight": 200,
+    "rangedStandard": 200,
+    "rangedHeavy": 200
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Dual macuahuitl",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Abyssal bludgeon",
+      "Ursine chainmace (u)",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm",
+       "Torva full helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk",
+       "Oathplate chest",
+       "Torva platebody"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt",
+       "Oathplate legs",
+       "Torva platelegs"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Rune defender",
+       "Dragonfire shield"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Requires The Heart of Darkness. Weak to crush, -2 flat armour. Unstable ice can only be damaged by melee, so melee beats fire spells despite the 30% fire weakness. Thralls recommended; Slayer helmet (i) on a lesser nagua task."
+    }
+   ]
+  },
+  {
+   "name": "Araxxor",
+   "category": "Slayer bosses",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 160,
+    "slash": 75,
+    "crush": 15,
+    "magic": 237,
+    "rangedLight": 218,
+    "rangedStandard": 218,
+    "rangedHeavy": 218
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Abyssal bludgeon",
+      "Ursine chainmace (u)",
+      "Zamorakian hasta",
+      "Sarachnis cudgel"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk",
+       "Torva platebody"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt",
+       "Torva platelegs"
+      ],
+      "shield": [
+       "Rondache",
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Slayer 92 and an araxyte/spider task required. Specs: Elder maul/Dragon warhammer, Crimson kisten, Dragon claws. A Noxious halberd one-hits white araxytes; bring venom protection."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Ring of the gods (i)",
+       "Archers ring (i)"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Dragon arrow"
+      ]
+     },
+     "notes": "Wiki: Twisted bow + Masori beats bludgeon-tier melee but is well behind the scythe. Araxyte switches: Hunters' sunlight crossbow, Karil's crossbow, Heavy ballista, Rune crossbow."
+    }
+   ]
+  },
+  {
+   "name": "Eldric the Ice King",
+   "category": "Varlamore",
+   "aliases": [
+    "royal titans",
+    "titans"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 12,
+    "slash": 12,
+    "crush": 0,
+    "magic": 700,
+    "rangedLight": 700,
+    "rangedStandard": 700,
+    "rangedHeavy": 700
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Dual macuahuitl",
+      "Abyssal tentacle"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm",
+       "Torva full helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk",
+       "Torva platebody",
+       "Oathplate chest",
+       "Blood Moon chestplate"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt",
+       "Torva platelegs",
+       "Oathplate legs",
+       "Blood Moon tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Antler guard"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Titans are primarily meleed (wiki prioritises melee strength); Slayer helmet (i) works on ice/fire giant tasks. A halberd lets you keep hitting from the Elemental Blast safespot."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Eclipse atlatl",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Hunters' sunlight crossbow",
+      "Karil's crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Eclipse Moon helm"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Eclipse Moon chestplate",
+       "Hueycoatl hide body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Eclipse Moon tassets",
+       "Hueycoatl hide chaps"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Antler guard"
+      ],
+      "ammo": [
+       "Rada's blessing 4",
+       "Ruby dragon bolts (e)",
+       "Atlatl dart"
+      ]
+     },
+     "notes": "For when the Titans are out of melee reach; their ranged defence is very high in parts of each phase."
+    },
+    {
+     "label": "Magic (elementals/barriers)",
+     "style": "MAGIC",
+     "weapons": [
+      "Twinflame staff",
+      "Purging staff",
+      "Blue Moon spear",
+      "Ancient sceptre",
+      "Master wand",
+      "Ancient staff",
+      "Mystic steam staff"
+     ],
+     "notes": "Fire spells on Eldric's side, Water spells on Branda's. Needs 70+ magic attack bonus (39+ with void) to avoid splashing on minions, and 75 Magic to one-shot elementals with Fire/Water Wave. Twinflame staff auto-swaps fire/water."
+    }
+   ]
+  },
+  {
+   "name": "Branda the Fire Queen",
+   "category": "Varlamore",
+   "aliases": [
+    "royal titans",
+    "titans"
+   ],
+   "attributes": [
+    "fiery"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 12,
+    "slash": 12,
+    "crush": 0,
+    "magic": 700,
+    "rangedLight": 700,
+    "rangedStandard": 700,
+    "rangedHeavy": 700
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Dual macuahuitl",
+      "Abyssal tentacle"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm",
+       "Torva full helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk",
+       "Torva platebody",
+       "Oathplate chest",
+       "Blood Moon chestplate"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt",
+       "Torva platelegs",
+       "Oathplate legs",
+       "Blood Moon tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Antler guard"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Titans are primarily meleed (wiki prioritises melee strength); Slayer helmet (i) works on ice/fire giant tasks. A halberd lets you keep hitting from the Elemental Blast safespot."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Eclipse atlatl",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Hunters' sunlight crossbow",
+      "Karil's crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Eclipse Moon helm"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Eclipse Moon chestplate",
+       "Hueycoatl hide body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Eclipse Moon tassets",
+       "Hueycoatl hide chaps"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Antler guard"
+      ],
+      "ammo": [
+       "Rada's blessing 4",
+       "Ruby dragon bolts (e)",
+       "Atlatl dart"
+      ]
+     },
+     "notes": "For when the Titans are out of melee reach; their ranged defence is very high in parts of each phase."
+    },
+    {
+     "label": "Magic (elementals/barriers)",
+     "style": "MAGIC",
+     "weapons": [
+      "Twinflame staff",
+      "Purging staff",
+      "Blue Moon spear",
+      "Ancient sceptre",
+      "Master wand",
+      "Ancient staff",
+      "Mystic steam staff"
+     ],
+     "notes": "Fire spells on Eldric's side, Water spells on Branda's. Needs 70+ magic attack bonus (39+ with void) to avoid splashing on minions, and 75 Magic to one-shot elementals with Fire/Water Wave. Twinflame staff auto-swaps fire/water."
+    }
+   ]
+  },
+  {
+   "name": "Yama",
+   "category": "Varlamore",
+   "attributes": [
+    "demon"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 100,
+    "slash": 80,
+    "crush": 333,
+    "magic": -30,
+    "rangedLight": 333,
+    "rangedStandard": 220,
+    "rangedHeavy": 333
+   },
+   "setups": [
+    {
+     "label": "Melee (slash)",
+     "style": "SLASH",
+     "weapons": [
+      "Emberlight",
+      "Arclight",
+      "Scythe of Vitur"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Neitiznot faceguard"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Bandos chestplate"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Primordial boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Bellator ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Requires A Kingdom Divided; solo or duo. Weak to slash, with 120% demonbane vulnerability (Emberlight +84%). Duos: Elder maul/Dragon warhammer + Soulflame horn. Solo melee still needs a Purging staff (+Occult/Tormented) for void flares."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Purging staff",
+      "Eye of Ayak",
+      "Accursed sceptre"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued saradomin cape",
+       "Imbued zamorak cape",
+       "Imbued guthix cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Eternal boots"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Only recommended with Tumeken's shadow and/or a Purging staff (flares). Magic defence rises to +60 while the target uses magic. Noxious halberd or Twisted bow as a Judge of Yama switch."
+    }
+   ]
+  },
+  {
+   "name": "Doom of Mokhaiotl",
+   "category": "Varlamore",
+   "aliases": [
+    "doom",
+    "delve"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "defence": {
+    "stab": 300,
+    "slash": 300,
+    "crush": 60,
+    "magic": 160,
+    "rangedLight": 160,
+    "rangedStandard": 160,
+    "rangedHeavy": 160
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Scorching bow",
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Zaryte crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Requires The Final Dawn. Ranged recommended (Magic level 275 favours the Twisted bow); elite void matches Masori with a Scorching bow and is much cheaper to reclaim. Zaryte crossbow spec is key; defence drain is capped at 60 and resets each delve; Lightbearer strongly advised."
+    },
+    {
+     "label": "Melee punish",
+     "style": "SLASH",
+     "weapons": [
+      "Crystal halberd",
+      "Noxious halberd",
+      "Dual macuahuitl",
+      "Darklight",
+      "Dragon claws",
+      "Crimson kisten"
+     ],
+     "notes": "Doom is technically weakest to crush but melee as a main style is inadvisable. Bring a multi-hit/halberd switch for the melee-punish window (Crystal halberd spec is the budget pick)."
+    },
+    {
+     "label": "Larvae (demonbane melee)",
+     "style": "SLASH",
+     "weapons": [
+      "Darklight",
+      "Arclight",
+      "Emberlight",
+      "Burning claws",
+      "Sulphur blades",
+      "Glacial temotli",
+      "Earthbound tecpatl",
+      "Dual macuahuitl"
+     ],
+     "notes": "You need a one-way swap per style for demonic larvae; Darklight is the cheapest demonbane melee option."
+    },
+    {
+     "label": "Larvae (magic)",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Slayer's staff",
+      "Trident of the Seas"
+     ],
+     "notes": "Autocast Superior Demonbane (Arceuus) with a Slayer's staff or Skull sceptre. Thralls not recommended (they spread acid); Death Charge is strong."
+    }
+   ]
+  },
+  {
+   "name": "Scurrius",
+   "category": "Classic bosses",
+   "attributes": [
+    "rat"
+   ],
+   "defence": {
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 10,
+    "rangedLight": 20,
+    "rangedStandard": 20,
+    "rangedHeavy": 20
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Bone mace",
+      "Blade of Saeldor",
+      "Dual macuahuitl",
+      "Abyssal tentacle",
+      "Abyssal whip"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Neitiznot faceguard"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Bandos chestplate",
+       "Blood Moon chestplate"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Bandos tassets",
+       "Blood Moon tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Primordial boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Bellator ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Low-level world boss in the Varrock Sewers (combat 200 solo / 250 group). Ratbane weapons (Bone mace/shortbow/staff) are strong at mid level; mid-level alternatives: Zombie axe, Sarachnis cudgel, Dragon scimitar."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Bone shortbow",
+      "Twisted bow",
+      "Hunters' sunlight crossbow",
+      "Rosewood blowpipe",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Diamond ascension bolts (e)",
+       "Seeking amethyst arrow",
+       "Amethyst arrow"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Antler guard"
+      ]
+     },
+     "notes": "Mid-level option: Void ranger with a Bone shortbow."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Bone staff",
+      "Eye of Ayak",
+      "Trident of the Swamp",
+      "Harmonised Nightmare staff",
+      "Trident of the Seas",
+      "Warped sceptre",
+      "Iban's staff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask",
+       "Bloodbark helm"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued saradomin cape",
+       "Imbued zamorak cape",
+       "Imbued guthix cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top",
+       "Bloodbark body"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom",
+       "Bloodbark legs"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Eternal boots"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Mid-level: Bloodbark/Elder chaos robes with a Bone staff."
+    }
+   ]
+  },
+  {
+   "name": "Brutus",
+   "category": "Quest & other",
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 25,
+   "defence": {
+    "stab": -7,
+    "slash": -7,
+    "crush": -7,
+    "magic": -3,
+    "rangedLight": -7,
+    "rangedStandard": -7,
+    "rangedHeavy": -7
+   },
+   "setups": [
+    {
+     "label": "Melee (free-to-play)",
+     "style": "SLASH",
+     "weapons": [
+      "Rune scimitar",
+      "Barronite mace",
+      "Adamant scimitar",
+      "Mithril scimitar",
+      "Steel scimitar"
+     ],
+     "preferred": {
+      "head": [
+       "Rune full helm"
+      ],
+      "amulet": [
+       "Amulet of strength",
+       "Amulet of power"
+      ],
+      "body": [
+       "Rune chainbody"
+      ],
+      "legs": [
+       "Rune plateskirt"
+      ],
+      "shield": [
+       "Mooleta",
+       "Rune kiteshield"
+      ],
+      "gloves": [
+       "Gilded d'hide vambraces",
+       "Leather gloves"
+      ]
+     },
+     "notes": "F2P boss after The Ides of Milk (Lumbridge cow field). Crush-defence armour (chainbody) helps; the cowbell amulet speeds up respawns."
+    },
+    {
+     "label": "Magic (free-to-play)",
+     "style": "MAGIC",
+     "weapons": [
+      "Staff of earth",
+      "Staff of air"
+     ],
+     "preferred": {
+      "head": [
+       "Blue wizard hat"
+      ],
+      "amulet": [
+       "Amulet of magic"
+      ],
+      "body": [
+       "Blue wizard robe"
+      ],
+      "legs": [
+       "Zamorak monk bottom"
+      ]
+     },
+     "notes": "Often outperforms melee at low levels; earth spells hit its 25% earth weakness."
+    },
+    {
+     "label": "Ranged (free-to-play)",
+     "style": "RANGED",
+     "weapons": [
+      "Maple shortbow",
+      "Willow shortbow",
+      "Oak shortbow"
+     ],
+     "preferred": {
+      "ammo": [
+       "Adamant arrow",
+       "Mithril arrow"
+      ]
+     },
+     "notes": "Green d'hide setup."
+    },
+    {
+     "label": "Melee (members)",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Dharok's greataxe",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Blade of Saeldor",
+      "Ghrazi rapier",
+      "Noxious halberd",
+      "Abyssal tentacle"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Neitiznot faceguard"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Bandos chestplate"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Primordial boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Members high-level setup from the wiki."
+    }
+   ]
+  },
+  {
+   "name": "Demonic Brutus",
+   "category": "Quest & other",
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 25,
+   "defence": {
+    "stab": 182,
+    "slash": 65,
+    "crush": 216,
+    "magic": 520,
+    "rangedLight": 460,
+    "rangedStandard": 418,
+    "rangedHeavy": 110
+   },
+   "setups": [
+    {
+     "label": "Melee (slash)",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Noxious halberd",
+      "Blade of Saeldor",
+      "Abyssal tentacle",
+      "Zombie axe"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Neitiznot faceguard"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Bandos chestplate"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Primordial boots"
+      ],
+      "ring": [
+       "Bellator ring",
+       "Ultor ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Requires Desert Treasure II; feed Brutus an abyssal potato from the Scar. Specials always hit if not dodged, so Elite void + Void melee helm is a fine cheaper setup."
+    }
+   ]
+  },
+  {
+   "name": "Shellbane gryphon",
+   "category": "Slayer bosses",
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 10,
+    "slash": 20,
+    "crush": 40,
+    "magic": 100,
+    "rangedLight": 60,
+    "rangedStandard": 60,
+    "rangedHeavy": 60
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Ghrazi rapier",
+      "Noxious halberd",
+      "Osmumten's fang",
+      "Blade of Saeldor",
+      "Abyssal tentacle",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture"
+      ],
+      "cape": [
+       "Tortugan shield",
+       "Infernal cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Bandos chestplate"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragonfire shield",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Bracelet of slaughter",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Primordial boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Requires Troubled Tortugans and a gryphon Slayer task (or an elite clue). Knockback affects players under 40 kg worn weight, so wear heavy armour + Tortugan shield / Dragonfire shield."
+    }
+   ]
+  },
+  {
+   "name": "Archive Guardian",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "attributes": [
+    "flying"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 80,
+   "defence": {
+    "stab": 120,
+    "slash": 90,
+    "crush": 20,
+    "magic": 50,
+    "rangedLight": 50,
+    "rangedStandard": 115,
+    "rangedHeavy": 50
+   },
+   "setups": [
+    {
+     "label": "Ranged (flying)",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Twisted bow",
+      "Zaryte crossbow",
+      "Toxic blowpipe",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "While levitating only halberds can reach it with melee; weakest to crush and heavy ranged. Immune to Ancient Magicks; 80% fire weakness. Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    },
+    {
+     "label": "Melee (grounded)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Abyssal bludgeon",
+      "Ursine chainmace",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Crush it when grounded. Defence 260 drains to 156 (4 Tonalztics specs)."
+    }
+   ]
+  },
+  {
+   "name": "Ezekiel",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 25,
+   "defence": {
+    "stab": 150,
+    "slash": 90,
+    "crush": 35,
+    "magic": 200,
+    "rangedLight": 445,
+    "rangedStandard": 370,
+    "rangedHeavy": 320
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Abyssal bludgeon",
+      "Zombie axe",
+      "Ursine chainmace",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Heavily defensive vs stab/ranged/magic; use slash or crush. Two DWH/Elder maul specs reach the defence cap. Enrage specs: Zaryte crossbow, Crimson kisten, Dragon claws. Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    }
+   ]
+  },
+  {
+   "name": "Bork",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 140,
+    "slash": 130,
+    "crush": 10,
+    "magic": 300,
+    "rangedLight": 80,
+    "rangedStandard": 50,
+    "rangedHeavy": 5
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Bork has 8 flat armour (rising to 14 as the Smorks take damage), so big hits beat multi-hits. Fought alongside the Smorks (def 220, drainable to 0). Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Twisted bow",
+      "Toxic blowpipe",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Very low heavy ranged defence (+5); also good on the Smorks."
+    }
+   ]
+  },
+  {
+   "name": "Moia",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 80,
+   "defence": {
+    "stab": 20,
+    "slash": 110,
+    "crush": 15,
+    "magic": 30,
+    "rangedLight": 60,
+    "rangedStandard": 120,
+    "rangedHeavy": 140
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Toxic blowpipe",
+      "Ascension crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Most vulnerable to light ranged early; 80% air weakness. Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    },
+    {
+     "label": "Melee (enrage)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Weak to stab and crush, but melee is only usable in the enrage phase."
+    }
+   ]
+  },
+  {
+   "name": "Dreadnoth the Jellied",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 85,
+   "defence": {
+    "stab": 15,
+    "slash": 20,
+    "crush": 5,
+    "magic": 20,
+    "rangedLight": 100,
+    "rangedStandard": 80,
+    "rangedHeavy": 80
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Twisted bow",
+      "Zaryte crossbow",
+      "Scorching bow",
+      "Armadyl crossbow",
+      "Dragon crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Moves slowly but hits up to 30 through Protect from Melee if it reaches you: bind it with Scorching bow specs or freeze it with ice spells (40% freeze resistance). Only 25% demonbane vulnerability. Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    },
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Defence drains to 0 in the enrage phase."
+    }
+   ]
+  },
+  {
+   "name": "Dagon'hai Elder",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "defence": {
+    "stab": 50,
+    "slash": 50,
+    "crush": 50,
+    "magic": 100,
+    "rangedLight": 80,
+    "rangedStandard": 80,
+    "rangedHeavy": 80
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Venator bow",
+      "Twisted bow",
+      "Ascension crossbow",
+      "Toxic blowpipe"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "The Elder plus two monks share a static shield; destabilise the ritual cauldron. Defence 100 drains to 0 with three Tonalztics specs (per target). Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    }
+   ]
+  },
+  {
+   "name": "Xarth",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 85,
+   "defence": {
+    "stab": 60,
+    "slash": 105,
+    "crush": 20,
+    "magic": 205,
+    "rangedLight": 125,
+    "rangedStandard": 230,
+    "rangedHeavy": 155
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Emberlight"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Weakest to crush and light ranged; only 80% demonbane vulnerability. Burn stacks raise damage taken; his phase 1 magic hits through prayer. Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Zaryte crossbow",
+      "Scorching bow",
+      "Armadyl crossbow",
+      "Dragon crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "85% water weakness for magic users."
+    }
+   ]
+  },
+  {
+   "name": "Ocellus",
+   "category": "Fractured Archive",
+   "aliases": [
+    "fractured archive"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "defence": {
+    "stab": 150,
+    "slash": 100,
+    "crush": 30,
+    "magic": 200,
+    "rangedLight": 250,
+    "rangedStandard": 250,
+    "rangedHeavy": 250
+   },
+   "setups": [
+    {
+     "label": "Melee (phase 3/4)",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Emberlight",
+      "Abyssal bludgeon",
+      "Ursine chainmace",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Final raid boss, 4 phases; extremely weak to crush in the close-quarters final phases. Stat drains reset each phase; do Elder maul specs at the Bandosian Censer first. Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
+    },
+    {
+     "label": "Ranged (phase 1/2, untethered)",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Zaryte crossbow",
+      "Scorching bow",
+      "Armadyl crossbow",
+      "Dragon crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Phase 1 is weakest to light/heavy ranged (+50); phase 2 is fought with ranged."
+    }
+   ]
+  },
+  {
+   "name": "General Graardor",
+   "category": "God Wars Dungeon",
+   "aliases": [
+    "bandos",
+    "graardor"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 90,
+    "slash": 90,
+    "crush": 90,
+    "magic": 298,
+    "rangedLight": 90,
+    "rangedStandard": 90,
+    "rangedHeavy": 90
+   },
+   "setups": [
+    {
+     "label": "Melee (solo)",
+     "style": "STAB",
+     "weapons": [
+      "Osmumten's fang",
+      "Inquisitor's mace",
+      "Ghrazi rapier",
+      "Blade of Saeldor",
+      "Abyssal tentacle",
+      "Zamorakian hasta",
+      "Abyssal whip",
+      "Zombie axe"
+     ],
+     "preferred": {
+      "shield": [
+       "Rondache",
+       "Elysian spirit shield",
+       "Dragonfire shield",
+       "Avernic defender",
+       "Spectral spirit shield"
+      ],
+      "ammo": [
+       "Unholy blessing",
+       "Rada's blessing 4",
+       "War blessing"
+      ]
+     },
+     "notes": "Needs 70 Strength (cannot be boosted) for Bandos' Stronghold. Wear a ranged-defence body (Masori body (f) or Karil's) unless using Justiciar/Torva; the wiki's special-attack weapons are Voidwaker, Saradomin godsword, Dragon claws and Elder maul."
+    },
+    {
+     "label": "Ranged (solo)",
+     "style": "RANGED",
+     "weapons": [
+      "Bow of Faerdhinen",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow",
+      "Toxic blowpipe"
+     ],
+     "preferred": {
+      "head": [
+       "Crystal helm"
+      ],
+      "body": [
+       "Crystal body"
+      ],
+      "legs": [
+       "Crystal legs"
+      ],
+      "ammo": [
+       "Diamond dragon bolts (e)",
+       "Diamond bolts (e)"
+      ]
+     },
+     "notes": "The wiki calls ranged the most straightforward solo style: you can kite and avoid all of Graardor's damage. Wear crystal armour only with the Bow of Faerdhinen."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Harmonised Nightmare staff",
+      "Twinflame staff"
+     ],
+     "preferred": {
+      "shield": [
+       "Tome of Earth"
+      ],
+      "cape": [
+       "Imbued Zamorak cape"
+      ]
+     },
+     "notes": "Freeze with Ice Barrage (an Ice ancient sceptre is ideal) and attack from range. Tome of Earth only helps with earth spells (40% earth weakness)."
+    }
+   ]
+  },
+  {
+   "name": "Commander Zilyana",
+   "category": "God Wars Dungeon",
+   "aliases": [
+    "sara",
+    "saradomin",
+    "zily"
+   ],
+   "defence": {
+    "stab": 100,
+    "slash": 100,
+    "crush": 100,
+    "magic": 100,
+    "rangedLight": 100,
+    "rangedStandard": 100,
+    "rangedHeavy": 75
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Bow of Faerdhinen",
+      "Zaryte crossbow",
+      "Hunters' sunlight crossbow",
+      "Armadyl crossbow",
+      "Dragon hunter crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "ammo": [
+       "Seeking dragon arrow",
+       "Diamond ascension bolts (e)",
+       "Diamond dragon bolts (e)",
+       "Moonlight antler bolts",
+       "Holy blessing"
+      ],
+      "body": [
+       "Saradomin d'hide body"
+      ],
+      "legs": [
+       "Saradomin chaps"
+      ]
+     },
+     "notes": "Needs 70 Agility (cannot be boosted) and ropes. Kite her around the room with Protect from Magic on; a Toxic blowpipe or Serpentine helm switch helps envenom the bodyguards."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Accursed sceptre",
+      "Eldritch Nightmare staff"
+     ],
+     "preferred": {
+      "cape": [
+       "Imbued Saradomin cape"
+      ],
+      "ammo": [
+       "Unholy blessing"
+      ]
+     },
+     "notes": "Use Protect from Missiles, with Blood Barrage on the bodyguards and the Eldritch Nightmare staff special for sustain. The wiki says this needs near-max magic gear; otherwise use ranged."
+    }
+   ]
+  },
+  {
+   "name": "Kree'arra",
+   "category": "God Wars Dungeon",
+   "aliases": [
+    "arma",
+    "armadyl",
+    "kree"
+   ],
+   "attributes": [
+    "flying"
+   ],
+   "immuneTo": [
+    "melee"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 30,
+   "defence": {
+    "stab": 180,
+    "slash": 180,
+    "crush": 180,
+    "magic": 200,
+    "rangedLight": 200,
+    "rangedStandard": 200,
+    "rangedHeavy": 200
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Zaryte crossbow",
+      "Bow of Faerdhinen",
+      "Armadyl crossbow",
+      "Dragon hunter crossbow",
+      "Dragon crossbow",
+      "Black chinchompa"
+     ],
+     "preferred": {
+      "shield": [
+       "Elysian spirit shield",
+       "Dragonfire ward",
+       "Twisted buckler"
+      ],
+      "ammo": [
+       "Diamond ascension bolts (e)",
+       "Diamond dragon bolts (e)",
+       "Seeking dragon arrow"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Armadyl bracers"
+      ],
+      "boots": [
+       "Armadyl d'hide boots"
+      ]
+     },
+     "notes": "Needs 70 Ranged to enter the Eyrie (grapple), plus 40 Armadyl killcount or an Ecumenical key. Attack off-tick so he doesn't melee; Black or Red chinchompas work for clearing the room."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eldritch Nightmare staff",
+      "Zorya's tome"
+     ],
+     "preferred": {
+      "cape": [
+       "Imbued Zamorak cape"
+      ],
+      "ammo": [
+       "Rada's blessing 4",
+       "Honourable blessing"
+      ]
+     },
+     "notes": "The wiki's magic setup uses Tumeken's shadow in max magic gear. Air spells get the 30% weakness."
+    }
+   ]
+  },
+  {
+   "name": "K'ril Tsutsaroth",
+   "category": "God Wars Dungeon",
+   "aliases": [
+    "zammy",
+    "zamorak",
+    "kril"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 30,
+   "defence": {
+    "stab": 70,
+    "slash": 80,
+    "crush": 80,
+    "magic": 80,
+    "rangedLight": 80,
+    "rangedStandard": 80,
+    "rangedHeavy": 80
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Emberlight",
+      "Arclight",
+      "Osmumten's fang",
+      "Zamorakian hasta",
+      "Ghrazi rapier",
+      "Scythe of Vitur",
+      "Abyssal tentacle"
+     ],
+     "preferred": {
+      "shield": [
+       "Avernic defender",
+       "Spectral spirit shield",
+       "Elysian spirit shield"
+      ],
+      "ammo": [
+       "Unholy blessing",
+       "Rada's blessing 4"
+      ],
+      "ring": [
+       "Bellator ring",
+       "Ultor ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "Needs 70 Hitpoints to enter. Wear armour with high magic defence (Masori or d'hide); his prayer smash hits through prayer and a Spectral spirit shield reduces it. Demonbane weapons (Emberlight, Arclight) are best."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Scorching bow",
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Toxic blowpipe"
+     ],
+     "preferred": {
+      "ammo": [
+       "Seeking dragon arrow",
+       "Seeking amethyst arrow",
+       "Dragon arrow"
+      ],
+      "gloves": [
+       "Zamorak bracers"
+      ]
+     },
+     "notes": "The Scorching bow is demonbane and ranked first on the wiki."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Purging staff",
+      "Eldritch Nightmare staff"
+     ],
+     "preferred": {
+      "cape": [
+       "Imbued Zamorak cape"
+      ]
+     },
+     "notes": "Water spells get the 30% weakness."
+    }
+   ]
+  },
+  {
+   "name": "Nex",
+   "category": "God Wars Dungeon",
+   "aliases": [
+    "zaros"
+   ],
+   "defence": {
+    "stab": 40,
+    "slash": 140,
+    "crush": 35,
+    "magic": 300,
+    "rangedLight": 190,
+    "rangedStandard": 190,
+    "rangedHeavy": 150
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Zaryte crossbow",
+      "Ascension crossbow",
+      "Twisted bow",
+      "Armadyl crossbow",
+      "Toxic blowpipe",
+      "Dragon hunter crossbow",
+      "Dragon crossbow"
+     ],
+     "preferred": {
+      "cape": [
+       "Blessed Dizana's quiver"
+      ],
+      "ammo": [
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)",
+       "Seeking dragon arrow",
+       "Ruby bolts (e)"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ]
+     },
+     "notes": "Needs The Frozen Door miniquest. Team boss; the wiki strongly advises against soloing. Ruby-bolt specs with the Zaryte crossbow are standard, and five Zarosian items (Ancient d'hide) give extra essence for killcount."
+    },
+    {
+     "label": "Melee hybrid",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Inquisitor's mace",
+      "Osmumten's fang",
+      "Crimson kisten",
+      "Voidwaker",
+      "Burning claws"
+     ],
+     "preferred": {
+      "shield": [
+       "Avernic defender",
+       "Rondache"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Ultor ring"
+      ]
+     },
+     "notes": "Melee damage with ranged switches for the Shadow and Zaros phases. The wiki ranks Osmumten's fang next to Inquisitor's mace only when wearing at least two Inquisitor pieces."
+    }
+   ]
+  },
+  {
+   "name": "Callisto",
+   "category": "Wilderness",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 30,
+   "defence": {
+    "stab": 150,
+    "slash": 130,
+    "crush": 125,
+    "magic": 0,
+    "rangedLight": 50,
+    "rangedStandard": 50,
+    "rangedHeavy": 50
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Webweaver bow",
+      "Craw's bow",
+      "Bow of Faerdhinen",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "ammo": [
+       "Rada's blessing 4",
+       "Ruby dragon bolts (e)",
+       "Ruby bolts (e)",
+       "Amethyst arrow"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Level 39 multi-combat Wilderness; needs the Wilderness Medium Diary. You risk your items, so bring only 3-4 valuable items or wilderness weapons; freeze him (Ice Barrage or Entangle) and keep him away from you, because his melee hits through prayer."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Accursed sceptre",
+      "Thammaron's sceptre",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Warped sceptre"
+     ],
+     "preferred": {
+      "ammo": [
+       "Rada's blessing 4"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ]
+     },
+     "notes": "No longer immune to magic, but he has a high Magic level. Use Accursed sceptre specials for a bind and defence drain."
+    }
+   ]
+  },
+  {
+   "name": "Artio",
+   "category": "Wilderness",
+   "defence": {
+    "stab": 125,
+    "slash": 110,
+    "crush": 110,
+    "magic": 0,
+    "rangedLight": 40,
+    "rangedStandard": 40,
+    "rangedHeavy": 40
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Webweaver bow",
+      "Craw's bow",
+      "Bow of Faerdhinen",
+      "Eclipse atlatl",
+      "Dragon crossbow",
+      "Hunters' sunlight crossbow",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "ammo": [
+       "Rada's blessing 4",
+       "Atlatl dart",
+       "Ruby dragon bolts (e)",
+       "Moonlight antler bolts"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Singles-plus mid-level Wilderness; needs the Wilderness Hard Diary. You risk your items, so use wilderness weapons or a 3-4 item setup; freeze her with ice spells."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Accursed sceptre",
+      "Thammaron's sceptre",
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Warped sceptre"
+     ],
+     "preferred": {
+      "ring": [
+       "Ring of shadows"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Ice spells almost always hit her and bind her. At 66% and 33% health she breaks free and lays bear traps."
+    }
+   ]
+  },
+  {
+   "name": "Vet'ion",
+   "category": "Wilderness",
+   "aliases": [
+    "vetion"
+   ],
+   "attributes": [
+    "undead"
+   ],
+   "defence": {
+    "stab": 201,
+    "slash": 200,
+    "crush": -10,
+    "magic": 250,
+    "rangedLight": 270,
+    "rangedStandard": 270,
+    "rangedHeavy": 270
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Ursine chainmace",
+      "Viggora's chainmace",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Abyssal bludgeon",
+      "Zamorakian hasta",
+      "Zombie axe",
+      "Elder maul"
+     ],
+     "preferred": {
+      "amulet": [
+       "Salve amulet (e)",
+       "Salve amulet"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Dragonfire shield"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of shadows"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Multi-combat deep Wilderness; needs the Wilderness Medium Diary. You risk your items, so use chainmace or 3-item setups and protect untradeables with a Trouver parchment. At 50% health, kill the hellhounds, which make him immune while alive."
+    }
+   ]
+  },
+  {
+   "name": "Calvar'ion",
+   "category": "Wilderness",
+   "aliases": [
+    "calvarion"
+   ],
+   "attributes": [
+    "undead"
+   ],
+   "defence": {
+    "stab": 130,
+    "slash": 128,
+    "crush": -10,
+    "magic": 198,
+    "rangedLight": 211,
+    "rangedStandard": 211,
+    "rangedHeavy": 211
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Ursine chainmace",
+      "Viggora's chainmace",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Abyssal bludgeon",
+      "Zombie axe",
+      "Zamorakian hasta",
+      "Elder maul"
+     ],
+     "preferred": {
+      "amulet": [
+       "Salve amulet (e)",
+       "Salve amulet"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache",
+       "Dragon defender"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of shadows"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Level 21 singles-plus Wilderness; needs the Wilderness Hard Diary. You risk your items, so protect untradeables with a Trouver parchment. All his attacks are area attacks you can dodge; kill the hellhounds at 50%."
+    }
+   ]
+  },
+  {
+   "name": "Venenatis",
+   "category": "Wilderness",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 100,
+    "slash": 100,
+    "crush": 10,
+    "magic": 300,
+    "rangedLight": 150,
+    "rangedStandard": 150,
+    "rangedHeavy": 150
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Ursine chainmace",
+      "Viggora's chainmace",
+      "Inquisitor's mace",
+      "Elder maul",
+      "Soulreaper axe",
+      "Abyssal bludgeon",
+      "Zombie axe",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Dragonfire shield"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of shadows"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Multi-combat deep Wilderness; needs the Wilderness Medium Diary. You risk your items, so use wilderness weapons or 3-4 items. In melee distance she only melees; avoid the webs, which drain run energy."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Webweaver bow",
+      "Craw's bow",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "ammo": [
+       "Rada's blessing 4",
+       "Diamond dragon bolts (e)",
+       "Diamond bolts (e)"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Switch overheads with her cycle of 8 ranged then 8 magic attacks. Ranged lets you stay near the exit."
+    }
+   ]
+  },
+  {
+   "name": "Spindel",
+   "category": "Wilderness",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 25,
+   "defence": {
+    "stab": 70,
+    "slash": 70,
+    "crush": 10,
+    "magic": 205,
+    "rangedLight": 103,
+    "rangedStandard": 103,
+    "rangedHeavy": 103
+   },
+   "setups": [
+    {
+     "label": "Melee (crush)",
+     "style": "CRUSH",
+     "weapons": [
+      "Ursine chainmace",
+      "Viggora's chainmace",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Abyssal bludgeon",
+      "Zombie axe",
+      "Zamorakian hasta",
+      "Sarachnis cudgel"
+     ],
+     "preferred": {
+      "shield": [
+       "Avernic defender",
+       "Rondache",
+       "Dragon defender"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of shadows"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ],
+      "boots": [
+       "Aranea boots"
+      ]
+     },
+     "notes": "Level 29 Wilderness; needs the Wilderness Hard Diary. You risk your items, so use wilderness weapons; avoid the webs."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Webweaver bow",
+      "Craw's bow",
+      "Bow of Faerdhinen",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "ammo": [
+       "Rada's blessing 4",
+       "Diamond dragon bolts (e)"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ],
+      "boots": [
+       "Aranea boots"
+      ]
+     },
+     "notes": "Switch overheads with her attack cycle."
+    }
+   ]
+  },
+  {
+   "name": "Chaos Elemental",
+   "category": "Wilderness",
+   "aliases": [
+    "chaos ele"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 70,
+    "slash": 70,
+    "crush": 70,
+    "magic": 70,
+    "rangedLight": 70,
+    "rangedStandard": 70,
+    "rangedHeavy": 70
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Webweaver bow",
+      "Craw's bow",
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Toxic blowpipe",
+      "Armadyl crossbow"
+     ],
+     "preferred": {
+      "ammo": [
+       "Rada's blessing 4",
+       "Dragon arrow",
+       "Amethyst arrow",
+       "Diamond bolts (e)"
+      ],
+      "ring": [
+       "Ring of suffering (i)",
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Level 50 Wilderness; you risk your items. Keep your inventory full (curry, pies or Guthix rest) to stop Madness unequipping you. A safespot exists near the Resource Area."
+    },
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Ursine chainmace",
+      "Viggora's chainmace",
+      "Osmumten's fang",
+      "Noxious halberd",
+      "Abyssal tentacle",
+      "Abyssal whip",
+      "Verac's flail"
+     ],
+     "preferred": {
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Dragonfire shield"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Flinching behind a tree is the wiki's safest solo method; attack speed doesn't matter when flinching."
+    }
+   ]
+  },
+  {
+   "name": "Chaos Fanatic",
+   "category": "Wilderness",
+   "defence": {
+    "stab": 260,
+    "slash": 260,
+    "crush": 250,
+    "magic": 280,
+    "rangedLight": 80,
+    "rangedStandard": 50,
+    "rangedHeavy": 80
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Webweaver bow",
+      "Craw's bow",
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Scorching bow",
+      "Magic shortbow (i)",
+      "Crystal bow"
+     ],
+     "preferred": {
+      "ammo": [
+       "Rada's blessing 4",
+       "Dragon arrow",
+       "Amethyst arrow",
+       "Rune arrow"
+      ],
+      "ring": [
+       "Ring of shadows",
+       "Explorer's ring 4"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ]
+     },
+     "notes": "Wilderness PK hotspot; you risk your items. Use inventory-blocking food (summer pies, curry, Armadyl brews) because he can unequip your gear."
+    }
+   ]
+  },
+  {
+   "name": "Crazy archaeologist",
+   "category": "Wilderness",
+   "aliases": [
+    "crazy arch"
+   ],
+   "defence": {
+    "stab": 5,
+    "slash": 5,
+    "crush": 30,
+    "magic": 250,
+    "rangedLight": 250,
+    "rangedStandard": 250,
+    "rangedHeavy": 250
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Accursed sceptre",
+      "Thammaron's sceptre",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Warped sceptre",
+      "Iban's staff (u)"
+     ],
+     "preferred": {
+      "shield": [
+       "Elidinis' ward (f)",
+       "Elidinis' ward",
+       "Mage's book",
+       "Malediction ward"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Level 22-25 Wilderness; you risk your items, so take 3-4 valuables at most. Step out of the 'Rain of knowledge!' book area; his low Magic level makes magic accuracy matter little, so prayer gear (monk robes) is fine."
+    }
+   ]
+  },
+  {
+   "name": "Scorpia",
+   "category": "Wilderness",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 35,
+   "defence": {
+    "stab": 246,
+    "slash": 284,
+    "crush": 284,
+    "magic": 44,
+    "rangedLight": 284,
+    "rangedStandard": 284,
+    "rangedHeavy": 284
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Accursed sceptre",
+      "Thammaron's sceptre",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Warped sceptre"
+     ],
+     "preferred": {
+      "shield": [
+       "Elidinis' ward (f)",
+       "Elidinis' ward",
+       "Malediction ward"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Level 50+ multi-combat Wilderness; you risk your items, so take 3-4 valuables. Freeze her with Ice Barrage or Entangle; kill or lure away the healing guardians below 99 HP; bring antipoison."
+    }
+   ]
+  },
+  {
+   "name": "King Black Dragon",
+   "category": "Wilderness",
+   "aliases": [
+    "kbd"
+   ],
+   "attributes": [
+    "dragon",
+    "fiery"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 40,
+    "slash": 90,
+    "crush": 90,
+    "magic": 80,
+    "rangedLight": 70,
+    "rangedStandard": 70,
+    "rangedHeavy": 40
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Dragon hunter lance",
+      "Osmumten's fang",
+      "Ghrazi rapier",
+      "Noxious halberd",
+      "Zamorakian hasta",
+      "Abyssal dagger (p++)"
+     ],
+     "preferred": {
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Dragonfire shield",
+       "Antler guard",
+       "Anti-dragon shield"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Treasonous ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "The lair isn't in the Wilderness, but reaching it crosses level 42 Wilderness, so you risk your items. Use an anti-dragon shield or Dragonfire shield, or a defender only with an Extended super antifire plus Protect from Magic. The wiki's special-attack weapons are Voidwaker, Burning claws and Arkan blade."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Dragon hunter crossbow",
+      "Bow of Faerdhinen",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Hunters' sunlight crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "shield": [
+       "Dragonfire ward",
+       "Anti-dragon shield"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Diamond dragon bolts (e)",
+       "Diamond bolts (e)",
+       "Moonlight antler bolts"
+      ],
+      "ring": [
+       "Venator ring",
+       "Explorer's ring 4",
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Use Dragonfire protection: a Dragonfire ward or Anti-dragon shield, or an Extended super antifire if the weapon is two-handed."
+    }
+   ]
+  },
+  {
+   "name": "Revenant maledictus",
+   "category": "Wilderness",
+   "aliases": [
+    "rev",
+    "revenant"
+   ],
+   "attributes": [
+    "undead",
+    "spectral"
+   ],
+   "defence": {
+    "stab": 201,
+    "slash": 206,
+    "crush": 188,
+    "magic": 101,
+    "rangedLight": 231,
+    "rangedStandard": 231,
+    "rangedHeavy": 231
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Webweaver bow",
+      "Craw's bow",
+      "Bow of Faerdhinen",
+      "Toxic blowpipe",
+      "Hunters' sunlight crossbow",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of avarice",
+       "Salve amulet(ei)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Random demi-boss in the Revenant Caves (Wilderness), functionally multi-combat. You risk your items, and Protect from Missiles leaves you open to a teleblock. Dodge its ice and blood spells by moving; the top damager wearing an Amulet of avarice gets Forinthry Surge."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Accursed sceptre",
+      "Thammaron's sceptre",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Warped sceptre"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of avarice",
+       "Salve amulet(ei)"
+      ],
+      "ring": [
+       "Ring of shadows"
+      ]
+     },
+     "notes": "Its lowest defence is magic (101). Setups are taken from the Revenants/Strategies page."
+    }
+   ]
+  },
+  {
+   "name": "Abyssal Sire",
+   "category": "Slayer bosses",
+   "aliases": [
+    "sire"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "defence": {
+    "stab": 40,
+    "slash": 60,
+    "crush": 50,
+    "magic": 20,
+    "rangedLight": 60,
+    "rangedStandard": 60,
+    "rangedHeavy": 60
+   },
+   "slayerLevel": 85,
+   "slayerOnly": true,
+   "setups": [
+    {
+     "label": "Melee (Phase 2/3)",
+     "style": "STAB",
+     "weapons": [
+      "Scythe of Vitur",
+      "Emberlight",
+      "Osmumten's fang",
+      "Ghrazi rapier",
+      "Arclight",
+      "Inquisitor's mace",
+      "Blade of Saeldor",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs"
+      ],
+      "shield": [
+       "Avernic defender"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Phase 1 needs a Shadow spell (Ancient Magicks, e.g. Shadow Barrage) to disorient the Sire; Emberlight on stab (slash with Oathplate). Demonbane weapons are strong."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Blood ancient sceptre",
+      "Ancient sceptre"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom"
+      ],
+      "shield": [
+       "Elidinis' ward (f)"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Bring an ancient sceptre/Ancient Magicks for the Shadow spell disorient in phase 1."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Scorching bow",
+      "Twisted bow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Webweaver bow",
+      "Craw's bow",
+      "Crystal bow"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "ring": [
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Amethyst arrow"
+      ]
+     },
+     "notes": "Scorching bow is demonbane; still needs a Shadow spell to disorient in phase 1."
+    }
+   ]
+  },
+  {
+   "name": "Alchemical Hydra",
+   "category": "Slayer bosses",
+   "aliases": [
+    "hydra",
+    "alchy"
+   ],
+   "attributes": [
+    "dragon"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 75,
+    "slash": 150,
+    "crush": 150,
+    "magic": 150,
+    "rangedLight": 45,
+    "rangedStandard": 45,
+    "rangedHeavy": 45
+   },
+   "slayerLevel": 95,
+   "slayerOnly": true,
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Dragon hunter crossbow",
+      "Bow of Faerdhinen",
+      "Eclipse atlatl"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture",
+       "Bonecrusher necklace",
+       "Dragonbone necklace"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "ring": [
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Diamond ascension bolts (e)",
+       "Ruby dragon bolts (e)"
+      ],
+      "boots": [
+       "Boots of stone",
+       "Boots of brimstone",
+       "Granite boots"
+      ]
+     },
+     "notes": "Only on hydra task (Konar/Mortimer). Boots of stone/brimstone/granite boots needed in Karuulm unless elite Kourend & Kebos Diary is done. Lure into vents to remove damage-reduction buff."
+    },
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Scythe of Vitur",
+      "Dragon hunter lance",
+      "Osmumten's fang",
+      "Ghrazi rapier",
+      "Blade of Saeldor",
+      "Inquisitor's mace",
+      "Abyssal dagger",
+      "Noxious halberd"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs"
+      ],
+      "shield": [
+       "Avernic defender"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Low stab defence (75); Dragon hunter lance on stab."
+    }
+   ]
+  },
+  {
+   "name": "Cerberus",
+   "category": "Slayer bosses",
+   "aliases": [
+    "cerb",
+    "hellhound"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 50,
+    "slash": 100,
+    "crush": 25,
+    "magic": 65,
+    "rangedLight": 100,
+    "rangedStandard": 100,
+    "rangedHeavy": 100
+   },
+   "slayerLevel": 91,
+   "slayerOnly": true,
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Emberlight",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Arclight",
+      "Osmumten's fang",
+      "Abyssal bludgeon"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Torva platelegs"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Rondache",
+       "Spectral spirit shield"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Low crush defence. Spectral spirit shield halves the Grey ghost prayer drain. Cannon not allowed."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Twisted bow",
+      "Scorching bow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Zaryte crossbow"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "cape": [
+       "Dizana's quiver"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "ring": [
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow"
+      ]
+     },
+     "notes": "Only on hellhound/Cerberus task."
+    }
+   ]
+  },
+  {
+   "name": "Dusk",
+   "category": "Slayer bosses",
+   "aliases": [
+    "gg",
+    "grotesque guardians",
+    "gargoyle"
+   ],
+   "attributes": [
+    "golem"
+   ],
+   "immuneTo": [
+    "magic",
+    "ranged"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 40,
+   "slayerLevel": 75,
+   "slayerOnly": true,
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Granite hammer",
+      "Soulreaper axe",
+      "Inquisitor's mace",
+      "Ghrazi rapier",
+      "Blade of Saeldor",
+      "Osmumten's fang",
+      "Abyssal whip"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Oathplate chest",
+       "Torva platebody"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs"
+      ],
+      "shield": [
+       "Rondache",
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Dusk is immune to magic and ranged. Requires gargoyle/guardian task and a one-time brittle key to unlock the roof."
+    }
+   ]
+  },
+  {
+   "name": "Dawn",
+   "category": "Slayer bosses",
+   "aliases": [
+    "gg",
+    "grotesque guardians",
+    "gargoyle"
+   ],
+   "attributes": [
+    "flying",
+    "golem"
+   ],
+   "immuneTo": [
+    "melee (except halberds)"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 70,
+   "defence": {
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 80,
+    "rangedLight": 0,
+    "rangedStandard": 0,
+    "rangedHeavy": 0
+   },
+   "slayerLevel": 75,
+   "slayerOnly": true,
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Venator bow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Eclipse atlatl",
+      "Hunters' sunlight crossbow",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "ring": [
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Dragon arrow"
+      ]
+     },
+     "notes": "Normally used as a ranged switch while in melee gear for Dusk. Dawn is flying, so only halberds can reach her in melee."
+    }
+   ]
+  },
+  {
+   "name": "Kraken",
+   "category": "Slayer bosses",
+   "immuneTo": [
+    "melee"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 130,
+    "rangedLight": 300,
+    "rangedStandard": 300,
+    "rangedHeavy": 300
+   },
+   "slayerLevel": 87,
+   "slayerOnly": true,
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Zorya's tome",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Twinflame staff",
+      "Trident of the Seas"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace",
+       "Elemental amulet"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Tome of Earth",
+       "Rondache"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Bracelet of slaughter"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Only on cave kraken/Kraken task (also needs 50 Magic). Ranged deals 1/7 damage, melee cannot reach it. Its magic attack has 100% prayer penetration. Cannon not allowed."
+    }
+   ]
+  },
+  {
+   "name": "Thermonuclear smoke devil",
+   "category": "Slayer bosses",
+   "aliases": [
+    "thermy",
+    "smoke devil"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 20,
+   "defence": {
+    "stab": 11,
+    "slash": 4,
+    "crush": 9,
+    "magic": 800,
+    "rangedLight": 900,
+    "rangedStandard": 900,
+    "rangedHeavy": 900
+   },
+   "slayerLevel": 93,
+   "slayerOnly": true,
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Osmumten's fang",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Inquisitor's mace",
+      "Abyssal tentacle",
+      "Ghrazi rapier"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "shield": [
+       "Rondache"
+      ],
+      "ring": [
+       "Bellator ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "required": {
+      "head": [
+       "Slayer helmet",
+       "Facemask",
+       "Gas mask"
+      ]
+     },
+     "notes": "Very low melee defence. Smoke Devil Dungeon requires a slayer helmet/facemask/gas mask; only on smoke devil task (one diary kill excepted)."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Kodai wand",
+      "Nightmare staff"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace"
+      ],
+      "shield": [
+       "Elidinis' ward (f)"
+      ],
+      "gloves": [
+       "Confliction gauntlets"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "required": {
+      "head": [
+       "Slayer helmet",
+       "Facemask",
+       "Gas mask"
+      ]
+     },
+     "notes": "The wiki lists magic first despite the +800 magic defence (Thermy has a low Magic level). Its attacks have 100% prayer penetration. Cannon not allowed."
+    }
+   ]
+  },
+  {
+   "name": "Skotizo",
+   "category": "Slayer bosses",
+   "attributes": [
+    "demon"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 80,
+    "slash": 80,
+    "crush": 80,
+    "magic": 80,
+    "rangedLight": 130,
+    "rangedStandard": 130,
+    "rangedHeavy": 130
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Emberlight",
+      "Arclight"
+     ],
+     "preferred": {
+      "head": [
+       "Oathplate helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "shield": [
+       "Avernic defender"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Needs a dark totem (Catacombs of Kourend). Arclight/Emberlight disable an altar in one hit and lessen the altar damage reduction. Immune to recoil."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Scorching bow",
+      "Bow of Faerdhinen",
+      "Hunters' sunlight crossbow",
+      "Rune crossbow",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "ring": [
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow"
+      ]
+     },
+     "notes": "Not task-only; slayer helmet only helps on task. Kill the awakened altars first."
+    }
+   ]
+  },
+  {
+   "name": "Vorkath",
+   "category": "Classic bosses",
+   "aliases": [
+    "vork"
+   ],
+   "attributes": [
+    "dragon",
+    "undead",
+    "fiery"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 26,
+    "slash": 108,
+    "crush": 108,
+    "magic": 240,
+    "rangedLight": 26,
+    "rangedStandard": 26,
+    "rangedHeavy": 26
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Dragon hunter crossbow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Salve amulet(ei)"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Anti-dragon shield"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Diamond ascension bolts (e)",
+       "Ruby dragon bolts (e)",
+       "Diamond dragon bolts (e)"
+      ]
+     },
+     "required": {
+      "shield": [
+       "Dragonfire ward",
+       "Anti-dragon shield",
+       "Dragonfire shield"
+      ]
+     },
+     "notes": "Requires Dragon Slayer II. Use a dragonfire shield plus extended super antifire, and bring anti-venom."
+    },
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Dragon hunter lance",
+      "Osmumten's fang",
+      "Ghrazi rapier",
+      "Zamorakian hasta",
+      "Abyssal dagger",
+      "Belle's folly"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Salve amulet (e)"
+      ],
+      "cape": [
+       "Infernal cape"
+      ],
+      "body": [
+       "Torva platebody"
+      ],
+      "legs": [
+       "Torva platelegs"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragonfire shield"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Super antifire is needed (no shield slot for an anti-dragon shield with a defender). Very low stab defence."
+    }
+   ]
+  },
+  {
+   "name": "Zulrah",
+   "category": "Classic bosses",
+   "aliases": [
+    "zul",
+    "snake"
+   ],
+   "immuneTo": [
+    "melee (except halberds)"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -45,
+    "rangedLight": 50,
+    "rangedStandard": 50,
+    "rangedHeavy": 50
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Zorya's tome",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Twinflame staff",
+      "Trident of the Swamp",
+      "Staff of the Dead"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads (max)",
+       "Eternal boots"
+      ],
+      "ring": [
+       "Magus ring",
+       "Ring of suffering (ri)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Use against green (serpentine) and red (magma) forms. Bring anti-venom."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Hunters' sunlight crossbow",
+      "Eclipse atlatl",
+      "Karil's crossbow",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "ring": [
+       "Ring of suffering (i)",
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Use against blue (tanzanite) form, which has 0 ranged defence and 300 magic defence. Melee only reaches with halberds (Noxious halberd + Eclipse atlatl setup on the wiki)."
+    }
+   ]
+  },
+  {
+   "name": "Corporeal Beast",
+   "category": "Classic bosses",
+   "aliases": [
+    "corp"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 10,
+   "defence": {
+    "stab": 25,
+    "slash": 200,
+    "crush": 100,
+    "magic": 150,
+    "rangedLight": 230,
+    "rangedStandard": 230,
+    "rangedHeavy": 100
+   },
+   "setups": [
+    {
+     "label": "Melee (stab)",
+     "style": "STAB",
+     "weapons": [
+      "Osmumten's fang",
+      "Noxious halberd",
+      "Zamorakian spear",
+      "Dragon spear"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Elysian spirit shield",
+       "Rondache",
+       "Dragonfire shield"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Ring of suffering (ri)",
+       "Tyrannical ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "50% damage reduction against everything except corpbane weapons (spears, halberds, Osmumten's fang) used on stab. Drain defence first with Elder maul/Dragon warhammer, Bandos godsword or Arclight specs."
+    }
+   ]
+  },
+  {
+   "name": "Dagannoth Rex",
+   "category": "Classic bosses",
+   "aliases": [
+    "dks",
+    "dk",
+    "kings"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 35,
+   "defence": {
+    "stab": 255,
+    "slash": 255,
+    "crush": 255,
+    "magic": 10,
+    "rangedLight": 255,
+    "rangedStandard": 255,
+    "rangedHeavy": 255
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Twinflame staff",
+      "Toxic Staff of the Dead",
+      "Iban's staff (u)"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace",
+       "Amulet of earth"
+      ],
+      "body": [
+       "Justiciar chestguard",
+       "Torva platebody"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield"
+      ],
+      "ring": [
+       "Ring of suffering (i)",
+       "Granite ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Rex is weak only to magic. Safespots exist (wiki has a Rex safespot inventory). Multicombat with the other kings."
+    }
+   ]
+  },
+  {
+   "name": "Dagannoth Prime",
+   "category": "Classic bosses",
+   "aliases": [
+    "dks",
+    "dk",
+    "kings"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 35,
+   "defence": {
+    "stab": 255,
+    "slash": 255,
+    "crush": 255,
+    "magic": 255,
+    "rangedLight": 10,
+    "rangedStandard": 10,
+    "rangedHeavy": 10
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Toxic blowpipe",
+      "Crystal bow",
+      "Hunters' sunlight crossbow",
+      "Eclipse atlatl",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "shield": [
+       "Elysian spirit shield",
+       "Twisted buckler"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Amethyst arrow"
+      ]
+     },
+     "notes": "Prime is weak only to ranged."
+    }
+   ]
+  },
+  {
+   "name": "Dagannoth Supreme",
+   "category": "Classic bosses",
+   "aliases": [
+    "dks",
+    "dk",
+    "kings"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 35,
+   "defence": {
+    "stab": 10,
+    "slash": 10,
+    "crush": 10,
+    "magic": 255,
+    "rangedLight": 550,
+    "rangedStandard": 550,
+    "rangedHeavy": 550
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Ghrazi rapier",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Osmumten's fang",
+      "Abyssal tentacle",
+      "Abyssal whip"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "body": [
+       "Torva platebody"
+      ],
+      "shield": [
+       "Spectral spirit shield"
+      ],
+      "ring": [
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Supreme is weak only to melee (all melee defences 10)."
+    }
+   ]
+  },
+  {
+   "name": "Kalphite Queen",
+   "category": "Classic bosses",
+   "aliases": [
+    "kq",
+    "kalphite"
+   ],
+   "attributes": [
+    "kalphite"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 50,
+    "slash": 50,
+    "crush": 10,
+    "magic": 100,
+    "rangedLight": 100,
+    "rangedStandard": 100,
+    "rangedHeavy": 100
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Keris partisan of breaching",
+      "Inquisitor's mace",
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Keris partisan",
+      "Verac's flail"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "body": [
+       "Inquisitor's hauberk",
+       "Torva platebody"
+      ],
+      "shield": [
+       "Avernic defender"
+      ],
+      "ring": [
+       "Ring of suffering (ri)",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Keris partisans are kalphite-bane. Phase 1 (crawling) has low crush defence; phase 2 has low magic/ranged defence (10). Slayer helmet only works on kalphite task."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "ring": [
+       "Ring of suffering (ri)",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Best in phase 2 (airborne)."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Sanguinesti staff"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Elysian spirit shield"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Labelled 'Max Mage (0 switches)' on the wiki; good for phase 2."
+    }
+   ]
+  },
+  {
+   "name": "Giant Mole",
+   "category": "Classic bosses",
+   "aliases": [
+    "mole"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 60,
+    "slash": 80,
+    "crush": 100,
+    "magic": 80,
+    "rangedLight": 60,
+    "rangedStandard": 60,
+    "rangedHeavy": 60
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Crystal bow",
+      "Zaryte crossbow",
+      "Armadyl crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "ring": [
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Diamond dragon bolts (e)",
+       "Ruby dragon bolts (e)"
+      ]
+     },
+     "notes": "Bring a light source (Falador Hard Diary helps track the mole)."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Kodai wand",
+      "Mystic smoke staff",
+      "Twinflame staff",
+      "Sanguinesti staff",
+      "Ahrim's staff",
+      "Mystic dust staff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Tome of Earth",
+       "Elidinis' ward (f)"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "50% earth weakness, so earth spells are good."
+    },
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Osmumten's fang",
+      "Noxious halberd",
+      "Ghrazi rapier",
+      "Zamorakian hasta",
+      "Blade of Saeldor",
+      "Belle's folly",
+      "Zombie axe",
+      "Abyssal dagger"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "body": [
+       "Torva platebody"
+      ],
+      "shield": [
+       "Avernic defender"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Lowest melee defence is stab (60). The wiki also lists a Dharok's setup."
+    }
+   ]
+  },
+  {
+   "name": "Sarachnis",
+   "category": "Classic bosses",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 60,
+    "slash": 40,
+    "crush": 10,
+    "magic": 150,
+    "rangedLight": 300,
+    "rangedStandard": 300,
+    "rangedHeavy": 300
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Dual macuahuitl",
+      "Abyssal bludgeon",
+      "Osmumten's fang",
+      "Sarachnis cudgel"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of fury"
+      ],
+      "shield": [
+       "Rondache",
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Bellator ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Very low crush defence. Kill the spawns."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "The wiki lists only Tumeken's shadow, with a melee special attack switch."
+    }
+   ]
+  },
+  {
+   "name": "Ahrim the Blighted",
+   "category": "Barrows",
+   "aliases": [
+    "barrows"
+   ],
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 103,
+    "slash": 85,
+    "crush": 117,
+    "magic": 73,
+    "rangedLight": 0,
+    "rangedStandard": 0,
+    "rangedHeavy": 0
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Toxic blowpipe",
+      "Rosewood blowpipe",
+      "Hunters' sunlight crossbow",
+      "Magic shortbow (i)",
+      "Karil's crossbow",
+      "Yew shortbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "ammo": [
+       "Diamond ascension bolts (e)"
+      ]
+     },
+     "notes": "Barrows brother with 0 ranged defence."
+    }
+   ]
+  },
+  {
+   "name": "Karil the Tainted",
+   "category": "Barrows",
+   "aliases": [
+    "barrows"
+   ],
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 79,
+    "slash": 71,
+    "crush": 90,
+    "magic": 106,
+    "rangedLight": 100,
+    "rangedStandard": 100,
+    "rangedHeavy": 100
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Staff of the Dead",
+      "Twinflame staff",
+      "Smoke battlestaff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace",
+       "Amulet of air"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Ghommal's hilt 2"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Wind spells (air weakness 50%). Ghommal's hilt 2 removes the Barrows prayer drain."
+    }
+   ]
+  },
+  {
+   "name": "Dharok the Wretched",
+   "category": "Barrows",
+   "aliases": [
+    "barrows"
+   ],
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 252,
+    "slash": 250,
+    "crush": 244,
+    "magic": -11,
+    "rangedLight": 249,
+    "rangedStandard": 249,
+    "rangedHeavy": 249
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Twinflame staff",
+      "Smoke battlestaff",
+      "Ahrim's staff"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace",
+       "Amulet of air"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Ghommal's hilt 2"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Use wind spells."
+    }
+   ]
+  },
+  {
+   "name": "Guthan the Infested",
+   "category": "Barrows",
+   "aliases": [
+    "barrows"
+   ],
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 259,
+    "slash": 257,
+    "crush": 241,
+    "magic": -11,
+    "rangedLight": 250,
+    "rangedStandard": 250,
+    "rangedHeavy": 250
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Twinflame staff",
+      "Smoke battlestaff",
+      "Ahrim's staff"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace",
+       "Amulet of air"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Ghommal's hilt 2"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Use wind spells."
+    }
+   ]
+  },
+  {
+   "name": "Torag the Corrupted",
+   "category": "Barrows",
+   "aliases": [
+    "barrows"
+   ],
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 221,
+    "slash": 235,
+    "crush": 222,
+    "magic": 0,
+    "rangedLight": 221,
+    "rangedStandard": 221,
+    "rangedHeavy": 221
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Twinflame staff",
+      "Smoke battlestaff",
+      "Ahrim's staff"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace",
+       "Amulet of air"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Ghommal's hilt 2"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Use wind spells."
+    }
+   ]
+  },
+  {
+   "name": "Verac the Defiled",
+   "category": "Barrows",
+   "aliases": [
+    "barrows"
+   ],
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 227,
+    "slash": 230,
+    "crush": 221,
+    "magic": 0,
+    "rangedLight": 225,
+    "rangedStandard": 225,
+    "rangedHeavy": 225
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Eye of Ayak",
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Twinflame staff",
+      "Smoke battlestaff",
+      "Ahrim's staff"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace",
+       "Amulet of air"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Ghommal's hilt 2"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Use wind spells."
+    }
+   ]
+  },
+  {
+   "name": "The Nightmare",
+   "category": "Classic bosses",
+   "aliases": [
+    "nm",
+    "nightmare"
+   ],
+   "defence": {
+    "stab": 120,
+    "slash": 180,
+    "crush": 40,
+    "magic": 600,
+    "rangedLight": 600,
+    "rangedStandard": 600,
+    "rangedHeavy": 600
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Abyssal bludgeon",
+      "Dual macuahuitl",
+      "Ursine chainmace (u)",
+      "Zamorakian hasta"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Very low crush defence. Specs: Elder maul / Saradomin godsword / Crimson kisten. Cannon not allowed."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Twinflame staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Accursed sceptre"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Tome of Fire"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Mainly used for killing totems, not the boss itself."
+    }
+   ]
+  },
+  {
+   "name": "Phosani's Nightmare",
+   "category": "Classic bosses",
+   "aliases": [
+    "pnm",
+    "phosani"
+   ],
+   "defence": {
+    "stab": 120,
+    "slash": 180,
+    "crush": 40,
+    "magic": 600,
+    "rangedLight": 600,
+    "rangedStandard": 600,
+    "rangedHeavy": 600
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Obligator",
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe",
+      "Abyssal bludgeon",
+      "Dual macuahuitl",
+      "Hallowfell"
+     ],
+     "preferred": {
+      "head": [
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "body": [
+       "Inquisitor's hauberk"
+      ],
+      "shield": [
+       "Avernic defender"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Solo-only Nightmare variant. Hallowfell can kill husks/parasites; Crimson kisten spec. Turn off overheads before husks spawn if not using Hallowfell."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Tome of Fire"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "For totems. Zorya's tome is used as a spec."
+    }
+   ]
+  },
+  {
+   "name": "Obor",
+   "category": "Classic bosses",
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 20,
+   "defence": {
+    "stab": 35,
+    "slash": 40,
+    "crush": 45,
+    "magic": 20,
+    "rangedLight": 20,
+    "rangedStandard": 20,
+    "rangedHeavy": 20
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "notes": "F2P boss behind a giant key gate. Snare/Entangle/Ice spells to bind him."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Toxic blowpipe"
+     ],
+     "preferred": {
+      "body": [
+       "Rune chainbody"
+      ]
+     },
+     "notes": "Members should use the Toxic blowpipe; F2P should wear a rune chainbody with 60 Ranged."
+    },
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Abyssal whip",
+      "Dragon scimitar",
+      "Rune scimitar"
+     ],
+     "notes": "Faster but riskier; knock-backs delay attacks."
+    }
+   ]
+  },
+  {
+   "name": "Bryophyta",
+   "category": "Classic bosses",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 50,
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Staff of fire"
+     ],
+     "notes": "F2P: Fire Blast with Protect from Magic is the highest DPS (50% fire weakness). Growthlings must be killed with an axe or secateurs (the boss is immune while they live)."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Maple shortbow"
+     ],
+     "preferred": {
+      "head": [
+       "Coif"
+      ],
+      "amulet": [
+       "Amulet of power"
+      ],
+      "body": [
+       "Green d'hide body"
+      ],
+      "legs": [
+       "Green d'hide chaps"
+      ],
+      "ammo": [
+       "Adamant arrow"
+      ]
+     },
+     "notes": "Keep distance; she won't follow."
+    },
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Voidwaker",
+      "Dragon claws",
+      "Crystal halberd",
+      "Rune scimitar"
+     ],
+     "preferred": {
+      "body": [
+       "Green d'hide body"
+      ],
+      "shield": [
+       "Rune kiteshield"
+      ],
+      "head": [
+       "Rune full helm"
+      ]
+     },
+     "notes": "Members burst her with special attacks. Bring an axe (not a battleaxe or zombie axe) for growthlings."
+    }
+   ]
+  },
+  {
+   "name": "Hespori",
+   "category": "Classic bosses",
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 100,
+   "defence": {
+    "stab": 60,
+    "slash": 20,
+    "crush": 60,
+    "magic": 80,
+    "rangedLight": 80,
+    "rangedStandard": 80,
+    "rangedHeavy": 80
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Blade of Saeldor",
+      "Abyssal tentacle",
+      "Noxious halberd",
+      "Soulreaper axe",
+      "Abyssal whip",
+      "Zombie axe",
+      "Dragon scimitar"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm"
+      ],
+      "amulet": [
+       "Amulet of rancour"
+      ],
+      "body": [
+       "Oathplate chest",
+       "Torva platebody"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "ring": [
+       "Ultor ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Farming Guild boss (65 Farming). Low slash defence. Kill the flowers to stop the entangle; immune to recoil."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Harmonised Nightmare staff",
+      "Twinflame staff",
+      "Smoke battlestaff",
+      "Staff of the Dead",
+      "Purging staff",
+      "Ancient sceptre",
+      "Ahrim's staff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Tome of Fire",
+       "Mage's book"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "100% fire weakness, so cast fire spells."
+    }
+   ]
+  },
+  {
+   "name": "Deranged archaeologist",
+   "category": "Classic bosses",
+   "aliases": [
+    "deranged arch"
+   ],
+   "defence": {
+    "stab": 20,
+    "slash": 20,
+    "crush": 50,
+    "magic": 300,
+    "rangedLight": 300,
+    "rangedStandard": 300,
+    "rangedHeavy": 300
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Harmonised Nightmare staff",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Warped sceptre",
+      "Iban's staff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Tome of Fire",
+       "Elidinis' ward (f)"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "On Fossil Island (Bone Voyage). The wiki's only gear table is magic, for an avoidance strategy."
+    }
+   ]
+  },
+  {
+   "name": "The Mimic",
+   "category": "Classic bosses",
+   "defence": {
+    "stab": 160,
+    "slash": 165,
+    "crush": 150,
+    "magic": 30,
+    "rangedLight": 145,
+    "rangedStandard": 145,
+    "rangedHeavy": 145
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top"
+      ],
+      "shield": [
+       "Elidinis' ward (f)"
+      ],
+      "ring": [
+       "Magus ring"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Started from a mimic casket (elite/master clues). Dodge the candy. Ice spells can freeze it."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)"
+      ],
+      "amulet": [
+       "Necklace of rupture"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "ring": [
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Dragon arrow",
+       "Amethyst arrow"
+      ]
+     },
+     "notes": "Voidwaker is the suggested spec."
+    },
+    {
+     "label": "Melee",
+     "style": "CRUSH",
+     "weapons": [
+      "Abyssal tentacle",
+      "Abyssal whip",
+      "Zombie axe",
+      "Arkan blade"
+     ],
+     "preferred": {
+      "head": [
+       "Helm of Neitiznot"
+      ],
+      "amulet": [
+       "Amulet of fury"
+      ],
+      "body": [
+       "Bandos chestplate"
+      ],
+      "shield": [
+       "Dragon defender"
+      ],
+      "ring": [
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "Weakest option: high melee defence."
+    }
+   ]
+  },
+  {
+   "name": "Duke Sucellus",
+   "category": "Desert Treasure II",
+   "aliases": [
+    "duke",
+    "dt2"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "defence": {
+    "stab": 255,
+    "slash": 45,
+    "crush": 190,
+    "magic": 440,
+    "rangedLight": 320,
+    "rangedStandard": 320,
+    "rangedHeavy": 320
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Emberlight",
+      "Soulreaper axe",
+      "Noxious halberd",
+      "Blade of Saeldor",
+      "Arclight",
+      "Zombie axe",
+      "Abyssal whip"
+     ],
+     "preferred": {
+      "head": [
+       "Oathplate helm",
+       "Serpentine helm",
+       "Torva full helm",
+       "Neitiznot faceguard",
+       "Blood Moon helm"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape",
+       "Mythical cape"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of blood fury",
+       "Amulet of fury"
+      ],
+      "body": [
+       "Oathplate chest",
+       "Torva platebody",
+       "Bandos chestplate",
+       "Fighter torso",
+       "Blood Moon chestplate"
+      ],
+      "legs": [
+       "Oathplate legs",
+       "Torva platelegs",
+       "Bandos tassets",
+       "Blood Moon tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender",
+       "Rondache"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Primordial boots",
+       "Echo boots",
+       "Dragon boots"
+      ],
+      "ring": [
+       "Bellator ring",
+       "Lightbearer",
+       "Ultor ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4",
+       "God blessing"
+      ]
+     },
+     "notes": "Requires Desert Treasure II. Very low slash defence; demonbane (Emberlight/Arclight) is viable. Specs: Dragon claws/Burning claws, Voidwaker, Bandos godsword. Awakened version (combat 1099) needs an awakener's orb."
+    }
+   ]
+  },
+  {
+   "name": "The Leviathan",
+   "category": "Desert Treasure II",
+   "aliases": [
+    "levi",
+    "dt2"
+   ],
+   "defence": {
+    "stab": 260,
+    "slash": 190,
+    "crush": 230,
+    "magic": 280,
+    "rangedLight": 50,
+    "rangedStandard": 50,
+    "rangedHeavy": 25
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Zaryte crossbow",
+      "Toxic blowpipe",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask",
+       "Crystal helm"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler",
+       "Ava's accumulator"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Masori body",
+       "Crystal body",
+       "Karil's leathertop"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Masori chaps",
+       "Crystal legs",
+       "Karil's leatherskirt"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Venator ring",
+       "Ring of the gods (i)"
+      ],
+      "ammo": [
+       "Diamond ascension bolts (e)",
+       "Ruby dragon bolts (e)",
+       "Ruby bolts (e)"
+      ]
+     },
+     "notes": "Heavy ranged defence is lowest (25), so crossbows top the list. Dodge falling rocks; specs Zaryte crossbow / Webweaver bow."
+    },
+    {
+     "label": "Magic (lightning phase)",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask",
+       "Ahrim's hood"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Eternal boots"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer"
+      ]
+     },
+     "notes": "The wiki lists a Shadow-based magic setup. Zorya's tome, Volatile Nightmare staff and Accursed sceptre are spec options."
+    }
+   ]
+  },
+  {
+   "name": "Vardorvis",
+   "category": "Desert Treasure II",
+   "aliases": [
+    "vard",
+    "dt2"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 35,
+   "defence": {
+    "stab": 215,
+    "slash": 65,
+    "crush": 85,
+    "magic": 580,
+    "rangedLight": 580,
+    "rangedStandard": 580,
+    "rangedHeavy": 580
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Soulreaper axe",
+      "Scythe of Vitur",
+      "Blade of Saeldor",
+      "Noxious halberd",
+      "Abyssal tentacle",
+      "Abyssal whip",
+      "Zombie axe"
+     ],
+     "preferred": {
+      "head": [
+       "Oathplate helm",
+       "Torva full helm",
+       "Neitiznot faceguard",
+       "Serpentine helm",
+       "Justiciar faceguard"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape",
+       "Mythical cape"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of blood fury",
+       "Amulet of torture",
+       "Amulet of fury"
+      ],
+      "body": [
+       "Oathplate chest",
+       "Torva platebody",
+       "Bandos chestplate",
+       "Fighter torso",
+       "Blood Moon chestplate",
+       "Justiciar chestguard"
+      ],
+      "legs": [
+       "Oathplate legs",
+       "Torva platelegs",
+       "Bandos tassets",
+       "Blood Moon tassets",
+       "Justiciar legguards"
+      ],
+      "shield": [
+       "Rondache",
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Echo boots",
+       "Primordial boots",
+       "Dragon boots"
+      ],
+      "ring": [
+       "Bellator ring",
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Ring of suffering (ri)",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Rada's blessing 4",
+       "God blessing"
+      ]
+     },
+     "notes": "Requires DT2. Slash attacks only, so keep Protect from Melee up. Slash defence and tank gear (Justiciar, blood fury) both matter. Specs: Dragon claws/Burning claws, Voidwaker, Ancient godsword. Awakened is combat 1136."
+    }
+   ]
+  },
+  {
+   "name": "The Whisperer",
+   "category": "Desert Treasure II",
+   "aliases": [
+    "whisp",
+    "dt2"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 60,
+   "defence": {
+    "stab": 180,
+    "slash": 300,
+    "crush": 220,
+    "magic": 10,
+    "rangedLight": 300,
+    "rangedStandard": 300,
+    "rangedHeavy": 300
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Twinflame staff",
+      "Mystic smoke staff",
+      "Trident of the Swamp"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask",
+       "Ahrim's hood",
+       "Blue Moon helm",
+       "Bloodbark helm"
+      ],
+      "amulet": [
+       "Occult necklace",
+       "Elemental amulet"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top",
+       "Ahrim's robetop",
+       "Blue Moon chestplate",
+       "Bloodbark body"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom",
+       "Ahrim's robeskirt",
+       "Blue Moon tassets",
+       "Bloodbark legs"
+      ],
+      "shield": [
+       "Tome of earth",
+       "Elidinis' ward (f)",
+       "Arcane spirit shield",
+       "Malediction ward",
+       "Mage's book"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Eternal boots",
+       "Infinity boots"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer",
+       "Ring of the gods (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4",
+       "God blessing"
+      ]
+     },
+     "notes": "60% earth weakness, so earth spells with Tome of earth and Elemental amulet are strong. In the shadow realm, bring a fast weapon for Lost Souls (Venator bow, Blisterwood stake, blowpipe). Specs: Zorya's tome, Eldritch Nightmare staff, Accursed sceptre. Awakened is combat 1146."
+    }
+   ]
+  },
+  {
+   "name": "Phantom Muspah",
+   "category": "Quest & other",
+   "aliases": [
+    "muspah"
+   ],
+   "attributes": [
+    "spectral"
+   ],
+   "elementalWeakness": "air",
+   "elementalWeaknessPercent": 65,
+   "defence": {
+    "stab": 185,
+    "slash": 134,
+    "crush": 120,
+    "magic": 437,
+    "rangedLight": 56,
+    "rangedStandard": 56,
+    "rangedHeavy": 56
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Bow of Faerdhinen",
+      "Toxic blowpipe",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Crystal helm",
+       "Blessed coif"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler",
+       "Ava's accumulator"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Crystal body",
+       "Blessed d'hide body",
+       "Karil's leathertop"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Crystal legs",
+       "Blessed chaps",
+       "Karil's leatherskirt"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Venator ring",
+       "Archers ring (i)"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Sapphire dragon bolts (e)",
+       "Ruby dragon bolts (e)",
+       "Amethyst arrow"
+      ]
+     },
+     "notes": "Main damage style while Muspah is in its ranged/magic form (ranged defence 56). Requires Secrets of the North. Specs: Zaryte crossbow, Elder maul/Dragon warhammer."
+    },
+    {
+     "label": "Melee (melee form)",
+     "style": "CRUSH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Inquisitor's mace",
+      "Soulreaper axe"
+     ],
+     "preferred": {
+      "head": [
+       "Oathplate helm",
+       "Torva full helm",
+       "Neitiznot faceguard",
+       "Inquisitor's great helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "body": [
+       "Oathplate chest",
+       "Torva platebody",
+       "Bandos chestplate",
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Oathplate legs",
+       "Torva platelegs",
+       "Bandos tassets",
+       "Inquisitor's plateskirt"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Primordial boots"
+      ],
+      "ring": [
+       "Bellator ring",
+       "Ultor ring"
+      ]
+     },
+     "notes": "The melee form has magic defence 34 and ranged defence 261. Most players switch to magic here; melee is an alternative."
+    },
+    {
+     "label": "Magic (melee form / shield)",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Harmonised Nightmare staff",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Purging staff",
+      "Twinflame staff",
+      "Trident of the Swamp"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask"
+      ],
+      "amulet": [
+       "Occult necklace",
+       "Elemental amulet"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top",
+       "Ahrim's robetop"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom",
+       "Ahrim's robeskirt"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Eternal boots"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Magus ring"
+      ]
+     },
+     "notes": "Use against the melee form. Air spells exploit the 65% weakness."
+    }
+   ]
+  },
+  {
+   "name": "TzTok-Jad",
+   "category": "Minigames",
+   "aliases": [
+    "jad",
+    "fight caves",
+    "fire cape"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 40,
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Ascension crossbow",
+      "Twisted bow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Zaryte crossbow",
+      "Dragon crossbow",
+      "Rune crossbow",
+      "Magic shortbow (i)"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Crystal helm",
+       "Blessed coif"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler",
+       "Ranging cape"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish",
+       "Amulet of fury"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Crystal body",
+       "Blessed body",
+       "Karil's leathertop",
+       "Black d'hide body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Crystal legs",
+       "Blessed chaps",
+       "Karil's leatherskirt"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward",
+       "Crystal shield"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Pegasian boots",
+       "Blessed boots"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer",
+       "Ring of the gods (i)",
+       "Ring of suffering (i)"
+      ],
+      "ammo": [
+       "Diamond ascension bolts (e)",
+       "Seeking dragon arrow",
+       "Dragon dart",
+       "Amethyst dart",
+       "Diamond dragon bolts (e)"
+      ]
+     },
+     "notes": "This is the wiki's main Fight Caves setup. Kill the healers. Bring prayer potions and Saradomin brews."
+    },
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Blade of Saeldor",
+      "Ghrazi rapier",
+      "Osmumten's fang",
+      "Noxious halberd",
+      "Abyssal tentacle",
+      "Abyssal whip"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Neitiznot faceguard",
+       "Oathplate helm"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of fury"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Bandos chestplate",
+       "Fighter torso"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ]
+     },
+     "notes": "Alternative setup. Waves are harder without range; lure Jad to melee distance."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Twinflame staff",
+      "Mystic smoke staff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Tome of water",
+       "Arcane spirit shield"
+      ]
+     },
+     "notes": "Water spells exploit the 40% weakness. The wiki also lists Pure, early-iron and Eclipse atlatl setups."
+    }
+   ]
+  },
+  {
+   "name": "TzKal-Zuk",
+   "category": "Minigames",
+   "aliases": [
+    "zuk",
+    "inferno",
+    "infernal cape"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 40,
+   "defence": {
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 350,
+    "rangedLight": 100,
+    "rangedStandard": 100,
+    "rangedHeavy": 100
+   },
+   "setups": [
+    {
+     "label": "Ranged (first cape)",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Toxic blowpipe",
+      "Ascension crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Justiciar faceguard",
+       "Masori mask (f)",
+       "Crystal helm",
+       "Verac's helm"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler",
+       "Max cape",
+       "Ranging cape"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish",
+       "Amulet of fury"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Crystal body",
+       "Hueycoatl hide body",
+       "Blessed dragonhide body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Crystal legs",
+       "Hueycoatl hide chaps",
+       "Blessed dragonhide chaps"
+      ],
+      "shield": [
+       "Elysian spirit shield",
+       "Rondache",
+       "Crystal shield"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Echo boots",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Ring of suffering (ri)",
+       "Lightbearer",
+       "Ring of the gods (i)"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Dragon arrow",
+       "Amethyst arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond dragon bolts (e)"
+      ]
+     },
+     "notes": "The wiki's Inferno setups are hybrid ranged/magic: a Kodai wand, Nightmare staff or ancient sceptre for barrages plus a ranged weapon. A Twisted bow is best on Zuk, then the Bow of Faerdhinen. Zuk's hits cannot be prayed against, so stay behind the shield."
+    },
+    {
+     "label": "Mage tank",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Eldritch Nightmare staff",
+      "Sanguinesti staff",
+      "Blood ancient sceptre",
+      "Kodai wand",
+      "Nightmare staff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Justiciar faceguard",
+       "Virtus mask"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top",
+       "Torva platebody"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom",
+       "Oathplate legs"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield",
+       "Crystal shield"
+      ],
+      "gloves": [
+       "Confliction gauntlets"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Echo boots"
+      ],
+      "ring": [
+       "Magus ring",
+       "Ring of suffering (ri)"
+      ],
+      "ammo": [
+       "Rada's blessing 4"
+      ]
+     },
+     "notes": "High-end option that swaps tank armour pieces in. The wiki recommends a Tumeken's shadow for magers, Jads and Zuk."
+    }
+   ]
+  },
+  {
+   "name": "Chambers of Xeric",
+   "category": "Raids",
+   "aliases": [
+    "cox",
+    "raids 1"
+   ],
+   "attributes": [
+    "xerician"
+   ],
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Dragon hunter lance",
+      "Soulreaper axe",
+      "Ghrazi rapier",
+      "Blade of Saeldor",
+      "Dual macuahuitl",
+      "Noxious halberd",
+      "Abyssal tentacle"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Neitiznot faceguard",
+       "Inquisitor's great helm",
+       "Serpentine helm"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of blood fury"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Inquisitor's hauberk",
+       "Bandos chestplate",
+       "Blood Moon chestplate",
+       "Fighter torso"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Inquisitor's plateskirt",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Primordial boots",
+       "Dragon boots"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Ultor ring",
+       "Berserker ring (i)",
+       "Brimstone ring"
+      ]
+     },
+     "notes": "Specs: Bandos godsword, Elder maul or Dragon warhammer on Tekton/Olm; Dragon claws or Voidwaker. Dragon hunter lance applies on Olm (dragon)."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Dragon hunter crossbow",
+      "Zaryte crossbow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Armadyl crossbow",
+      "Dragon crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask",
+       "Armadyl helmet",
+       "Crystal helm"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Armadyl chestplate",
+       "Crystal body",
+       "Blessed body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Armadyl chainskirt",
+       "Crystal legs",
+       "Blessed chaps"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward"
+      ],
+      "gloves": [
+       "Zaryte vambraces",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Pegasian boots"
+      ],
+      "ring": [
+       "Venator ring"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Diamond ascension bolts (e)",
+       "Dragon arrow"
+      ]
+     },
+     "notes": "The Twisted bow is best in slot, especially on Olm's head. Specs: Zaryte crossbow, Tonalztics of Ralos."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Dragon hunter wand",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Warped sceptre"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask",
+       "Ahrim's hood"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top",
+       "Ahrim's robetop"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom",
+       "Ahrim's robeskirt"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Tome of earth",
+       "Tome of fire",
+       "Arcane spirit shield"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Eternal boots"
+      ],
+      "ring": [
+       "Magus ring"
+      ]
+     },
+     "notes": "Use for Olm's mage hand, Vespula, melee Vanguard and baby Muttadile. Bring a pickaxe (Crystal, Infernal or Dragon) for Guardians."
+    }
+   ]
+  },
+  {
+   "name": "Theatre of Blood",
+   "category": "Raids",
+   "aliases": [
+    "tob",
+    "raids 2"
+   ],
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Blade of Saeldor",
+      "Osmumten's fang",
+      "Abyssal tentacle",
+      "Noxious halberd",
+      "Abyssal whip"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Neitiznot faceguard",
+       "Serpentine helm",
+       "Blood Moon helm"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of blood fury",
+       "Amulet of fury"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Bandos chestplate",
+       "Blood Moon chestplate",
+       "Fighter torso"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Bandos tassets",
+       "Blood Moon tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Primordial boots",
+       "Dragon boots"
+      ],
+      "ring": [
+       "Ultor ring",
+       "Bellator ring",
+       "Berserker ring (i)"
+      ],
+      "ammo": [
+       "Rada's blessing 4",
+       "God blessing"
+      ]
+     },
+     "notes": "The Scythe of Vitur is the core weapon in every room. Specs: Dragon claws, Elder maul, Bandos godsword, Crystal halberd, Dragon warhammer. Void is common, swapping only the helm between styles."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Toxic blowpipe"
+     ],
+     "preferred": {
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "body": [
+       "Masori body (f)"
+      ],
+      "legs": [
+       "Masori chaps (f)"
+      ],
+      "shield": [
+       "Twisted buckler"
+      ],
+      "boots": [
+       "Avernic treads"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Diamond ascension bolts (e)",
+       "Dragon arrow"
+      ]
+     },
+     "notes": "A switch for Maiden, Nylocas, Xarpus and Verzik P2/P3 ranged. The ranged switch is often just the Void ranger helm."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Zorya's tome",
+      "Eye of Ayak",
+      "Kodai wand",
+      "Nightmare staff",
+      "Sanguinesti staff",
+      "Toxic Staff of the Dead",
+      "Trident of the Swamp",
+      "Ancient sceptre"
+     ],
+     "preferred": {
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Elidinis' ward",
+       "Book of Darkness"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads"
+      ]
+     },
+     "notes": "Used for barraging at Maiden and Nylocas and for magic Nylos. The Sanguinesti staff is a key heal source. Pick up the Dawnbringer for Verzik P1."
+    }
+   ]
+  },
+  {
+   "name": "Tombs of Amascut",
+   "category": "Raids",
+   "aliases": [
+    "toa",
+    "raids 3"
+   ],
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Osmumten's fang",
+      "Keris partisan of amascut",
+      "Keris partisan of breaching",
+      "Ghrazi rapier",
+      "Blade of Saeldor",
+      "Zamorakian hasta",
+      "Voidwaker",
+      "Abyssal dagger"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Neitiznot faceguard",
+       "Oathplate helm",
+       "Serpentine helm",
+       "Blood Moon helm"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of blood fury",
+       "Amulet of fury"
+      ],
+      "body": [
+       "Torva platebody",
+       "Bandos chestplate",
+       "Blood Moon chestplate",
+       "Fighter torso",
+       "Oathplate chest"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Bandos tassets",
+       "Blood Moon tassets",
+       "Oathplate legs"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ],
+      "gloves": [
+       "Ferocious gloves",
+       "Barrows gloves"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Primordial boots",
+       "Dragon boots"
+      ],
+      "ring": [
+       "Lightbearer",
+       "Ultor ring",
+       "Berserker ring (i)"
+      ]
+     },
+     "notes": "Osmumten's fang (stab) is the main ToA melee weapon. Specs: Voidwaker, Bandos godsword, Elder maul, Soulflame horn, Burning claws, Dragon warhammer."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Zaryte crossbow",
+      "Bow of Faerdhinen",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Eclipse atlatl",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Masori mask",
+       "Crystal helm"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Crystal body",
+       "Blessed body",
+       "Karil's leathertop"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Crystal legs",
+       "Blessed chaps"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward"
+      ],
+      "gloves": [
+       "Zaryte vambraces"
+      ],
+      "boots": [
+       "Avernic treads"
+      ],
+      "ring": [
+       "Venator ring",
+       "Lightbearer"
+      ],
+      "ammo": [
+       "Seeking dragon arrow",
+       "Ruby dragon bolts (e)",
+       "Dragon arrow",
+       "Amethyst arrow"
+      ]
+     },
+     "notes": "Specs: Zaryte crossbow, Bandos godsword, Toxic blowpipe."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Zorya's tome",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas",
+      "Accursed sceptre",
+      "Warped sceptre"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask",
+       "Ahrim's hood",
+       "Blue Moon helm"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top",
+       "Ahrim's robetop"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom",
+       "Ahrim's robeskirt"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield",
+       "Malediction ward"
+      ],
+      "gloves": [
+       "Confliction gauntlets",
+       "Tormented bracelet"
+      ],
+      "boots": [
+       "Avernic treads",
+       "Eternal boots"
+      ],
+      "ring": [
+       "Magus ring",
+       "Lightbearer",
+       "Seers ring (i)"
+      ]
+     },
+     "notes": "Tumeken's shadow is the key weapon (Akkha, obelisk, Wardens). Salve amulets do nothing on Ba-Ba."
+    }
+   ]
+  },
+  {
+   "name": "Great Olm",
+   "category": "Raid bosses",
+   "aliases": [
+    "olm",
+    "cox"
+   ],
+   "attributes": [
+    "dragon",
+    "xerician"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 200,
+    "slash": 200,
+    "crush": 200,
+    "magic": 200,
+    "rangedLight": 50,
+    "rangedStandard": 50,
+    "rangedHeavy": 50
+   },
+   "setups": [
+    {
+     "label": "Ranged (head)",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Dragon hunter crossbow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Dragon crossbow",
+      "Rune crossbow",
+      "Eclipse atlatl"
+     ],
+     "preferred": {
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Armadyl chestplate"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Armadyl chainskirt"
+      ],
+      "ammo": [
+       "Dragon arrow",
+       "Ruby dragon bolts (e)"
+      ]
+     },
+     "notes": "The head has 50 ranged defence; dragonbane weapons apply."
+    },
+    {
+     "label": "Melee (left claw)",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Dragon hunter lance",
+      "Soulreaper axe",
+      "Ghrazi rapier",
+      "Dual macuahuitl",
+      "Abyssal tentacle",
+      "Noxious halberd",
+      "Abyssal whip"
+     ],
+     "notes": "The left (melee) claw has 50 stab, slash and crush defence."
+    },
+    {
+     "label": "Magic (right claw)",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Dragon hunter wand",
+      "Sanguinesti staff",
+      "Trident of the Swamp",
+      "Trident of the Seas"
+     ],
+     "preferred": {
+      "shield": [
+       "Tome of earth"
+      ]
+     },
+     "notes": "The right (mage) claw has 50 magic defence. Earth Surge with Tome of earth exploits the 50% earth weakness."
+    }
+   ]
+  },
+  {
+   "name": "Verzik Vitur",
+   "category": "Raid bosses",
+   "aliases": [
+    "verzik",
+    "tob"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 70,
+    "slash": 30,
+    "crush": 70,
+    "magic": 100,
+    "rangedLight": 230,
+    "rangedStandard": 230,
+    "rangedHeavy": 230
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Scythe of Vitur",
+      "Soulreaper axe",
+      "Blade of Saeldor",
+      "Abyssal tentacle",
+      "Noxious halberd",
+      "Osmumten's fang",
+      "Dual macuahuitl"
+     ],
+     "preferred": {
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture"
+      ],
+      "shield": [
+       "Avernic defender"
+      ]
+     },
+     "notes": "In P1, use the Dawnbringer special attack. In P3, melee is preferred because slash defence is 30."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Ascension crossbow",
+      "Toxic blowpipe"
+     ],
+     "notes": "Used in P2 and on Nylocas."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Sanguinesti staff",
+      "Eye of Ayak",
+      "Trident of the Swamp"
+     ],
+     "notes": "Used on magic Nylocas and for P2 healing. The infobox lists a 50% fire weakness in P3."
+    }
+   ]
+  },
+  {
+   "name": "Tumeken's Warden / Elidinis' Warden",
+   "category": "Raid bosses",
+   "aliases": [
+    "wardens",
+    "toa"
+   ],
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 50,
+   "defence": {
+    "stab": 40,
+    "slash": 40,
+    "crush": 20,
+    "magic": 20,
+    "rangedLight": 20,
+    "rangedStandard": 20,
+    "rangedHeavy": 20
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Bow of Faerdhinen"
+     ],
+     "notes": "P1 obelisk and P3/P4. In P2 the charged Warden is magic defence -30. Tumeken's Warden prays melee and magic, so ranged is needed first."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Toxic blowpipe",
+      "Rune crossbow",
+      "Eclipse atlatl"
+     ],
+     "notes": "Use when Tumeken's Warden is praying melee and magic, and in P3/P4. Specs: Zaryte crossbow, Zorya's tome, Tonalztics of Ralos, Accursed sceptre."
+    },
+    {
+     "label": "Melee (core)",
+     "style": "STAB",
+     "weapons": [
+      "Dragon dagger",
+      "Elder maul",
+      "Bandos godsword",
+      "Ghrazi rapier",
+      "Blade of Saeldor",
+      "Inquisitor's mace",
+      "Abyssal tentacle",
+      "Voidwaker"
+     ],
+     "notes": "Hit the ejected core in P2 with fast melee specs."
+    }
+   ]
+  },
+  {
+   "name": "Akkha",
+   "category": "Raid bosses",
+   "aliases": [
+    "toa"
+   ],
+   "defence": {
+    "stab": 60,
+    "slash": 120,
+    "crush": 120,
+    "magic": 10,
+    "rangedLight": 60,
+    "rangedStandard": 60,
+    "rangedHeavy": 60
+   },
+   "setups": [
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow",
+      "Eye of Ayak",
+      "Sanguinesti staff",
+      "Trident of the Swamp"
+     ],
+     "preferred": {
+      "gloves": [
+       "Confliction gauntlets"
+      ]
+     },
+     "notes": "Akkha prays against the style he is attacking with and changes style every six attacks plus a special. His magic defence is 10."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Bow of Faerdhinen",
+      "Toxic blowpipe",
+      "Eclipse atlatl",
+      "Crossbow"
+     ]
+    },
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Osmumten's fang"
+     ],
+     "notes": "The fang is listed on the wiki's Akkha weapon table."
+    }
+   ]
+  },
+  {
+   "name": "Zebak",
+   "category": "Raid bosses",
+   "aliases": [
+    "toa"
+   ],
+   "defence": {
+    "stab": 160,
+    "slash": 160,
+    "crush": 260,
+    "magic": 200,
+    "rangedLight": 110,
+    "rangedStandard": 110,
+    "rangedHeavy": 110
+   },
+   "setups": [
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Twisted bow",
+      "Bow of Faerdhinen",
+      "Toxic blowpipe",
+      "Zaryte crossbow",
+      "Armadyl crossbow",
+      "Dragon crossbow",
+      "Eclipse atlatl",
+      "Rune crossbow"
+     ],
+     "notes": "Ranged defence is lowest, and the Twisted bow is best. Stay out of melee range to avoid bleed. Immune to life leech."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Tumeken's shadow"
+     ],
+     "notes": "The Shadow is second on the wiki's weapon list."
+    }
+   ]
+  },
+  {
+   "name": "Kephri",
+   "category": "Raid bosses",
+   "aliases": [
+    "toa"
+   ],
+   "attributes": [
+    "kalphite"
+   ],
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 35,
+   "defence": {
+    "stab": 60,
+    "slash": 300,
+    "crush": 100,
+    "magic": 200,
+    "rangedLight": 300,
+    "rangedStandard": 300,
+    "rangedHeavy": 300
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Osmumten's fang",
+      "Keris partisan of breaching",
+      "Keris partisan of amascut",
+      "Keris partisan"
+     ],
+     "notes": "Stab defence is 60. Keris partisans get a bonus against kalphites. Dodge fireball shadows and kill the shield scarabs."
+    }
+   ]
+  },
+  {
+   "name": "Ba-Ba",
+   "category": "Raid bosses",
+   "aliases": [
+    "baba",
+    "toa"
+   ],
+   "defence": {
+    "stab": 80,
+    "slash": 160,
+    "crush": 240,
+    "magic": 280,
+    "rangedLight": 200,
+    "rangedStandard": 200,
+    "rangedHeavy": 120
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "STAB",
+     "weapons": [
+      "Osmumten's fang",
+      "Ghrazi rapier",
+      "Keris partisan of amascut",
+      "Zamorakian hasta",
+      "Belle's folly"
+     ],
+     "notes": "Stab defence is 80. Protect from Melee fully blocks her melee. Stand next to debris to avoid thrown rocks."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Zaryte crossbow",
+      "Bow of Faerdhinen",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "notes": "Heavy ranged defence (120) is lower than light/standard, so crossbows are preferred."
+    }
+   ]
+  },
+  {
+   "name": "Tormented Demon",
+   "category": "Slayer bosses",
+   "aliases": [
+    "td",
+    "tds"
+   ],
+   "attributes": [
+    "demon"
+   ],
+   "elementalWeakness": "water",
+   "elementalWeaknessPercent": 30,
+   "defence": {
+    "stab": 75,
+    "slash": 175,
+    "crush": 68,
+    "magic": 5,
+    "rangedLight": 140,
+    "rangedStandard": 150,
+    "rangedHeavy": 90
+   },
+   "setups": [
+    {
+     "label": "Melee",
+     "style": "SLASH",
+     "weapons": [
+      "Emberlight",
+      "Arclight",
+      "Abyssal bludgeon",
+      "Abyssal dagger (p++)",
+      "Osmumten's fang",
+      "Abyssal tentacle",
+      "Abyssal whip",
+      "Darklight"
+     ],
+     "preferred": {
+      "head": [
+       "Torva full helm",
+       "Oathplate helm",
+       "Neitiznot faceguard"
+      ],
+      "amulet": [
+       "Amulet of rancour",
+       "Amulet of torture",
+       "Amulet of blood fury"
+      ],
+      "cape": [
+       "Infernal cape",
+       "Fire cape"
+      ],
+      "body": [
+       "Torva platebody",
+       "Oathplate chest",
+       "Bandos chestplate",
+       "Inquisitor's hauberk"
+      ],
+      "legs": [
+       "Torva platelegs",
+       "Oathplate legs",
+       "Bandos tassets"
+      ],
+      "shield": [
+       "Avernic defender",
+       "Dragon defender"
+      ]
+     },
+     "notes": "Demonbane weapons are best. When the shield is down, hit hard with crush (Dharok's greataxe, Tzhaar-ket-om, Dragon 2h sword, Granite maul, Saradomin godsword). Requires While Guthix Sleeps."
+    },
+    {
+     "label": "Ranged",
+     "style": "RANGED",
+     "weapons": [
+      "Scorching bow",
+      "Twisted bow",
+      "Toxic blowpipe",
+      "Bow of Faerdhinen",
+      "Eclipse atlatl",
+      "Hunters' sunlight crossbow",
+      "Dragon crossbow",
+      "Rune crossbow"
+     ],
+     "preferred": {
+      "head": [
+       "Masori mask (f)",
+       "Crystal helm"
+      ],
+      "amulet": [
+       "Necklace of rupture",
+       "Necklace of anguish"
+      ],
+      "cape": [
+       "Dizana's quiver",
+       "Ava's assembler"
+      ],
+      "body": [
+       "Masori body (f)",
+       "Crystal body"
+      ],
+      "legs": [
+       "Masori chaps (f)",
+       "Crystal legs"
+      ],
+      "shield": [
+       "Twisted buckler",
+       "Dragonfire ward",
+       "Odium ward"
+      ]
+     },
+     "notes": "When the shield is down, use a heavy ranged weapon on Accurate: Heavy ballista, Light ballista, Zaryte crossbow, Armadyl crossbow."
+    },
+    {
+     "label": "Magic",
+     "style": "MAGIC",
+     "weapons": [
+      "Purging staff",
+      "Toxic Staff of the Dead",
+      "Staff of the Dead",
+      "Master wand",
+      "Ahrim's staff",
+      "Twinflame staff"
+     ],
+     "preferred": {
+      "head": [
+       "Ancestral hat",
+       "Virtus mask"
+      ],
+      "amulet": [
+       "Occult necklace"
+      ],
+      "cape": [
+       "Imbued god cape"
+      ],
+      "body": [
+       "Ancestral robe top",
+       "Virtus robe top"
+      ],
+      "legs": [
+       "Ancestral robe bottom",
+       "Virtus robe bottom"
+      ],
+      "shield": [
+       "Elidinis' ward (f)",
+       "Arcane spirit shield"
+      ]
+     },
+     "notes": "Use demonbane spells (Purging staff, Mark of Darkness). Twinflame staff is recommended for the shield-down hit."
+    }
+   ]
+  }
+ ]
+}

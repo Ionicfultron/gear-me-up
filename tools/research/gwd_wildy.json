@@ -1,0 +1,488 @@
+[
+  {
+    "name": "General Graardor",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/General_Graardor",
+    "combatLevel": 624,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "earth", "percent": 40},
+    "defenceBonuses": {"stab": 90, "slash": 90, "crush": 90, "magic": 298, "rangedLight": 90, "rangedStandard": 90, "rangedHeavy": 90},
+    "attackStyles": ["melee", "ranged"],
+    "setups": [
+      {
+        "label": "Melee (solo)",
+        "style": "STAB",
+        "weapons": ["Osmumten's fang", "Inquisitor's mace", "Ghrazi rapier", "Blade of Saeldor", "Abyssal tentacle", "Zamorakian hasta", "Abyssal whip", "Zombie axe"],
+        "preferred": {"shield": ["Rondache", "Elysian spirit shield", "Dragonfire shield", "Avernic defender", "Spectral spirit shield"], "ammo": ["Unholy blessing", "Rada's blessing 4", "War blessing"]},
+        "required": {},
+        "notes": "Needs 70 Strength (cannot be boosted) for Bandos' Stronghold. Pray Protect from Melee and wear a ranged-defence body (Masori body (f) or Karil's) unless using Justiciar/Torva; the wiki's special-attack weapons are Voidwaker, Saradomin godsword, Dragon claws and Elder maul."
+      },
+      {
+        "label": "Ranged (solo)",
+        "style": "RANGED",
+        "weapons": ["Bow of Faerdhinen", "Zaryte crossbow", "Armadyl crossbow", "Dragon crossbow", "Rune crossbow", "Toxic blowpipe"],
+        "preferred": {"head": ["Crystal helm"], "body": ["Crystal body"], "legs": ["Crystal legs"], "ammo": ["Diamond dragon bolts (e)", "Diamond bolts (e)"]},
+        "required": {},
+        "notes": "The wiki calls ranged the most straightforward solo style: you can kite and avoid all of Graardor's damage. Wear crystal armour only with the Bow of Faerdhinen."
+      },
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Tumeken's shadow", "Eye of Ayak", "Harmonised Nightmare staff", "Twinflame staff"],
+        "preferred": {"shield": ["Tome of Earth"], "cape": ["Imbued Zamorak cape"]},
+        "required": {},
+        "notes": "Freeze with Ice Barrage (an Ice ancient sceptre is ideal) and attack from range. Tome of Earth only helps with earth spells (40% earth weakness)."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "The wiki lists stats for a single version only."
+  },
+  {
+    "name": "Commander Zilyana",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Commander_Zilyana",
+    "combatLevel": 596,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 100, "slash": 100, "crush": 100, "magic": 100, "rangedLight": 100, "rangedStandard": 100, "rangedHeavy": 75},
+    "attackStyles": ["melee", "magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Twisted bow", "Ascension crossbows", "Bow of Faerdhinen", "Zaryte crossbow", "Hunters' sunlight crossbow", "Armadyl crossbow", "Dragon hunter crossbow", "Rune crossbow"],
+        "preferred": {"ammo": ["Seeking dragon arrow", "Diamond ascension bolts (e)", "Diamond dragon bolts (e)", "Moonlight antler bolts", "Holy blessing"], "body": ["Saradomin d'hide body"], "legs": ["Saradomin chaps"]},
+        "required": {},
+        "notes": "Needs 70 Agility (cannot be boosted) and ropes. Kite her around the room with Protect from Magic on; a Toxic blowpipe or Serpentine helm switch helps envenom the bodyguards."
+      },
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Tumeken's shadow", "Eye of Ayak", "Accursed sceptre", "Eldritch Nightmare staff"],
+        "preferred": {"cape": ["Imbued Saradomin cape"], "ammo": ["Unholy blessing"]},
+        "required": {},
+        "notes": "Use Protect from Missiles, with Blood Barrage on the bodyguards and the Eldritch Nightmare staff special for sustain. The wiki says this needs near-max magic gear; otherwise use ranged."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "The wiki strategy page has no melee setup; melee is mentioned only for teams."
+  },
+  {
+    "name": "Kree'arra",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Kree%27arra",
+    "combatLevel": 580,
+    "attributes": ["flying"],
+    "immuneTo": ["melee"],
+    "elementalWeakness": {"element": "air", "percent": 30},
+    "defenceBonuses": {"stab": 180, "slash": 180, "crush": 180, "magic": 200, "rangedLight": 200, "rangedStandard": 200, "rangedHeavy": 200},
+    "attackStyles": ["melee", "ranged", "magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Twisted bow", "Ascension crossbows", "Zaryte crossbow", "Bow of Faerdhinen", "Armadyl crossbow", "Dragon hunter crossbow", "Dragon crossbow", "Black chinchompa"],
+        "preferred": {"shield": ["Elysian spirit shield", "Dragonfire ward", "Twisted buckler"], "ammo": ["Diamond ascension bolts (e)", "Diamond dragon bolts (e)", "Seeking dragon arrow"], "gloves": ["Zaryte vambraces", "Armadyl bracers"], "boots": ["Armadyl d'hide boots"]},
+        "required": {},
+        "notes": "Needs 70 Ranged to enter the Eyrie (grapple), plus 40 Armadyl killcount or an Ecumenical key. Pray Protect from Missiles and attack off-tick so he doesn't melee; Black or Red chinchompas work for clearing the room."
+      },
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Tumeken's shadow", "Eldritch Nightmare staff", "Zorya's tome"],
+        "preferred": {"cape": ["Imbued Zamorak cape"], "ammo": ["Rada's blessing 4", "Honourable blessing"]},
+        "required": {},
+        "notes": "The wiki's magic setup uses Tumeken's shadow in max magic gear. Air spells get the 30% weakness."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "Melee only works with halberds or salamanders; the wiki's niche team setup uses a Noxious halberd with Soulflame horn specials. I omitted it as a separate setup."
+  },
+  {
+    "name": "K'ril Tsutsaroth",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/K%27ril_Tsutsaroth",
+    "combatLevel": 650,
+    "attributes": ["demon"],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "water", "percent": 30},
+    "defenceBonuses": {"stab": 70, "slash": 80, "crush": 80, "magic": 80, "rangedLight": 80, "rangedStandard": 80, "rangedHeavy": 80},
+    "attackStyles": ["melee", "magic"],
+    "setups": [
+      {
+        "label": "Melee",
+        "style": "STAB",
+        "weapons": ["Emberlight", "Arclight", "Osmumten's fang", "Zamorakian hasta", "Ghrazi rapier", "Scythe of Vitur", "Abyssal tentacle"],
+        "preferred": {"shield": ["Avernic defender", "Spectral spirit shield", "Elysian spirit shield"], "ammo": ["Unholy blessing", "Rada's blessing 4"], "ring": ["Bellator ring", "Ultor ring", "Lightbearer"]},
+        "required": {},
+        "notes": "Needs 70 Hitpoints to enter. Wear armour with high magic defence (Masori or d'hide); his prayer smash hits through prayer and a Spectral spirit shield reduces it. Demonbane weapons (Emberlight, Arclight) are best."
+      },
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Scorching bow", "Twisted bow", "Bow of Faerdhinen", "Toxic blowpipe"],
+        "preferred": {"ammo": ["Seeking dragon arrow", "Seeking amethyst arrow", "Dragon arrow"], "gloves": ["Zamorak bracers"]},
+        "required": {},
+        "notes": "The Scorching bow is demonbane and ranked first on the wiki."
+      },
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Tumeken's shadow", "Purging staff", "Eldritch Nightmare staff"],
+        "preferred": {"cape": ["Imbued Zamorak cape"]},
+        "required": {},
+        "notes": "Water spells get the 30% weakness."
+      }
+    ],
+    "confidence": "medium",
+    "uncertain": "I couldn't confirm Emberlight's and Arclight's best attack style (stab or slash); STAB was chosen because stab is K'ril's lowest defence."
+  },
+  {
+    "name": "Nex",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Nex",
+    "combatLevel": 1001,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 40, "slash": 140, "crush": 35, "magic": 300, "rangedLight": 190, "rangedStandard": 190, "rangedHeavy": 150},
+    "attackStyles": ["melee", "ranged", "magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Zaryte crossbow", "Ascension crossbows", "Twisted bow", "Armadyl crossbow", "Toxic blowpipe", "Dragon hunter crossbow", "Dragon crossbow"],
+        "preferred": {"cape": ["Blessed Dizana's quiver"], "ammo": ["Ruby dragon bolts (e)", "Diamond ascension bolts (e)", "Seeking dragon arrow", "Ruby bolts (e)"], "shield": ["Twisted buckler"]},
+        "required": {},
+        "notes": "Needs The Frozen Door miniquest. Team boss; the wiki strongly advises against soloing. Ruby-bolt specs with the Zaryte crossbow are standard, and five Zarosian items (Ancient d'hide) give extra essence for killcount."
+      },
+      {
+        "label": "Melee hybrid",
+        "style": "CRUSH",
+        "weapons": ["Obligator", "Inquisitor's mace", "Osmumten's fang", "Crimson kisten", "Voidwaker", "Burning claws"],
+        "preferred": {"shield": ["Avernic defender", "Rondache"], "ring": ["Lightbearer", "Ultor ring"]},
+        "required": {},
+        "notes": "Melee damage with ranged switches for the Shadow and Zaros phases. The wiki ranks Osmumten's fang next to Inquisitor's mace only when wearing at least two Inquisitor pieces."
+      }
+    ],
+    "confidence": "medium",
+    "uncertain": "The wiki text says Nex is weakest to stab, but the infobox crush defence (35) is lower than stab (40). Obligator's attack style was not checked, so CRUSH is a guess."
+  },
+  {
+    "name": "Callisto",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Callisto",
+    "combatLevel": 470,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "fire", "percent": 30},
+    "defenceBonuses": {"stab": 150, "slash": 130, "crush": 125, "magic": 0, "rangedLight": 50, "rangedStandard": 50, "rangedHeavy": 50},
+    "attackStyles": ["melee", "ranged", "magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Webweaver bow", "Craw's bow", "Bow of Faerdhinen", "Zaryte crossbow", "Armadyl crossbow", "Dragon crossbow", "Rune crossbow", "Magic shortbow (i)"],
+        "preferred": {"ammo": ["Rada's blessing 4", "Ruby dragon bolts (e)", "Ruby bolts (e)", "Amethyst arrow"], "shield": ["Twisted buckler", "Dragonfire ward", "Odium ward"], "ring": ["Ring of shadows"]},
+        "required": {},
+        "notes": "Level 39 multi-combat Wilderness; needs the Wilderness Medium Diary. You risk your items, so bring only 3-4 valuable items or wilderness weapons; freeze him (Ice Barrage or Entangle) and keep him away from you, because his melee hits through prayer."
+      },
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Accursed sceptre", "Thammaron's sceptre", "Eye of Ayak", "Sanguinesti staff", "Trident of the Swamp", "Trident of the Seas", "Warped sceptre"],
+        "preferred": {"ammo": ["Rada's blessing 4"], "ring": ["Ring of shadows"]},
+        "required": {},
+        "notes": "No longer immune to magic, but he has a high Magic level. Use Accursed sceptre specials for a bind and defence drain."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "Melee is not advised by the wiki, so there is no melee setup."
+  },
+  {
+    "name": "Artio",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Artio",
+    "combatLevel": 320,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 125, "slash": 110, "crush": 110, "magic": 0, "rangedLight": 40, "rangedStandard": 40, "rangedHeavy": 40},
+    "attackStyles": ["melee", "ranged", "magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Webweaver bow", "Craw's bow", "Bow of Faerdhinen", "Eclipse atlatl", "Dragon crossbow", "Hunters' sunlight crossbow", "Magic shortbow (i)"],
+        "preferred": {"ammo": ["Rada's blessing 4", "Atlatl dart", "Ruby dragon bolts (e)", "Moonlight antler bolts"], "ring": ["Ring of shadows"]},
+        "required": {},
+        "notes": "Singles-plus mid-level Wilderness; needs the Wilderness Hard Diary. You risk your items, so use wilderness weapons or a 3-4 item setup; freeze her with ice spells and pray Protect from Magic for the knockback orb."
+      },
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Accursed sceptre", "Thammaron's sceptre", "Eye of Ayak", "Tumeken's shadow", "Sanguinesti staff", "Trident of the Swamp", "Trident of the Seas", "Warped sceptre"],
+        "preferred": {"ring": ["Ring of shadows"], "ammo": ["Rada's blessing 4"]},
+        "required": {},
+        "notes": "Ice spells almost always hit her and bind her. At 66% and 33% health she breaks free and lays bear traps."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "The infobox lists no elemental weakness, unlike Callisto."
+  },
+  {
+    "name": "Vet'ion",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Vet%27ion",
+    "combatLevel": 454,
+    "attributes": ["undead"],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 201, "slash": 200, "crush": -10, "magic": 250, "rangedLight": 270, "rangedStandard": 270, "rangedHeavy": 270},
+    "attackStyles": ["melee", "magic"],
+    "setups": [
+      {
+        "label": "Melee (crush)",
+        "style": "CRUSH",
+        "weapons": ["Ursine chainmace", "Viggora's chainmace", "Soulreaper axe", "Inquisitor's mace", "Abyssal bludgeon", "Zamorakian hasta", "Zombie axe", "Elder maul"],
+        "preferred": {"amulet": ["Salve amulet (e)", "Salve amulet"], "shield": ["Avernic defender", "Dragon defender", "Dragonfire shield"], "ring": ["Ultor ring", "Berserker ring (i)", "Ring of shadows"], "ammo": ["Rada's blessing 4"]},
+        "required": {},
+        "notes": "Multi-combat deep Wilderness; needs the Wilderness Medium Diary. You risk your items, so use chainmace or 3-item setups and protect untradeables with a Trouver parchment. At 50% health, kill the hellhounds, which make him immune while alive."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "The Enraged form uses the same stats per the infobox. The temporary immunity while hellhounds are alive is not encoded in immuneTo."
+  },
+  {
+    "name": "Calvar'ion",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Calvar%27ion",
+    "combatLevel": 264,
+    "attributes": ["undead"],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 130, "slash": 128, "crush": -10, "magic": 198, "rangedLight": 211, "rangedStandard": 211, "rangedHeavy": 211},
+    "attackStyles": ["melee", "magic"],
+    "setups": [
+      {
+        "label": "Melee (crush)",
+        "style": "CRUSH",
+        "weapons": ["Ursine chainmace", "Viggora's chainmace", "Soulreaper axe", "Inquisitor's mace", "Abyssal bludgeon", "Zombie axe", "Zamorakian hasta", "Elder maul"],
+        "preferred": {"amulet": ["Salve amulet (e)", "Salve amulet"], "shield": ["Avernic defender", "Rondache", "Dragon defender"], "ring": ["Ultor ring", "Berserker ring (i)", "Ring of shadows"], "ammo": ["Rada's blessing 4"]},
+        "required": {},
+        "notes": "Level 21 singles-plus Wilderness; needs the Wilderness Hard Diary. You risk your items, so protect untradeables with a Trouver parchment. All his attacks are area attacks you can dodge; kill the hellhounds at 50%."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": ""
+  },
+  {
+    "name": "Venenatis",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Venenatis",
+    "combatLevel": 464,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "fire", "percent": 40},
+    "defenceBonuses": {"stab": 100, "slash": 100, "crush": 10, "magic": 300, "rangedLight": 150, "rangedStandard": 150, "rangedHeavy": 150},
+    "attackStyles": ["melee", "ranged", "magic"],
+    "setups": [
+      {
+        "label": "Melee (crush)",
+        "style": "CRUSH",
+        "weapons": ["Ursine chainmace", "Viggora's chainmace", "Inquisitor's mace", "Elder maul", "Soulreaper axe", "Abyssal bludgeon", "Zombie axe", "Zamorakian hasta"],
+        "preferred": {"shield": ["Avernic defender", "Dragon defender", "Dragonfire shield"], "ring": ["Ultor ring", "Berserker ring (i)", "Ring of shadows"], "ammo": ["Rada's blessing 4"]},
+        "required": {},
+        "notes": "Multi-combat deep Wilderness; needs the Wilderness Medium Diary. You risk your items, so use wilderness weapons or 3-4 items. In melee distance she only melees; avoid the webs, which drain run energy."
+      },
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Webweaver bow", "Craw's bow", "Zaryte crossbow", "Armadyl crossbow", "Dragon crossbow", "Rune crossbow"],
+        "preferred": {"ammo": ["Rada's blessing 4", "Diamond dragon bolts (e)", "Diamond bolts (e)"], "ring": ["Ring of shadows"]},
+        "required": {},
+        "notes": "Switch overheads with her cycle of 8 ranged then 8 magic attacks. Ranged lets you stay near the exit."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": ""
+  },
+  {
+    "name": "Spindel",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Spindel",
+    "combatLevel": 302,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "fire", "percent": 25},
+    "defenceBonuses": {"stab": 70, "slash": 70, "crush": 10, "magic": 205, "rangedLight": 103, "rangedStandard": 103, "rangedHeavy": 103},
+    "attackStyles": ["melee", "ranged", "magic"],
+    "setups": [
+      {
+        "label": "Melee (crush)",
+        "style": "CRUSH",
+        "weapons": ["Ursine chainmace", "Viggora's chainmace", "Inquisitor's mace", "Soulreaper axe", "Abyssal bludgeon", "Zombie axe", "Zamorakian hasta", "Sarachnis cudgel"],
+        "preferred": {"shield": ["Avernic defender", "Rondache", "Dragon defender"], "ring": ["Ultor ring", "Berserker ring (i)", "Ring of shadows"], "ammo": ["Rada's blessing 4"], "boots": ["Aranea boots"]},
+        "required": {},
+        "notes": "Level 29 Wilderness; needs the Wilderness Hard Diary. You risk your items, so use wilderness weapons; avoid the webs."
+      },
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Webweaver bow", "Craw's bow", "Bow of Faerdhinen", "Zaryte crossbow", "Armadyl crossbow", "Dragon crossbow", "Rune crossbow"],
+        "preferred": {"ammo": ["Rada's blessing 4", "Diamond dragon bolts (e)"], "ring": ["Ring of shadows"], "boots": ["Aranea boots"]},
+        "required": {},
+        "notes": "Switch overheads with her attack cycle."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": ""
+  },
+  {
+    "name": "Chaos Elemental",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Chaos_Elemental",
+    "combatLevel": 305,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "air", "percent": 50},
+    "defenceBonuses": {"stab": 70, "slash": 70, "crush": 70, "magic": 70, "rangedLight": 70, "rangedStandard": 70, "rangedHeavy": 70},
+    "attackStyles": ["melee", "ranged", "magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Webweaver bow", "Craw's bow", "Twisted bow", "Bow of Faerdhinen", "Toxic blowpipe", "Armadyl crossbow"],
+        "preferred": {"ammo": ["Rada's blessing 4", "Dragon arrow", "Amethyst arrow", "Diamond bolts (e)"], "ring": ["Ring of suffering (i)", "Ring of shadows"]},
+        "required": {},
+        "notes": "Level 50 Wilderness; you risk your items. Keep your inventory full (curry, pies or Guthix rest) to stop Madness unequipping you, and pray Protect from Magic. A safespot exists near the Resource Area."
+      },
+      {
+        "label": "Melee",
+        "style": "CRUSH",
+        "weapons": ["Ursine chainmace", "Viggora's chainmace", "Osmumten's fang", "Noxious halberd", "Abyssal tentacle", "Abyssal whip", "Verac's flail"],
+        "preferred": {"shield": ["Avernic defender", "Dragon defender", "Dragonfire shield"], "ring": ["Ultor ring", "Berserker ring (i)", "Ring of shadows"]},
+        "required": {},
+        "notes": "Flinching behind a tree is the wiki's safest solo method; attack speed doesn't matter when flinching."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "Its basic attack randomly deals melee, ranged or magic damage. All defences are equal, so the melee style follows the top weapon."
+  },
+  {
+    "name": "Chaos Fanatic",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Chaos_Fanatic",
+    "combatLevel": 202,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 260, "slash": 260, "crush": 250, "magic": 280, "rangedLight": 80, "rangedStandard": 50, "rangedHeavy": 80},
+    "attackStyles": ["magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Webweaver bow", "Craw's bow", "Twisted bow", "Bow of Faerdhinen", "Scorching bow", "Magic shortbow (i)", "Crystal bow"],
+        "preferred": {"ammo": ["Rada's blessing 4", "Dragon arrow", "Amethyst arrow", "Rune arrow"], "ring": ["Ring of shadows", "Explorer's ring 4"], "amulet": ["Necklace of rupture", "Necklace of anguish"]},
+        "required": {},
+        "notes": "Wilderness PK hotspot; you risk your items. Pray Protect from Magic, dodge the green special, and use inventory-blocking food (summer pies, curry, Armadyl brews) because he can unequip your gear."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": ""
+  },
+  {
+    "name": "Crazy archaeologist",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Crazy_archaeologist",
+    "combatLevel": 204,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 5, "slash": 5, "crush": 30, "magic": 250, "rangedLight": 250, "rangedStandard": 250, "rangedHeavy": 250},
+    "attackStyles": ["melee", "ranged"],
+    "setups": [
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Accursed sceptre", "Thammaron's sceptre", "Eye of Ayak", "Sanguinesti staff", "Trident of the Swamp", "Trident of the Seas", "Warped sceptre", "Iban's staff (u)"],
+        "preferred": {"shield": ["Elidinis' ward (f)", "Elidinis' ward", "Mage's book", "Malediction ward"], "ring": ["Ring of shadows"], "ammo": ["Rada's blessing 4"]},
+        "required": {},
+        "notes": "Level 22-25 Wilderness; you risk your items, so take 3-4 valuables at most. Pray Protect from Missiles and step out of the 'Rain of knowledge!' book area; his low Magic level makes magic accuracy matter little, so prayer gear (monk robes) is fine."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "Melee works (very low stab and slash defence), but the wiki discourages it because he adds melee attacks when you are close."
+  },
+  {
+    "name": "Scorpia",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Scorpia",
+    "combatLevel": 225,
+    "attributes": [],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "fire", "percent": 35},
+    "defenceBonuses": {"stab": 246, "slash": 284, "crush": 284, "magic": 44, "rangedLight": 284, "rangedStandard": 284, "rangedHeavy": 284},
+    "attackStyles": ["melee"],
+    "setups": [
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Accursed sceptre", "Thammaron's sceptre", "Eye of Ayak", "Sanguinesti staff", "Trident of the Swamp", "Trident of the Seas", "Warped sceptre"],
+        "preferred": {"shield": ["Elidinis' ward (f)", "Elidinis' ward", "Malediction ward"], "ring": ["Ring of shadows"], "ammo": ["Rada's blessing 4"]},
+        "required": {},
+        "notes": "Level 50+ multi-combat Wilderness; you risk your items, so take 3-4 valuables. Freeze her with Ice Barrage or Entangle, pray Protect from Missiles against her offspring, and kill or lure away the healing guardians below 99 HP; bring antipoison."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "The infobox lists her attack as Stab; the Boss page table says crush."
+  },
+  {
+    "name": "King Black Dragon",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/King_Black_Dragon",
+    "combatLevel": 276,
+    "attributes": ["dragon", "fiery"],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "water", "percent": 50},
+    "defenceBonuses": {"stab": 40, "slash": 90, "crush": 90, "magic": 80, "rangedLight": 70, "rangedStandard": 70, "rangedHeavy": 40},
+    "attackStyles": ["melee", "magic"],
+    "setups": [
+      {
+        "label": "Melee",
+        "style": "STAB",
+        "weapons": ["Dragon hunter lance", "Osmumten's fang", "Ghrazi rapier", "Noxious halberd", "Zamorakian hasta", "Abyssal dagger (p++)"],
+        "preferred": {"shield": ["Avernic defender", "Dragon defender", "Dragonfire shield", "Antler guard", "Anti-dragon shield"], "ring": ["Ultor ring", "Berserker ring (i)", "Treasonous ring (i)"], "ammo": ["Rada's blessing 4"]},
+        "required": {},
+        "notes": "The lair isn't in the Wilderness, but reaching it crosses level 42 Wilderness, so you risk your items. Use an anti-dragon shield or Dragonfire shield, or a defender only with an Extended super antifire plus Protect from Magic. The wiki's special-attack weapons are Voidwaker, Burning claws and Arkan blade."
+      },
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Twisted bow", "Dragon hunter crossbow", "Bow of Faerdhinen", "Armadyl crossbow", "Dragon crossbow", "Hunters' sunlight crossbow", "Rune crossbow"],
+        "preferred": {"shield": ["Dragonfire ward", "Anti-dragon shield"], "ammo": ["Seeking dragon arrow", "Diamond dragon bolts (e)", "Diamond bolts (e)", "Moonlight antler bolts"], "ring": ["Venator ring", "Explorer's ring 4", "Ring of shadows"]},
+        "required": {},
+        "notes": "Use Dragonfire protection: a Dragonfire ward or Anti-dragon shield, or an Extended super antifire if the weapon is two-handed."
+      }
+    ],
+    "confidence": "high",
+    "uncertain": "The infobox says 240 HP; the Boss list says 255. Dragonfire is counted as 'magic' in attackStyles."
+  },
+  {
+    "name": "Revenant maledictus",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Revenant_maledictus",
+    "combatLevel": 397,
+    "attributes": ["undead", "spectral"],
+    "immuneTo": [],
+    "elementalWeakness": {"element": "none", "percent": 0},
+    "defenceBonuses": {"stab": 201, "slash": 206, "crush": 188, "magic": 101, "rangedLight": 231, "rangedStandard": 231, "rangedHeavy": 231},
+    "attackStyles": ["ranged", "magic"],
+    "setups": [
+      {
+        "label": "Ranged",
+        "style": "RANGED",
+        "weapons": ["Webweaver bow", "Craw's bow", "Bow of Faerdhinen", "Toxic blowpipe", "Hunters' sunlight crossbow", "Magic shortbow (i)"],
+        "preferred": {"amulet": ["Amulet of avarice", "Salve amulet(ei)"], "ammo": ["Rada's blessing 4"], "ring": ["Ring of shadows"]},
+        "required": {},
+        "notes": "Random demi-boss in the Revenant Caves (Wilderness), functionally multi-combat. You risk your items, and Protect from Missiles leaves you open to a teleblock. Dodge its ice and blood spells by moving; the top damager wearing an Amulet of avarice gets Forinthry Surge."
+      },
+      {
+        "label": "Magic",
+        "style": "MAGIC",
+        "weapons": ["Accursed sceptre", "Thammaron's sceptre", "Sanguinesti staff", "Trident of the Swamp", "Trident of the Seas", "Warped sceptre"],
+        "preferred": {"amulet": ["Amulet of avarice", "Salve amulet(ei)"], "ring": ["Ring of shadows"]},
+        "required": {},
+        "notes": "Its lowest defence is magic (101). Setups are taken from the Revenants/Strategies page."
+      }
+    ],
+    "confidence": "low",
+    "uncertain": "There is no Revenant maledictus/Strategies page; setups come from Revenants/Strategies. I did not check whether the Salve amulet applies to it, and the infobox lists no elemental weakness."
+  }
+]
