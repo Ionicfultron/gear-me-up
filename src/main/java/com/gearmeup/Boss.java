@@ -23,11 +23,65 @@ public final class Boss
 	private final String info;
 	private final List<String> searchTerms = new ArrayList<>();
 	private final List<GearSetup> setups;
+	private final Combat combat;
+
+	/** The boss's combat stats (null when unknown, e.g. the generic entry). */
+	public static final class Combat
+	{
+		private final int hitpoints;
+		private final int defenceLevel;
+		private final int magicLevel;
+		private final int size;
+		private final int flatArmour;
+		private final String target;
+
+		Combat(int hitpoints, int defenceLevel, int magicLevel, int size, int flatArmour, String target)
+		{
+			this.hitpoints = hitpoints;
+			this.defenceLevel = defenceLevel;
+			this.magicLevel = magicLevel;
+			this.size = size;
+			this.flatArmour = flatArmour;
+			this.target = target;
+		}
+
+		public int getHitpoints()
+		{
+			return hitpoints;
+		}
+
+		public int getDefenceLevel()
+		{
+			return defenceLevel;
+		}
+
+		public int getMagicLevel()
+		{
+			return magicLevel;
+		}
+
+		public int getSize()
+		{
+			return size;
+		}
+
+		public int getFlatArmour()
+		{
+			return flatArmour;
+		}
+
+		/** e.g. "vs phase 3" when the stats are for one form of the boss; may be null. */
+		public String getTarget()
+		{
+			return target;
+		}
+	}
 
 	Boss(String name, String category, List<String> attributes, List<String> immuneTo, String elementalWeakness,
 		int elementalWeaknessPercent, Map<String, Integer> defence, int slayerLevel, boolean slayerOnly, String info,
-		List<String> aliases, List<GearSetup> setups)
+		List<String> aliases, List<GearSetup> setups, Combat combat)
 	{
+		this.combat = combat;
 		this.name = name;
 		this.category = category;
 		this.attributes = Collections.unmodifiableList(attributes);
@@ -83,6 +137,80 @@ public final class Boss
 	public List<GearSetup> getSetups()
 	{
 		return setups;
+	}
+
+	public Combat getCombat()
+	{
+		return combat;
+	}
+
+	public List<String> getImmuneTo()
+	{
+		return immuneTo;
+	}
+
+	/** Defence bonus for a key (stab, slash, crush, magic, rangedLight, rangedStandard, rangedHeavy); 0 if unknown. */
+	public int getDefenceBonus(String key)
+	{
+		Integer v = defence.get(key);
+		return v == null ? 0 : v;
+	}
+
+	/** "cox", "tob" or "toa" when the boss is fought in a raid; null otherwise. */
+	public String getRaid()
+	{
+		String n = name.toLowerCase(Locale.ROOT);
+		if (n.contains("chambers of xeric") || n.contains("great olm"))
+		{
+			return "cox";
+		}
+		if (n.contains("theatre of blood") || n.contains("verzik"))
+		{
+			return "tob";
+		}
+		if (n.contains("tombs of amascut") || n.contains("warden") || n.equals("akkha") || n.equals("zebak")
+			|| n.equals("kephri") || n.equals("ba-ba"))
+		{
+			return "toa";
+		}
+		return null;
+	}
+
+	/** Demonbane effectiveness in percent (OSRS Wiki): 100 for most demons. */
+	public int getDemonbaneVulnerability()
+	{
+		switch (name)
+		{
+			case "Duke Sucellus":
+				return 70;
+			case "Ocellus":
+			case "Xarth":
+				return 80;
+			case "Dreadnoth the Jellied":
+				return 25;
+			case "Yama":
+				return 120;
+			default:
+				return 100;
+		}
+	}
+
+	/** A few NPCs (Verzik) use their Defence level instead of Magic level against spells. */
+	public boolean usesDefenceAgainstMagic()
+	{
+		return name.equals("Verzik Vitur") || name.equals("Theatre of Blood");
+	}
+
+	/** True inside a raid, where raid-only boosts (overloads, smelling salts) work. */
+	public boolean isRaid()
+	{
+		return category.startsWith("Raid");
+	}
+
+	/** File name of the bundled picture (npc/&lt;slug&gt;.png). Must match slug() in tools/fetch_images.py. */
+	public String getImageSlug()
+	{
+		return name.toLowerCase(Locale.ROOT).replaceAll("[^a-z0-9]+", "-").replaceAll("^-|-$", "");
 	}
 
 	/** A short line about the boss: type, weaknesses, immunities, slayer requirement. */

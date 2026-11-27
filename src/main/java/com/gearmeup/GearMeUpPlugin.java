@@ -10,13 +10,14 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.EnumMap;
+import java.util.EnumSet;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-import net.runelite.api.EquipmentInventorySlot;
 import java.util.stream.Collectors;
 import javax.inject.Inject;
 import javax.swing.SwingUtilities;
@@ -40,6 +41,7 @@ import net.runelite.client.eventbus.Subscribe;
 import net.runelite.client.events.ConfigChanged;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.game.ItemStats;
+import net.runelite.client.game.SpriteManager;
 import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginDependency;
 import net.runelite.client.plugins.PluginDescriptor;
@@ -61,6 +63,10 @@ public class GearMeUpPlugin extends Plugin
 {
 	private static final Logger log = LoggerFactory.getLogger(GearMeUpPlugin.class);
 	private static final String BANK_KEY = "bankItems";
+	private static final String BANK_SEEN_KEY = "bankSeen";
+	private static final Skill[] LEVEL_SKILLS = {Skill.ATTACK, Skill.STRENGTH, Skill.RANGED, Skill.MAGIC, Skill.PRAYER};
+	/** Knight Waves training ground progress: this value or more means Chivalry and Piety are unlocked. */
+	private static final int KNIGHT_WAVES_DONE = 8;
 
 
 	/** Bank tag (provided in code, never saved) that matches only the suggested items. */
@@ -93,6 +99,9 @@ public class GearMeUpPlugin extends Plugin
 	@Inject
 	private BankTagsService bankTagsService;
 
+	@Inject
+	private SpriteManager spriteManager;
+
 	private GearMeUpPanel panel;
 	private BossData bossData;
 	private NavigationButton navButton;
@@ -100,9 +109,11 @@ public class GearMeUpPlugin extends Plugin
 	/** Item id -> quantity last seen in the bank (null = not loaded for this profile yet). Client thread only. */
 	private Map<Integer, Long> bankItems;
 	private SpellAdvisor spellAdvisor;
-	private int lastMagicLevel = -1;
-	private volatile GearSetup selectedSetup;
-	private volatile boolean onSlayerTask;
+	private final int[] lastLevels = new int[LEVEL_SKILLS.length];
+	private volatile Boss selectedBoss;
+	private volatile SetupFinder.Options options;
+	private volatile CombatStyle shownStyle;
+	private volatile GearReport lastReport;
 
 	/** Item ids in the current suggestion, used by the bank filter. */
 	private volatile Set<Integer> suggestedIds = Collections.emptySet();
@@ -127,7 +138,7 @@ public class GearMeUpPlugin extends Plugin
 			log.error("Gear Me Up: couldn't load its data files", e);
 			throw new IllegalStateException("Gear Me Up couldn't load its boss list", e);
 		}
-		panel = new GearMeUpPanel(this, itemManager, bossData.getBosses());
+		panel = new GearMeUpPanel(this, itemManager, spriteManager, bossData.getBosses());
 		navButton = NavigationButton.builder()
 			.tooltip("Gear Me Up")
 			.icon(createIcon())
@@ -149,15 +160,39 @@ public class GearMeUpPlugin extends Plugin
 		navButton = null;
 		panel = null;
 		bankItems = null;
-		selectedSetup = null;
+		selectedBoss = null;
+		lastReport = null;
 	}
 
-	/** Called from the panel (Swing thread) when the player presses "Gear me up!". */
-	void gearUp(GearSetup setup, boolean slayerTask)
+	/** Called from the panel (Swing thread): work out the best setups for a boss. */
+	void find(Boss boss, SetupFinder.Options opts)
 	{
-		selectedSetup = setup;
-		onSlayerTask = slayerTask;
+		selectedBoss = boss;
+		options = opts;
 		clientThread.invokeLater(this::recalculate);
+	}
+
+	/** Called from the panel when a style tab is shown, so the bank filter shows that tab's gear. */
+	void showingStyle(CombatStyle style)
+	{
+		shownStyle = style;
+		clientThread.invokeLater(this::updateSuggestedIds);
+	}
+
+	boolean includeBank()
+	{
+		return config.includeBank();
+	}
+
+	boolean includeInventory()
+	{
+		return config.includeInventory();
+	}
+
+	/** Changes a plugin setting from the panel's advanced options. */
+	void setOption(String key, boolean value)
+	{
+		configManager.setConfiguration(GearMeUpConfig.GROUP, key, value);
 	}
 
 	/** Called from the panel: show only the suggested items in the bank (now, and whenever it's opened). */
@@ -208,6 +243,7 @@ public class GearMeUpPlugin extends Plugin
 					items.merge(i.getId(), (long) i.getQuantity(), Long::sum);
 				}
 			}
+			configManager.setRSProfileConfiguration(GearMeUpConfig.GROUP, BANK_SEEN_KEY, String.valueOf(System.currentTimeMillis()));
 			if (items.equals(bankItems))
 			{
 				return; // nothing changed (e.g. just moving items around)
@@ -221,7 +257,7 @@ public class GearMeUpPlugin extends Plugin
 			return;
 		}
 
-		if (selectedSetup != null)
+		if (selectedBoss != null)
 		{
 			recalculate();
 		}
@@ -230,7 +266,10 @@ public class GearMeUpPlugin extends Plugin
 	@Subscribe
 	public void onVarbitChanged(VarbitChanged event)
 	{
-		if (event.getVarbitId() == VarbitID.SPELLBOOK && isMagicSetup())
+		int id = event.getVarbitId();
+		if (selectedBoss != null && (id == VarbitID.SPELLBOOK || id == VarbitID.PRAYER_RIGOUR_UNLOCKED
+			|| id == VarbitID.PRAYER_AUGURY_UNLOCKED || id == VarbitID.PRAYER_DEADEYE_UNLOCKED
+			|| id == VarbitID.PRAYER_MYSTIC_VIGOUR_UNLOCKED || id == VarbitID.PRAYER_ZEAL_UNLOCKED))
 		{
 			recalculate();
 		}
@@ -240,20 +279,17 @@ public class GearMeUpPlugin extends Plugin
 	public void onStatChanged(StatChanged event)
 	{
 		// Only on a level change, not every XP drop.
-		if (event.getSkill() == Skill.MAGIC && event.getLevel() != lastMagicLevel)
+		for (int i = 0; i < LEVEL_SKILLS.length; i++)
 		{
-			lastMagicLevel = event.getLevel();
-			if (isMagicSetup())
+			if (event.getSkill() == LEVEL_SKILLS[i] && event.getLevel() != lastLevels[i])
 			{
-				recalculate();
+				lastLevels[i] = event.getLevel();
+				if (selectedBoss != null)
+				{
+					recalculate();
+				}
 			}
 		}
-	}
-
-	private boolean isMagicSetup()
-	{
-		GearSetup s = selectedSetup;
-		return s != null && s.getStyle() == CombatStyle.MAGIC;
 	}
 
 	@Subscribe
@@ -263,7 +299,7 @@ public class GearMeUpPlugin extends Plugin
 		{
 			// May be a different account: reload the bank snapshot for this profile.
 			bankItems = null;
-			if (selectedSetup != null)
+			if (selectedBoss != null)
 			{
 				recalculate();
 			}
@@ -273,34 +309,37 @@ public class GearMeUpPlugin extends Plugin
 	@Subscribe
 	public void onConfigChanged(ConfigChanged event)
 	{
-		if (GearMeUpConfig.GROUP.equals(event.getGroup()) && !BANK_KEY.equals(event.getKey()) && selectedSetup != null)
+		if (GearMeUpConfig.GROUP.equals(event.getGroup()) && !BANK_KEY.equals(event.getKey())
+			&& !BANK_SEEN_KEY.equals(event.getKey()) && selectedBoss != null)
 		{
 			clientThread.invokeLater(this::recalculate);
 		}
 	}
 
-	/** Gathers owned gear and works out the setup. Must run on the client thread. */
+	/** Gathers owned gear and works out every style's best setup. Must run on the client thread. */
 	private void recalculate()
 	{
-		GearSetup setup = selectedSetup;
+		Boss boss = selectedBoss;
+		SetupFinder.Options opts = options;
 		GearMeUpPanel p = panel;
-		if (setup == null || p == null)
+		if (boss == null || opts == null || p == null)
 		{
 			return;
 		}
 
 		if (client.getGameState() != GameState.LOGGED_IN)
 		{
-			SwingUtilities.invokeLater(() -> p.showMessage("Log in to see gear for " + setup + "."));
+			SwingUtilities.invokeLater(() -> p.showMessage("Log in to see your gear for " + boss.getName() + "."));
 			return;
 		}
 
 		Map<Integer, Candidate> owned = new HashMap<>();
 		Map<String, Long> quantities = new HashMap<>();
-		addContainer(InventoryID.WORN, ItemSource.EQUIPPED, owned, quantities);
+		Map<String, Integer> itemIds = new HashMap<>();
+		addContainer(InventoryID.WORN, ItemSource.EQUIPPED, owned, quantities, itemIds);
 		if (config.includeInventory())
 		{
-			addContainer(InventoryID.INV, ItemSource.INVENTORY, owned, quantities);
+			addContainer(InventoryID.INV, ItemSource.INVENTORY, owned, quantities, itemIds);
 		}
 
 		String bankStatus;
@@ -313,19 +352,51 @@ public class GearMeUpPlugin extends Plugin
 			}
 			else
 			{
-				bank.forEach((itemId, qty) -> addItem(itemId, qty, ItemSource.BANK, owned, quantities));
-				bankStatus = "Bank remembered (" + bank.size() + " items). Open it to refresh.";
+				bank.forEach((itemId, qty) -> addItem(itemId, qty, ItemSource.BANK, owned, quantities, itemIds));
+				bankStatus = bankSeen();
 			}
 		}
 		else
 		{
-			bankStatus = "Bank items are turned off in the plugin settings.";
+			bankStatus = "Bank items are turned off in the advanced options.";
 		}
 
-		GearResult result = GearCalculator.calculate(setup, owned.values(), onSlayerTask, ignoredNames(), bossData.getKnowledge());
+		PlayerContext player = playerContext(quantities, itemIds);
+		Boss generic = bossData.getBosses().stream().filter(b -> b.getName().startsWith("Any monster")).findFirst().orElse(null);
+		SetupFinder finder = new SetupFinder(boss, generic, owned.values(), player, opts, ignoredNames(),
+			bossData.getKnowledge(), spellAdvisor, client.getVarbitValue(VarbitID.SPELLBOOK), quantities);
+		Map<CombatStyle, SetupFinder.StyleResult> results = finder.findAll();
 
+		Map<Boost, Integer> boostIcons = new EnumMap<>(Boost.class);
+		for (Boost b : Boost.values())
+		{
+			int id = b.getIconItem() == null ? -1 : player.itemId(b.getIconItem());
+			if (id > 0)
+			{
+				boostIcons.put(b, id);
+			}
+		}
+		GearReport report = new GearReport(boss, results, SetupFinder.best(results), owned.size(), bankStatus, boostIcons);
+		lastReport = report;
+		updateSuggestedIds();
+		SwingUtilities.invokeLater(() -> p.showReport(report));
+	}
+
+	/** Client thread. The bank filter shows the gear of the style tab the player is looking at. */
+	private void updateSuggestedIds()
+	{
+		GearReport report = lastReport;
+		if (report == null)
+		{
+			return;
+		}
+		CombatStyle style = shownStyle != null ? shownStyle : report.best;
+		SetupFinder.StyleResult r = style == null ? null : report.results.get(style);
 		Set<Integer> ids = new HashSet<>();
-		result.getPicks().values().forEach(c -> ids.add(c.getItemId()));
+		if (r != null)
+		{
+			r.gear.getPicks().values().forEach(c -> ids.add(c.getItemId()));
+		}
 		if (!ids.equals(suggestedIds))
 		{
 			suggestedIds = Collections.unmodifiableSet(ids);
@@ -334,17 +405,82 @@ public class GearMeUpPlugin extends Plugin
 				applyBankFilter(); // refresh the filtered bank view
 			}
 		}
-		SpellAdvice spell = null;
-		if (setup.getStyle() == CombatStyle.MAGIC)
-		{
-			spell = spellAdvisor.advise(result.get(EquipmentInventorySlot.WEAPON), result.get(EquipmentInventorySlot.SHIELD),
-				setup.getBoss(), client.getRealSkillLevel(Skill.MAGIC), client.getVarbitValue(VarbitID.SPELLBOOK), quantities);
-		}
-		SpellAdvice spellAdvice = spell;
-		SwingUtilities.invokeLater(() -> p.showResult(result, spellAdvice, bankStatus));
 	}
 
-	private void addContainer(int id, ItemSource source, Map<Integer, Candidate> owned, Map<String, Long> quantities)
+	private PlayerContext playerContext(Map<String, Long> quantities, Map<String, Integer> itemIds)
+	{
+		int[] levels = new int[LEVEL_SKILLS.length];
+		int[] current = new int[4];
+		for (int i = 0; i < LEVEL_SKILLS.length; i++)
+		{
+			levels[i] = client.getRealSkillLevel(LEVEL_SKILLS[i]);
+			lastLevels[i] = levels[i];
+			if (i < current.length)
+			{
+				current[i] = client.getBoostedSkillLevel(LEVEL_SKILLS[i]);
+			}
+		}
+		Set<OffensivePrayer.Unlock> unlocks = EnumSet.noneOf(OffensivePrayer.Unlock.class);
+		if (client.getVarbitValue(VarbitID.KR_KNIGHTWAVES_STATE) >= KNIGHT_WAVES_DONE)
+		{
+			unlocks.add(OffensivePrayer.Unlock.KNIGHT_WAVES);
+		}
+		if (client.getVarbitValue(VarbitID.PRAYER_RIGOUR_UNLOCKED) > 0)
+		{
+			unlocks.add(OffensivePrayer.Unlock.RIGOUR);
+		}
+		if (client.getVarbitValue(VarbitID.PRAYER_AUGURY_UNLOCKED) > 0)
+		{
+			unlocks.add(OffensivePrayer.Unlock.AUGURY);
+		}
+		if (client.getVarbitValue(VarbitID.PRAYER_DEADEYE_UNLOCKED) > 0)
+		{
+			unlocks.add(OffensivePrayer.Unlock.DEADEYE);
+		}
+		if (client.getVarbitValue(VarbitID.PRAYER_MYSTIC_VIGOUR_UNLOCKED) > 0)
+		{
+			unlocks.add(OffensivePrayer.Unlock.MYSTIC_VIGOUR);
+		}
+		if (client.getVarbitValue(VarbitID.PRAYER_ZEAL_UNLOCKED) > 0)
+		{
+			unlocks.add(OffensivePrayer.Unlock.ZEAL);
+		}
+		return new PlayerContext(levels, current, unlocks, quantities, itemIds);
+	}
+
+	private String bankSeen()
+	{
+		String saved = configManager.getRSProfileConfiguration(GearMeUpConfig.GROUP, BANK_SEEN_KEY);
+		if (saved == null)
+		{
+			return "Bank remembered. Open it to refresh.";
+		}
+		try
+		{
+			long minutes = (System.currentTimeMillis() - Long.parseLong(saved)) / 60000;
+			if (minutes < 1)
+			{
+				return "Bank seen just now";
+			}
+			if (minutes < 60)
+			{
+				return "Bank seen " + minutes + " min ago";
+			}
+			long hours = minutes / 60;
+			if (hours < 48)
+			{
+				return "Bank seen " + hours + " h ago";
+			}
+			return "Bank seen " + (hours / 24) + " days ago. Open it to refresh.";
+		}
+		catch (NumberFormatException e)
+		{
+			return "Bank remembered. Open it to refresh.";
+		}
+	}
+
+	private void addContainer(int id, ItemSource source, Map<Integer, Candidate> owned, Map<String, Long> quantities,
+		Map<String, Integer> itemIds)
 	{
 		ItemContainer container = client.getItemContainer(id);
 		if (container == null)
@@ -355,12 +491,13 @@ public class GearMeUpPlugin extends Plugin
 		{
 			if (item.getId() > 0 && item.getQuantity() > 0)
 			{
-				addItem(item.getId(), item.getQuantity(), source, owned, quantities);
+				addItem(item.getId(), item.getQuantity(), source, owned, quantities, itemIds);
 			}
 		}
 	}
 
-	private void addItem(int itemId, long quantity, ItemSource source, Map<Integer, Candidate> owned, Map<String, Long> quantities)
+	private void addItem(int itemId, long quantity, ItemSource source, Map<Integer, Candidate> owned, Map<String, Long> quantities,
+		Map<String, Integer> itemIds)
 	{
 		ItemComposition comp = itemManager.getItemComposition(itemId);
 		if (comp.getPlaceholderTemplateId() != -1)
@@ -372,7 +509,8 @@ public class GearMeUpPlugin extends Plugin
 			itemId = comp.getLinkedNoteId(); // noted item: use the unnoted version
 			comp = itemManager.getItemComposition(itemId);
 		}
-		quantities.merge(comp.getName(), quantity, Long::sum); // used for rune counts
+		quantities.merge(comp.getName(), quantity, Long::sum); // used for rune and potion counts
+		itemIds.putIfAbsent(comp.getName(), itemId);
 
 		ItemStats stats = itemManager.getItemStats(itemId);
 		if (stats == null || !stats.isEquipable() || stats.getEquipment() == null)

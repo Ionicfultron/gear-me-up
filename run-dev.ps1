@@ -10,11 +10,16 @@ if (-not ($env:JAVA_HOME -and (Test-Path (Join-Path $env:JAVA_HOME 'bin\javac.ex
 	$javac = Get-Command javac -ErrorAction SilentlyContinue
 	if (-not $javac) { throw 'No JDK found. Install one (11+) or set JAVA_HOME.' }
 	# Resolve the real JDK folder (the Oracle "javapath" shim on PATH isn't a JDK folder).
-	$props = & $javac.Source -J-XshowSettings:properties -version 2>&1 | Out-String
+	# javac prints these settings on stderr, which Windows PowerShell 5.1 would treat as an error.
+	$ErrorActionPreference = 'Continue'
+	$props = & $javac.Source -J-XshowSettings:properties -version 2>&1 | ForEach-Object { "$_" } | Out-String
+	$ErrorActionPreference = 'Stop'
 	if ($props -match 'java\.home = (.+)') { $env:JAVA_HOME = $Matches[1].Trim() }
 }
 
-Write-Host 'Starting RuneLite with Gear Me Up...'
-$gradleArgs = @('run', '--console=plain')
-if ($args.Count -gt 0) { $gradleArgs += "--args=$($args -join ' ')" }
+Write-Host 'Starting RuneLite with Gear Me Up (safe mode: Plugin Hub plugins are off, so only this build of Gear Me Up loads)...'
+# Safe mode skips Plugin Hub and sideloaded plugins, including any installed copy of Gear Me Up,
+# which would otherwise load alongside this build and share its settings.
+$runeliteArgs = @('--safe-mode') + $args
+$gradleArgs = @('run', '--console=plain', "--args=$($runeliteArgs -join ' ')")
 & (Join-Path $root 'gradlew.bat') @gradleArgs

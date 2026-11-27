@@ -103,7 +103,7 @@ public final class SpellAdvisor
 		Set<String> free = freeRunes(weapon, shield);
 		String title = spell.name + " (" + capitalise(book) + ", level " + spell.level
 			+ (spell.maxHit > 0 ? ", max hit up to " + spell.maxHit : "") + ")";
-		return build(title, false, spell.runes, free, have, notes);
+		return build(title, false, spell.runes, free, have, notes).withSpell(spell);
 	}
 
 	/** Highest-value spell of a book the player can cast. Elemental weakness boosts matching spells. */

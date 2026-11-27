@@ -35,6 +35,22 @@ public final class GearSetup
 		return out;
 	}
 
+	/** The same preferences with another attack style (e.g. the crush version of a slash setup). */
+	GearSetup withStyle(CombatStyle newStyle, String newLabel)
+	{
+		GearSetup copy = new GearSetup(newLabel, newStyle, preferred, required, notes);
+		copy.boss = boss;
+		return copy;
+	}
+
+	/** This setup's preferences used against another boss (for styles the boss has no setup for). */
+	GearSetup forBoss(Boss other, String newLabel)
+	{
+		GearSetup copy = new GearSetup(newLabel, style, preferred, required, "");
+		copy.boss = other;
+		return copy;
+	}
+
 	void setBoss(Boss boss)
 	{
 		this.boss = boss;

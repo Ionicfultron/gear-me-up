@@ -51,6 +51,7 @@ public final class SpellAdvice
 	private final List<Line> lines;
 	private final long casts;
 	private final List<String> notes;
+	private SpellData.Spell spell;
 
 	SpellAdvice(String title, boolean charges, List<Line> lines, long casts, List<String> notes)
 	{
@@ -87,5 +88,17 @@ public final class SpellAdvice
 	public List<String> getNotes()
 	{
 		return notes;
+	}
+
+	/** The spell to autocast, or null when the weapon has its own built-in spell. */
+	SpellData.Spell getSpell()
+	{
+		return spell;
+	}
+
+	SpellAdvice withSpell(SpellData.Spell spell)
+	{
+		this.spell = spell;
+		return this;
 	}
 }

@@ -540,6 +540,16 @@
      },
      "notes": "Weak to crush with -5 flat armour, so multi-hit weapons (scythe, dual macuahuitl, glacial temotli, Torag's hammers) shine. Weapon Freeze knocks your weapon into ice blocks you punch out (Soulreaper axe loses stacks). Requires Perilous Moons. No gear is provided: bring your own melee gear; the dungeon supplies food (cooked bream/moss lizard) and moonlight potions via supply crates. Wiki stresses tanky (Barrows/Torva/Justiciar) armour over strength-only armour; defence-reducing specs and Death Charge do nothing."
     }
+   ],
+   "combat": {
+    "hitpoints": 500,
+    "defenceLevel": 60,
+    "magicLevel": 100,
+    "size": 5,
+    "flatArmour": -5
+   },
+   "npcIds": [
+    13013
    ]
   },
   {
@@ -634,6 +644,16 @@
      },
      "notes": "Weak to stab with +6 flat armour (rapier beats scythe). During the Clone phase parries have 100% accuracy, so swap to a slow heavy hitter (Dharok's greataxe, Soulreaper axe, Elder maul). Requires Perilous Moons. No gear is provided: bring your own melee gear; the dungeon supplies food (cooked bream/moss lizard) and moonlight potions via supply crates. Wiki stresses tanky (Barrows/Torva/Justiciar) armour over strength-only armour; defence-reducing specs and Death Charge do nothing."
     }
+   ],
+   "combat": {
+    "hitpoints": 500,
+    "defenceLevel": 60,
+    "magicLevel": 100,
+    "size": 5,
+    "flatArmour": 6
+   },
+   "npcIds": [
+    13012
    ]
   },
   {
@@ -728,6 +748,16 @@
      },
      "notes": "Weak to slash, -2 flat armour. Heals whenever it damages you, so favour defence over pure strength. Kill blood jaguars to heal back. Requires Perilous Moons. No gear is provided: bring your own melee gear; the dungeon supplies food (cooked bream/moss lizard) and moonlight potions via supply crates. Wiki stresses tanky (Barrows/Torva/Justiciar) armour over strength-only armour; defence-reducing specs and Death Charge do nothing."
     }
+   ],
+   "combat": {
+    "hitpoints": 500,
+    "defenceLevel": 60,
+    "magicLevel": 100,
+    "size": 5,
+    "flatArmour": -2
+   },
+   "npcIds": [
+    13011
    ]
   },
   {
@@ -868,6 +898,16 @@
      },
      "notes": "A Shadow setup one-shots the melee Fremennik but has weak defence; a single trident/sang/Eye switch is enough to two-shot it."
     }
+   ],
+   "combat": {
+    "hitpoints": 1500,
+    "defenceLevel": 200,
+    "magicLevel": 300,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    12821
    ]
   },
   {
@@ -954,6 +994,18 @@
      ],
      "notes": "The tail has a per-hit damage cap, so multi-hit crush weapons speed it up a lot."
     }
+   ],
+   "combat": {
+    "hitpoints": 2500,
+    "defenceLevel": 125,
+    "magicLevel": 50,
+    "size": 7,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    14009,
+    14010,
+    14013
    ]
   },
   {
@@ -1029,6 +1081,16 @@
      },
      "notes": "Requires The Heart of Darkness. Weak to crush, -2 flat armour. Unstable ice can only be damaged by melee, so melee beats fire spells despite the 30% fire weakness. Thralls recommended; Slayer helmet (i) on a lesser nagua task."
     }
+   ],
+   "combat": {
+    "hitpoints": 520,
+    "defenceLevel": 80,
+    "magicLevel": 170,
+    "size": 3,
+    "flatArmour": -2
+   },
+   "npcIds": [
+    13685
    ]
   },
   {
@@ -1135,6 +1197,16 @@
      },
      "notes": "Wiki: Twisted bow + Masori beats bludgeon-tier melee but is well behind the scythe. Araxyte switches: Hunters' sunlight crossbow, Karil's crossbow, Heavy ballista, Rune crossbow."
     }
+   ],
+   "combat": {
+    "hitpoints": 1020,
+    "defenceLevel": 135,
+    "magicLevel": 190,
+    "size": 7,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    13668
    ]
   },
   {
@@ -1287,6 +1359,16 @@
      ],
      "notes": "Fire spells on Eldric's side, Water spells on Branda's. Needs 70+ magic attack bonus (39+ with void) to avoid splashing on minions, and 75 Magic to one-shot elementals with Fire/Water Wave. Twinflame staff auto-swaps fire/water."
     }
+   ],
+   "combat": {
+    "hitpoints": 600,
+    "defenceLevel": 100,
+    "magicLevel": 100,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    14147
    ]
   },
   {
@@ -1442,6 +1524,16 @@
      ],
      "notes": "Fire spells on Eldric's side, Water spells on Branda's. Needs 70+ magic attack bonus (39+ with void) to avoid splashing on minions, and 75 Magic to one-shot elementals with Fire/Water Wave. Twinflame staff auto-swaps fire/water."
     }
+   ],
+   "combat": {
+    "hitpoints": 600,
+    "defenceLevel": 100,
+    "magicLevel": 100,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    12596
    ]
   },
   {
@@ -1456,7 +1548,7 @@
     "stab": 100,
     "slash": 80,
     "crush": 333,
-    "magic": -30,
+    "magic": 0,
     "rangedLight": 333,
     "rangedStandard": 220,
     "rangedHeavy": 333
@@ -1566,6 +1658,16 @@
      },
      "notes": "Only recommended with Tumeken's shadow and/or a Purging staff (flares). Magic defence rises to +60 while the target uses magic. Noxious halberd or Twisted bow as a Judge of Yama switch."
     }
+   ],
+   "combat": {
+    "hitpoints": 2500,
+    "defenceLevel": 225,
+    "magicLevel": 250,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    14176
    ]
   },
   {
@@ -1672,6 +1774,17 @@
      ],
      "notes": "Autocast Superior Demonbane (Arceuus) with a Slayer's staff or Skull sceptre. Thralls not recommended (they spread acid); Death Charge is strong."
     }
+   ],
+   "combat": {
+    "hitpoints": 525,
+    "defenceLevel": 90,
+    "magicLevel": 275,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs delve 1"
+   },
+   "npcIds": [
+    14707
    ]
   },
   {
@@ -1861,6 +1974,16 @@
      },
      "notes": "Mid-level: Bloodbark/Elder chaos robes with a Bone staff."
     }
+   ],
+   "combat": {
+    "hitpoints": 500,
+    "defenceLevel": 60,
+    "magicLevel": 50,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    7222
    ]
   },
   {
@@ -2011,6 +2134,16 @@
      },
      "notes": "Members high-level setup from the wiki."
     }
+   ],
+   "combat": {
+    "hitpoints": 58,
+    "defenceLevel": 10,
+    "magicLevel": 8,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    15626
    ]
   },
   {
@@ -2086,6 +2219,16 @@
      },
      "notes": "Requires Desert Treasure II; feed Brutus an abyssal potato from the Scar. Specials always hit if not dodged, so Elite void + Void melee helm is a fine cheaper setup."
     }
+   ],
+   "combat": {
+    "hitpoints": 750,
+    "defenceLevel": 200,
+    "magicLevel": 272,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    15628
    ]
   },
   {
@@ -2159,6 +2302,16 @@
      },
      "notes": "Requires Troubled Tortugans and a gryphon Slayer task (or an elite clue). Knockback affects players under 40 kg worn weight, so wear heavy armour + Tortugan shield / Dragonfire shield."
     }
+   ],
+   "combat": {
+    "hitpoints": 400,
+    "defenceLevel": 120,
+    "magicLevel": 100,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    14860
    ]
   },
   {
@@ -2174,11 +2327,11 @@
    "elementalWeaknessPercent": 80,
    "defence": {
     "stab": 120,
-    "slash": 90,
+    "slash": 110,
     "crush": 20,
-    "magic": 50,
-    "rangedLight": 50,
-    "rangedStandard": 115,
+    "magic": 130,
+    "rangedLight": 55,
+    "rangedStandard": 120,
     "rangedHeavy": 50
    },
    "setups": [
@@ -2280,6 +2433,17 @@
      },
      "notes": "Crush it when grounded. Defence 260 drains to 156 (4 Tonalztics specs)."
     }
+   ],
+   "combat": {
+    "hitpoints": 550,
+    "defenceLevel": 260,
+    "magicLevel": 250,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs flying form"
+   },
+   "npcIds": [
+    16659
    ]
   },
   {
@@ -2347,6 +2511,16 @@
      },
      "notes": "Heavily defensive vs stab/ranged/magic; use slash or crush. Two DWH/Elder maul specs reach the defence cap. Enrage specs: Zaryte crossbow, Crimson kisten, Dragon claws. Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
     }
+   ],
+   "combat": {
+    "hitpoints": 3000,
+    "defenceLevel": 200,
+    "magicLevel": 200,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    16652
    ]
   },
   {
@@ -2461,6 +2635,16 @@
      },
      "notes": "Very low heavy ranged defence (+5); also good on the Smorks."
     }
+   ],
+   "combat": {
+    "hitpoints": 1650,
+    "defenceLevel": 300,
+    "magicLevel": 90,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    16640
    ]
   },
   {
@@ -2572,6 +2756,16 @@
      },
      "notes": "Weak to stab and crush, but melee is only usable in the enrage phase."
     }
+   ],
+   "combat": {
+    "hitpoints": 1900,
+    "defenceLevel": 195,
+    "magicLevel": 350,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    16667
    ]
   },
   {
@@ -2688,6 +2882,16 @@
      },
      "notes": "Defence drains to 0 in the enrage phase."
     }
+   ],
+   "combat": {
+    "hitpoints": 2100,
+    "defenceLevel": 125,
+    "magicLevel": 220,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    16665
    ]
   },
   {
@@ -2755,6 +2959,17 @@
      },
      "notes": "The Elder plus two monks share a static shield; destabilise the ritual cauldron. Defence 100 drains to 0 with three Tonalztics specs (per target). Raid (2-8 players, released 20 Oct 2026), requires While Guthix Sleeps. Wiki raid-wide switches: Inquisitor's melee, Masori ranged, Ancestral magic; defence-drain specs (Elder maul, Dragon warhammer, Tonalztics of Ralos) are central."
     }
+   ],
+   "combat": {
+    "hitpoints": 640,
+    "defenceLevel": 100,
+    "magicLevel": 290,
+    "size": 2,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    16643,
+    16644
    ]
   },
   {
@@ -2872,6 +3087,16 @@
      },
      "notes": "85% water weakness for magic users."
     }
+   ],
+   "combat": {
+    "hitpoints": 2450,
+    "defenceLevel": 170,
+    "magicLevel": 350,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    16684
    ]
   },
   {
@@ -2885,12 +3110,12 @@
    ],
    "defence": {
     "stab": 150,
-    "slash": 100,
-    "crush": 30,
-    "magic": 200,
-    "rangedLight": 250,
-    "rangedStandard": 250,
-    "rangedHeavy": 250
+    "slash": 95,
+    "crush": 60,
+    "magic": 100,
+    "rangedLight": 50,
+    "rangedStandard": 135,
+    "rangedHeavy": 50
    },
    "setups": [
     {
@@ -2992,6 +3217,18 @@
      },
      "notes": "Phase 1 is weakest to light/heavy ranged (+50); phase 2 is fought with ranged."
     }
+   ],
+   "combat": {
+    "hitpoints": 2500,
+    "defenceLevel": 215,
+    "magicLevel": 350,
+    "size": 3,
+    "flatArmour": 0,
+    "target": "vs phase 1"
+   },
+   "npcIds": [
+    16673,
+    16674
    ]
   },
   {
@@ -3089,6 +3326,16 @@
      },
      "notes": "Freeze with Ice Barrage (an Ice ancient sceptre is ideal) and attack from range. Tome of Earth only helps with earth spells (40% earth weakness)."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 250,
+    "magicLevel": 80,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    2215
    ]
   },
   {
@@ -3158,6 +3405,16 @@
      },
      "notes": "Use Protect from Missiles, with Blood Barrage on the bodyguards and the Eldritch Nightmare staff special for sustain. The wiki says this needs near-max magic gear; otherwise use ranged."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 300,
+    "magicLevel": 300,
+    "size": 2,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    2205
    ]
   },
   {
@@ -3239,6 +3496,16 @@
      },
      "notes": "The wiki's magic setup uses Tumeken's shadow in max magic gear. Air spells get the 30% weakness."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 260,
+    "magicLevel": 200,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    3162
    ]
   },
   {
@@ -3330,6 +3597,16 @@
      },
      "notes": "Water spells get the 30% weakness."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 270,
+    "magicLevel": 200,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    3129
    ]
   },
   {
@@ -3399,6 +3676,20 @@
      },
      "notes": "Melee damage with ranged switches for the Shadow and Zaros phases. The wiki ranks Osmumten's fang next to Inquisitor's mace only when wearing at least two Inquisitor pieces."
     }
+   ],
+   "combat": {
+    "hitpoints": 3400,
+    "defenceLevel": 260,
+    "magicLevel": 230,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11278,
+    11279,
+    11280,
+    11281,
+    11282
    ]
   },
   {
@@ -3469,6 +3760,16 @@
      },
      "notes": "No longer immune to magic, but he has a high Magic level. Use Accursed sceptre specials for a bind and defence drain."
     }
+   ],
+   "combat": {
+    "hitpoints": 1000,
+    "defenceLevel": 225,
+    "magicLevel": 140,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    6609
    ]
   },
   {
@@ -3532,6 +3833,16 @@
      },
      "notes": "Ice spells almost always hit her and bind her. At 66% and 33% health she breaks free and lays bear traps."
     }
+   ],
+   "combat": {
+    "hitpoints": 450,
+    "defenceLevel": 150,
+    "magicLevel": 90,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11992
    ]
   },
   {
@@ -3587,6 +3898,16 @@
      },
      "notes": "Multi-combat deep Wilderness; needs the Wilderness Medium Diary. You risk your items, so use chainmace or 3-item setups and protect untradeables with a Trouver parchment. At 50% health, kill the hellhounds, which make him immune while alive."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 395,
+    "magicLevel": 300,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    6611
    ]
   },
   {
@@ -3642,6 +3963,16 @@
      },
      "notes": "Level 21 singles-plus Wilderness; needs the Wilderness Hard Diary. You risk your items, so protect untradeables with a Trouver parchment. All his attacks are area attacks you can dodge; kill the hellhounds at 50%."
     }
+   ],
+   "combat": {
+    "hitpoints": 150,
+    "defenceLevel": 225,
+    "magicLevel": 178,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11993
    ]
   },
   {
@@ -3712,6 +4043,16 @@
      },
      "notes": "Switch overheads with her cycle of 8 ranged then 8 magic attacks. Ranged lets you stay near the exit."
     }
+   ],
+   "combat": {
+    "hitpoints": 850,
+    "defenceLevel": 321,
+    "magicLevel": 300,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    6610
    ]
   },
   {
@@ -3788,6 +4129,16 @@
      },
      "notes": "Switch overheads with her attack cycle."
     }
+   ],
+   "combat": {
+    "hitpoints": 515,
+    "defenceLevel": 225,
+    "magicLevel": 235,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11998
    ]
   },
   {
@@ -3859,6 +4210,16 @@
      },
      "notes": "Flinching behind a tree is the wiki's safest solo method; attack speed doesn't matter when flinching."
     }
+   ],
+   "combat": {
+    "hitpoints": 250,
+    "defenceLevel": 270,
+    "magicLevel": 270,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    2054
    ]
   },
   {
@@ -3904,6 +4265,16 @@
      },
      "notes": "Wilderness PK hotspot; you risk your items. Use inventory-blocking food (summer pies, curry, Armadyl brews) because he can unequip your gear."
     }
+   ],
+   "combat": {
+    "hitpoints": 225,
+    "defenceLevel": 220,
+    "magicLevel": 200,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    6619
    ]
   },
   {
@@ -3951,6 +4322,16 @@
      },
      "notes": "Level 22-25 Wilderness; you risk your items, so take 3-4 valuables at most. Step out of the 'Rain of knowledge!' book area; his low Magic level makes magic accuracy matter little, so prayer gear (monk robes) is fine."
     }
+   ],
+   "combat": {
+    "hitpoints": 225,
+    "defenceLevel": 240,
+    "magicLevel": 1,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    6618
    ]
   },
   {
@@ -3995,6 +4376,16 @@
      },
      "notes": "Level 50+ multi-combat Wilderness; you risk your items, so take 3-4 valuables. Freeze her with Ice Barrage or Entangle; kill or lure away the healing guardians below 99 HP; bring antipoison."
     }
+   ],
+   "combat": {
+    "hitpoints": 200,
+    "defenceLevel": 180,
+    "magicLevel": 1,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    6615
    ]
   },
   {
@@ -4080,6 +4471,17 @@
      },
      "notes": "Use Dragonfire protection: a Dragonfire ward or Anti-dragon shield, or an Extended super antifire if the weapon is two-handed."
     }
+   ],
+   "combat": {
+    "hitpoints": 240,
+    "defenceLevel": 240,
+    "magicLevel": 240,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    239,
+    2642
    ]
   },
   {
@@ -4150,6 +4552,16 @@
      },
      "notes": "Its lowest defence is magic (101). Setups are taken from the Revenants/Strategies page."
     }
+   ],
+   "combat": {
+    "hitpoints": 1250,
+    "defenceLevel": 90,
+    "magicLevel": 130,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11246
    ]
   },
   {
@@ -4283,6 +4695,18 @@
      },
      "notes": "Scorching bow is demonbane; still needs a Shadow spell to disorient in phase 1."
     }
+   ],
+   "combat": {
+    "hitpoints": 425,
+    "defenceLevel": 250,
+    "magicLevel": 200,
+    "size": 6,
+    "flatArmour": 0,
+    "target": "vs phase 2"
+   },
+   "npcIds": [
+    5889,
+    5890
    ]
   },
   {
@@ -4395,6 +4819,18 @@
      },
      "notes": "Low stab defence (75); Dragon hunter lance on stab."
     }
+   ],
+   "combat": {
+    "hitpoints": 1100,
+    "defenceLevel": 100,
+    "magicLevel": 260,
+    "size": 6,
+    "flatArmour": 0,
+    "target": "vs green phase"
+   },
+   "npcIds": [
+    8615,
+    8616
    ]
   },
   {
@@ -4494,6 +4930,18 @@
      },
      "notes": "Only on hellhound/Cerberus task."
     }
+   ],
+   "combat": {
+    "hitpoints": 600,
+    "defenceLevel": 100,
+    "magicLevel": 220,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    5862,
+    5863,
+    5866
    ]
   },
   {
@@ -4561,6 +5009,28 @@
      },
      "notes": "Dusk is immune to magic and ranged. Requires gargoyle/guardian task and a one-time brittle key to unlock the roof."
     }
+   ],
+   "defence": {
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "rangedLight": 0,
+    "rangedStandard": 0,
+    "rangedHeavy": 0
+   },
+   "combat": {
+    "hitpoints": 450,
+    "defenceLevel": 150,
+    "magicLevel": 250,
+    "size": 6,
+    "flatArmour": 0,
+    "target": "vs second form"
+   },
+   "npcIds": [
+    7887,
+    7888,
+    7889
    ]
   },
   {
@@ -4625,6 +5095,19 @@
      },
      "notes": "Normally used as a ranged switch while in melee gear for Dusk. Dawn is flying, so only halberds can reach her in melee."
     }
+   ],
+   "combat": {
+    "hitpoints": 450,
+    "defenceLevel": 100,
+    "magicLevel": 100,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    7852,
+    7853,
+    7884,
+    7885
    ]
   },
   {
@@ -4686,6 +5169,16 @@
      },
      "notes": "Only on cave kraken/Kraken task (also needs 50 Magic). Ranged deals 1/7 damage, melee cannot reach it. Its magic attack has 100% prayer penetration. Cannon not allowed."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 1,
+    "magicLevel": 1,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    494
    ]
   },
   {
@@ -4783,6 +5276,16 @@
      },
      "notes": "The wiki lists magic first despite the +800 magic defence (Thermy has a low Magic level). Its attacks have 100% prayer penetration. Cannon not allowed."
     }
+   ],
+   "combat": {
+    "hitpoints": 240,
+    "defenceLevel": 360,
+    "magicLevel": 1,
+    "size": 4,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    499
    ]
   },
   {
@@ -4862,6 +5365,16 @@
      },
      "notes": "Not task-only; slayer helmet only helps on task. Kill the awakened altars first."
     }
+   ],
+   "combat": {
+    "hitpoints": 450,
+    "defenceLevel": 200,
+    "magicLevel": 280,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    7286
    ]
   },
   {
@@ -4991,6 +5504,17 @@
      },
      "notes": "Super antifire is needed (no shield slot for an anti-dragon shield with a defender). Very low stab defence."
     }
+   ],
+   "combat": {
+    "hitpoints": 750,
+    "defenceLevel": 214,
+    "magicLevel": 150,
+    "size": 7,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    8059,
+    8061
    ]
   },
   {
@@ -5108,6 +5632,17 @@
      },
      "notes": "Use against blue (tanzanite) form, which has 0 ranged defence and 300 magic defence. Melee only reaches with halberds (Noxious halberd + Eclipse atlatl setup on the wiki)."
     }
+   ],
+   "combat": {
+    "hitpoints": 500,
+    "defenceLevel": 300,
+    "magicLevel": 300,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs green form"
+   },
+   "npcIds": [
+    2042
    ]
   },
   {
@@ -5163,6 +5698,16 @@
      },
      "notes": "50% damage reduction against everything except corpbane weapons (spears, halberds, Osmumten's fang) used on stab. Drain defence first with Elder maul/Dragon warhammer, Bandos godsword or Arclight specs."
     }
+   ],
+   "combat": {
+    "hitpoints": 2000,
+    "defenceLevel": 310,
+    "magicLevel": 350,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    319
    ]
   },
   {
@@ -5221,6 +5766,16 @@
      },
      "notes": "Rex is weak only to magic. Safespots exist (wiki has a Rex safespot inventory). Multicombat with the other kings."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 255,
+    "magicLevel": 0,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    2267
    ]
   },
   {
@@ -5277,6 +5832,16 @@
      },
      "notes": "Prime is weak only to ranged."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 255,
+    "magicLevel": 255,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    2266
    ]
   },
   {
@@ -5331,6 +5896,16 @@
      },
      "notes": "Supreme is weak only to melee (all melee defences 10)."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 128,
+    "magicLevel": 255,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    2265
    ]
   },
   {
@@ -5346,13 +5921,13 @@
    "elementalWeakness": "fire",
    "elementalWeaknessPercent": 40,
    "defence": {
-    "stab": 50,
-    "slash": 50,
-    "crush": 10,
-    "magic": 100,
-    "rangedLight": 100,
-    "rangedStandard": 100,
-    "rangedHeavy": 100
+    "stab": 100,
+    "slash": 100,
+    "crush": 100,
+    "magic": 10,
+    "rangedLight": 10,
+    "rangedStandard": 10,
+    "rangedHeavy": 10
    },
    "setups": [
     {
@@ -5443,6 +6018,18 @@
      },
      "notes": "Labelled 'Max Mage (0 switches)' on the wiki; good for phase 2."
     }
+   ],
+   "combat": {
+    "hitpoints": 255,
+    "defenceLevel": 300,
+    "magicLevel": 150,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs phase 2"
+   },
+   "npcIds": [
+    965,
+    4304
    ]
   },
   {
@@ -5566,6 +6153,16 @@
      },
      "notes": "Lowest melee defence is stab (60). The wiki also lists a Dharok's setup."
     }
+   ],
+   "combat": {
+    "hitpoints": 200,
+    "defenceLevel": 200,
+    "magicLevel": 200,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    5779
    ]
   },
   {
@@ -5639,6 +6236,16 @@
      },
      "notes": "The wiki lists only Tumeken's shadow, with a melee special attack switch."
     }
+   ],
+   "combat": {
+    "hitpoints": 400,
+    "defenceLevel": 150,
+    "magicLevel": 150,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    8713
    ]
   },
   {
@@ -5690,6 +6297,16 @@
      },
      "notes": "Barrows brother with 0 ranged defence."
     }
+   ],
+   "combat": {
+    "hitpoints": 100,
+    "defenceLevel": 100,
+    "magicLevel": 100,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    1672
    ]
   },
   {
@@ -5750,6 +6367,16 @@
      },
      "notes": "Wind spells (air weakness 50%). Ghommal's hilt 2 removes the Barrows prayer drain."
     }
+   ],
+   "combat": {
+    "hitpoints": 100,
+    "defenceLevel": 100,
+    "magicLevel": 1,
+    "size": 1,
+    "flatArmour": -2
+   },
+   "npcIds": [
+    1675
    ]
   },
   {
@@ -5804,6 +6431,16 @@
      },
      "notes": "Use wind spells."
     }
+   ],
+   "combat": {
+    "hitpoints": 100,
+    "defenceLevel": 100,
+    "magicLevel": 1,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    1673
    ]
   },
   {
@@ -5858,6 +6495,16 @@
      },
      "notes": "Use wind spells."
     }
+   ],
+   "combat": {
+    "hitpoints": 100,
+    "defenceLevel": 100,
+    "magicLevel": 1,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    1674
    ]
   },
   {
@@ -5912,6 +6559,16 @@
      },
      "notes": "Use wind spells."
     }
+   ],
+   "combat": {
+    "hitpoints": 100,
+    "defenceLevel": 100,
+    "magicLevel": 1,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    1676
    ]
   },
   {
@@ -5966,6 +6623,16 @@
      },
      "notes": "Use wind spells."
     }
+   ],
+   "combat": {
+    "hitpoints": 100,
+    "defenceLevel": 100,
+    "magicLevel": 1,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    1677
    ]
   },
   {
@@ -6058,6 +6725,25 @@
      },
      "notes": "Mainly used for killing totems, not the boss itself."
     }
+   ],
+   "combat": {
+    "hitpoints": 2400,
+    "defenceLevel": 150,
+    "magicLevel": 150,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    9425,
+    9426,
+    9427,
+    9428,
+    9429,
+    9430,
+    9431,
+    9432,
+    9433,
+    9460
    ]
   },
   {
@@ -6145,6 +6831,26 @@
      },
      "notes": "For totems. Zorya's tome is used as a spec."
     }
+   ],
+   "combat": {
+    "hitpoints": 3200,
+    "defenceLevel": 150,
+    "magicLevel": 150,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    9416,
+    9417,
+    9418,
+    9419,
+    9420,
+    9421,
+    9422,
+    9424,
+    11153,
+    11154,
+    11155
    ]
   },
   {
@@ -6190,6 +6896,16 @@
      ],
      "notes": "Faster but riskier; knock-backs delay attacks."
     }
+   ],
+   "combat": {
+    "hitpoints": 120,
+    "defenceLevel": 60,
+    "magicLevel": 1,
+    "size": 2,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    7416
    ]
   },
   {
@@ -6253,6 +6969,25 @@
      },
      "notes": "Members burst her with special attacks. Bring an axe (not a battleaxe or zombie axe) for growthlings."
     }
+   ],
+   "defence": {
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "rangedLight": 0,
+    "rangedStandard": 0,
+    "rangedHeavy": 0
+   },
+   "combat": {
+    "hitpoints": 115,
+    "defenceLevel": 100,
+    "magicLevel": 90,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    8195
    ]
   },
   {
@@ -6343,6 +7078,16 @@
      },
      "notes": "100% fire weakness, so cast fire spells."
     }
+   ],
+   "combat": {
+    "hitpoints": 300,
+    "defenceLevel": 120,
+    "magicLevel": 126,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    8583
    ]
   },
   {
@@ -6397,6 +7142,16 @@
      },
      "notes": "On Fossil Island (Bone Voyage). The wiki's only gear table is magic, for an avoidance strategy."
     }
+   ],
+   "combat": {
+    "hitpoints": 200,
+    "defenceLevel": 280,
+    "magicLevel": 1,
+    "size": 1,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    7806
    ]
   },
   {
@@ -6511,6 +7266,16 @@
      },
      "notes": "Weakest option: high melee defence."
     }
+   ],
+   "combat": {
+    "hitpoints": 230,
+    "defenceLevel": 120,
+    "magicLevel": 60,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    8633
    ]
   },
   {
@@ -6606,6 +7371,16 @@
      },
      "notes": "Requires Desert Treasure II. Very low slash defence; demonbane (Emberlight/Arclight) is viable. Specs: Dragon claws/Burning claws, Voidwaker, Bandos godsword. Awakened version (combat 1099) needs an awakener's orb."
     }
+   ],
+   "combat": {
+    "hitpoints": 485,
+    "defenceLevel": 275,
+    "magicLevel": 310,
+    "size": 7,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    12191
    ]
   },
   {
@@ -6732,6 +7507,16 @@
      },
      "notes": "The wiki lists a Shadow-based magic setup. Zorya's tome, Volatile Nightmare staff and Accursed sceptre are spec options."
     }
+   ],
+   "combat": {
+    "hitpoints": 900,
+    "defenceLevel": 250,
+    "magicLevel": 160,
+    "size": 7,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    12214
    ]
   },
   {
@@ -6828,6 +7613,17 @@
      },
      "notes": "Requires DT2. Slash attacks only, so keep Protect from Melee up. Slash defence and tank gear (Justiciar, blood fury) both matter. Specs: Dragon claws/Burning claws, Voidwaker, Ancient godsword. Awakened is combat 1136."
     }
+   ],
+   "combat": {
+    "hitpoints": 700,
+    "defenceLevel": 215,
+    "magicLevel": 215,
+    "size": 2,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    12223,
+    12426
    ]
   },
   {
@@ -6918,6 +7714,17 @@
      },
      "notes": "60% earth weakness, so earth spells with Tome of earth and Elemental amulet are strong. In the shadow realm, bring a fast weapon for Lost Souls (Venator bow, Blisterwood stake, blowpipe). Specs: Zorya's tome, Eldritch Nightmare staff, Accursed sceptre. Awakened is combat 1146."
     }
+   ],
+   "combat": {
+    "hitpoints": 900,
+    "defenceLevel": 250,
+    "magicLevel": 180,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    12204,
+    12205
    ]
   },
   {
@@ -7114,6 +7921,17 @@
      },
      "notes": "Use against the melee form. Air spells exploit the 65% weakness."
     }
+   ],
+   "combat": {
+    "hitpoints": 850,
+    "defenceLevel": 200,
+    "magicLevel": 150,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs ranged form"
+   },
+   "npcIds": [
+    12077
    ]
   },
   {
@@ -7282,6 +8100,25 @@
      },
      "notes": "Water spells exploit the 40% weakness. The wiki also lists Pure, early-iron and Eclipse atlatl setups."
     }
+   ],
+   "defence": {
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "rangedLight": 0,
+    "rangedStandard": 0,
+    "rangedHeavy": 0
+   },
+   "combat": {
+    "hitpoints": 250,
+    "defenceLevel": 480,
+    "magicLevel": 480,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    3127
    ]
   },
   {
@@ -7430,6 +8267,16 @@
      },
      "notes": "High-end option that swaps tank armour pieces in. The wiki recommends a Tumeken's shadow for magers, Jads and Zuk."
     }
+   ],
+   "combat": {
+    "hitpoints": 1200,
+    "defenceLevel": 260,
+    "magicLevel": 150,
+    "size": 7,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    7706
    ]
   },
   {
@@ -7440,7 +8287,8 @@
     "raids 1"
    ],
    "attributes": [
-    "xerician"
+    "xerician",
+    "dragon"
    ],
    "setups": [
     {
@@ -7628,6 +8476,29 @@
      },
      "notes": "Use for Olm's mage hand, Vespula, melee Vanguard and baby Muttadile. Bring a pickaxe (Crystal, Infernal or Dragon) for Guardians."
     }
+   ],
+   "defence": {
+    "stab": 200,
+    "slash": 200,
+    "crush": 200,
+    "magic": 200,
+    "rangedLight": 50,
+    "rangedStandard": 50,
+    "rangedHeavy": 50
+   },
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 50,
+   "combat": {
+    "hitpoints": 800,
+    "defenceLevel": 150,
+    "magicLevel": 250,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs Great Olm (head)"
+   },
+   "npcIds": [
+    7551,
+    7554
    ]
   },
   {
@@ -7786,6 +8657,29 @@
      },
      "notes": "Used for barraging at Maiden and Nylocas and for magic Nylos. The Sanguinesti staff is a key heal source. Pick up the Dawnbringer for Verzik P1."
     }
+   ],
+   "defence": {
+    "stab": 70,
+    "slash": 30,
+    "crush": 70,
+    "magic": 100,
+    "rangedLight": 230,
+    "rangedStandard": 230,
+    "rangedHeavy": 230
+   },
+   "elementalWeakness": "fire",
+   "elementalWeaknessPercent": 50,
+   "combat": {
+    "hitpoints": 3500,
+    "defenceLevel": 150,
+    "magicLevel": 300,
+    "size": 7,
+    "flatArmour": 0,
+    "target": "vs Verzik (phase 3)"
+   },
+   "npcIds": [
+    8374,
+    8375
    ]
   },
   {
@@ -7980,6 +8874,29 @@
      },
      "notes": "Tumeken's shadow is the key weapon (Akkha, obelisk, Wardens). Salve amulets do nothing on Ba-Ba."
     }
+   ],
+   "defence": {
+    "stab": 70,
+    "slash": 70,
+    "crush": 70,
+    "magic": -30,
+    "rangedLight": 70,
+    "rangedStandard": 70,
+    "rangedHeavy": 70
+   },
+   "elementalWeakness": "earth",
+   "elementalWeaknessPercent": 50,
+   "combat": {
+    "hitpoints": 140,
+    "defenceLevel": 100,
+    "magicLevel": 190,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs Tumeken's Warden"
+   },
+   "npcIds": [
+    11756,
+    11757
    ]
   },
   {
@@ -8070,6 +8987,18 @@
      },
      "notes": "The right (mage) claw has 50 magic defence. Earth Surge with Tome of earth exploits the 50% earth weakness."
     }
+   ],
+   "combat": {
+    "hitpoints": 800,
+    "defenceLevel": 150,
+    "magicLevel": 250,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs the head"
+   },
+   "npcIds": [
+    7551,
+    7554
    ]
   },
   {
@@ -8134,6 +9063,18 @@
      ],
      "notes": "Used on magic Nylocas and for P2 healing. The infobox lists a 50% fire weakness in P3."
     }
+   ],
+   "combat": {
+    "hitpoints": 3500,
+    "defenceLevel": 150,
+    "magicLevel": 300,
+    "size": 7,
+    "flatArmour": 0,
+    "target": "vs phase 3"
+   },
+   "npcIds": [
+    8374,
+    8375
    ]
   },
   {
@@ -8146,13 +9087,13 @@
    "elementalWeakness": "earth",
    "elementalWeaknessPercent": 50,
    "defence": {
-    "stab": 40,
-    "slash": 40,
-    "crush": 20,
-    "magic": 20,
-    "rangedLight": 20,
-    "rangedStandard": 20,
-    "rangedHeavy": 20
+    "stab": 70,
+    "slash": 70,
+    "crush": 70,
+    "magic": -30,
+    "rangedLight": 70,
+    "rangedStandard": 70,
+    "rangedHeavy": 70
    },
    "setups": [
     {
@@ -8195,6 +9136,18 @@
      ],
      "notes": "Hit the ejected core in P2 with fast melee specs."
     }
+   ],
+   "combat": {
+    "hitpoints": 140,
+    "defenceLevel": 100,
+    "magicLevel": 190,
+    "size": 5,
+    "flatArmour": 0,
+    "target": "vs Tumeken's Warden"
+   },
+   "npcIds": [
+    11756,
+    11757
    ]
   },
   {
@@ -8247,6 +9200,23 @@
      ],
      "notes": "The fang is listed on the wiki's Akkha weapon table."
     }
+   ],
+   "combat": {
+    "hitpoints": 400,
+    "defenceLevel": 80,
+    "magicLevel": 100,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11789,
+    11790,
+    11791,
+    11792,
+    11793,
+    11794,
+    11795,
+    11796
    ]
   },
   {
@@ -8288,6 +9258,16 @@
      ],
      "notes": "The Shadow is second on the wiki's weapon list."
     }
+   ],
+   "combat": {
+    "hitpoints": 580,
+    "defenceLevel": 70,
+    "magicLevel": 100,
+    "size": 9,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11730
    ]
   },
   {
@@ -8322,6 +9302,16 @@
      ],
      "notes": "Stab defence is 60. Keris partisans get a bonus against kalphites. Dodge fireball shadows and kill the shield scarabs."
     }
+   ],
+   "combat": {
+    "hitpoints": 80,
+    "defenceLevel": 80,
+    "magicLevel": 125,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11721
    ]
   },
   {
@@ -8364,6 +9354,18 @@
      ],
      "notes": "Heavy ranged defence (120) is lower than light/standard, so crossbows are preferred."
     }
+   ],
+   "combat": {
+    "hitpoints": 380,
+    "defenceLevel": 80,
+    "magicLevel": 100,
+    "size": 5,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    11778,
+    11779,
+    11780
    ]
   },
   {
@@ -8513,6 +9515,16 @@
      },
      "notes": "Use demonbane spells (Purging staff, Mark of Darkness). Twinflame staff is recommended for the shield-down hit."
     }
+   ],
+   "combat": {
+    "hitpoints": 600,
+    "defenceLevel": 150,
+    "magicLevel": 255,
+    "size": 3,
+    "flatArmour": 0
+   },
+   "npcIds": [
+    13599
    ]
   }
  ]

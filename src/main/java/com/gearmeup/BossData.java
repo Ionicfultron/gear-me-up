@@ -81,7 +81,9 @@ public final class BossData
 			bosses.add(new Boss(b.name, b.category == null ? "Other" : b.category,
 				lower(b.attributes), lower(b.immuneTo),
 				b.elementalWeakness == null ? null : b.elementalWeakness.toLowerCase(Locale.ROOT),
-				b.elementalWeaknessPercent, b.defence, b.slayerLevel, b.slayerOnly, b.info, nz(b.aliases), setups));
+				b.elementalWeaknessPercent, b.defence, b.slayerLevel, b.slayerOnly, b.info, nz(b.aliases), setups,
+				b.combat == null ? null : new Boss.Combat(b.combat.hitpoints, b.combat.defenceLevel, b.combat.magicLevel,
+					Math.max(1, b.combat.size), b.combat.flatArmour, b.combat.target)));
 		}
 		return new BossData(bosses, knowledge);
 	}
@@ -249,7 +251,19 @@ public final class BossData
 		boolean slayerOnly;
 		String info;
 		List<String> aliases;
+		CombatJson combat;
 		List<SetupJson> setups;
+	}
+
+	/** Combat stats from the OSRS Wiki (see tools/fetch_stats.py). */
+	static final class CombatJson
+	{
+		int hitpoints;
+		int defenceLevel;
+		int magicLevel;
+		int size;
+		int flatArmour;
+		String target;
 	}
 
 	static final class SetupJson

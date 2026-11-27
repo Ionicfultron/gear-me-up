@@ -27,20 +27,6 @@ import net.runelite.client.game.ItemEquipmentStats;
  */
 public final class GearCalculator
 {
-	/** Slots shown in the result, in display order. */
-	public static final List<EquipmentInventorySlot> SLOTS = Collections.unmodifiableList(Arrays.asList(
-		EquipmentInventorySlot.HEAD,
-		EquipmentInventorySlot.CAPE,
-		EquipmentInventorySlot.AMULET,
-		EquipmentInventorySlot.AMMO,
-		EquipmentInventorySlot.WEAPON,
-		EquipmentInventorySlot.BODY,
-		EquipmentInventorySlot.SHIELD,
-		EquipmentInventorySlot.LEGS,
-		EquipmentInventorySlot.GLOVES,
-		EquipmentInventorySlot.BOOTS,
-		EquipmentInventorySlot.RING));
-
 	private static final List<EquipmentInventorySlot> ARMOUR_SLOTS = Arrays.asList(
 		EquipmentInventorySlot.AMULET,
 		EquipmentInventorySlot.HEAD,
@@ -78,6 +64,7 @@ public final class GearCalculator
 	private final Map<Integer, List<Candidate>> bySlot = new HashMap<>();
 	private final Map<EquipmentInventorySlot, Candidate> picks = new EnumMap<>(EquipmentInventorySlot.class);
 	private final List<String> warnings = new ArrayList<>();
+	private Candidate forcedWeapon;
 
 	private GearCalculator(GearSetup setup, Collection<Candidate> owned, boolean onSlayerTask, List<String> ignored,
 		BossData.Knowledge knowledge)
@@ -99,9 +86,36 @@ public final class GearCalculator
 	public static GearResult calculate(GearSetup setup, Collection<Candidate> owned, boolean onSlayerTask,
 		List<String> ignoredNames, BossData.Knowledge knowledge)
 	{
+		return calculate(setup, owned, onSlayerTask, ignoredNames, knowledge, null);
+	}
+
+	/** As above, but builds the setup around the given weapon (from {@link #weaponOptions}). */
+	public static GearResult calculate(GearSetup setup, Collection<Candidate> owned, boolean onSlayerTask,
+		List<String> ignoredNames, BossData.Knowledge knowledge, Candidate weapon)
+	{
 		GearCalculator calc = new GearCalculator(setup, owned, onSlayerTask, ignoredNames, knowledge);
+		calc.forcedWeapon = weapon;
 		calc.run();
 		return new GearResult(setup, calc.picks, calc.warnings);
+	}
+
+	/**
+	 * Owned weapons worth trying for this setup, best stat score first (at most {@code limit}).
+	 * Empty when the boss requires a specific weapon.
+	 */
+	public static List<Candidate> weaponOptions(GearSetup setup, Collection<Candidate> owned, List<String> ignoredNames,
+		BossData.Knowledge knowledge, int limit)
+	{
+		if (setup.getRequired().containsKey(EquipmentInventorySlot.WEAPON))
+		{
+			return Collections.emptyList();
+		}
+		GearCalculator calc = new GearCalculator(setup, owned, false, ignoredNames, knowledge);
+		return calc.candidates(EquipmentInventorySlot.WEAPON).stream()
+			.filter(calc::suitsStyle)
+			.sorted(Comparator.comparingDouble(calc::weaponScore).reversed())
+			.limit(limit)
+			.collect(Collectors.toList());
 	}
 
 	private void run()
@@ -199,9 +213,9 @@ public final class GearCalculator
 			.filter(w -> !(mustUseShield && w.getStats().isTwoHanded()))
 			.collect(Collectors.toList());
 
-		Candidate weapon = null;
+		Candidate weapon = forcedWeapon;
 		SlotRule requiredWeapon = setup.getRequired().get(EquipmentInventorySlot.WEAPON);
-		if (requiredWeapon != null)
+		if (weapon == null && requiredWeapon != null)
 		{
 			weapon = firstMatch(candidates(EquipmentInventorySlot.WEAPON), requiredWeapon.getNames(), this::weaponScore);
 			if (weapon == null)

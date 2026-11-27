@@ -155,10 +155,36 @@ def convert(b):
     out["setups"] = setups
     return out
 
+def apply_stats(boss, st):
+    """Overlay the wiki's combat stats (from fetch_stats.py) onto a converted boss."""
+    keys = ["stab", "slash", "crush", "magic", "rangedLight", "rangedStandard", "rangedHeavy"]
+    boss["defence"] = {k: st[k] for k in keys}
+    attrs = boss.get("attributes", [])
+    for a in st.get("attributes", []):
+        if a not in attrs:
+            attrs.append(a)
+    if attrs:
+        boss["attributes"] = attrs
+    if st.get("elementalWeakness"):
+        boss["elementalWeakness"] = st["elementalWeakness"]
+        boss["elementalWeaknessPercent"] = st["elementalWeaknessPercent"]
+    boss["combat"] = {k: st[k] for k in ["hitpoints", "defenceLevel", "magicLevel", "size", "flatArmour"]}
+    if st.get("label"):
+        boss["combat"]["target"] = st["label"]
+    if st.get("ids"):
+        boss["npcIds"] = st["ids"]
+
+
 def main():
     knowledge = json.load(open(sys.argv[1], encoding="utf-8"))
+    stats = {}
+    args = sys.argv[3:]
+    if "--stats" in args:
+        i = args.index("--stats")
+        stats = json.load(open(args[i + 1], encoding="utf-8"))
+        args = args[:i] + args[i + 2:]
     bosses, names = [], set()
-    for path in sys.argv[3:]:
+    for path in args:
         for b in json.load(open(path, encoding="utf-8")):
             c = convert(b)
             if c and c["name"].lower() not in names:
@@ -168,6 +194,12 @@ def main():
     missing = [b["name"] for b in bosses if b["category"] == "Other"]
     if missing:
         print("No category for:", missing)
+    for b in bosses:
+        if b["name"] in stats:
+            apply_stats(b, stats[b["name"]])
+    no_stats = [b["name"] for b in bosses if "combat" not in b and b["name"] != "Any monster (generic)"]
+    if stats and no_stats:
+        print("No combat stats for:", no_stats)
     knowledge["bosses"] = bosses
     with open(sys.argv[2], "w", encoding="utf-8") as f:
         json.dump(knowledge, f, indent=1, ensure_ascii=False)
